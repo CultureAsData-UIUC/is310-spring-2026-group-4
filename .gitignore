@@ -1,0 +1,52 @@
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Sensitive information
+*.env
+.env.local
+secrets.json
+config/secrets/*
+*.key
+*.pem
+
+# Log files
+*.log
+logs/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Documentation builds
+docs/_build/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
