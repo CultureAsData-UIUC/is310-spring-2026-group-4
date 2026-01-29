@@ -81,7 +81,3 @@ We use GitHub Issues to track tasks and GitHub Projects to organize our workflow
 ## Contact
 
 For questions or concerns, please [open an issue](https://github.com/CultureAsData-UIUC/is310-spring-2026-group-4/issues) or contact the team members directly.
-
-
-## First Submission: Collective & Individual Topic Selection
-
