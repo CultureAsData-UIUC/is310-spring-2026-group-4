@@ -10,15 +10,16 @@
 
 # First Submission: Collective & Individual Topic Selection
 
-## Group Theme: Food
+## Group Theme: Food 🍽️
 
 ## Individual Dataset Ideas
 
-#### **Cynthia shen**
+<details>
+<summary><strong><b>Cynthia Shen</b></strong> — Representation of single-serving meals in TikTok cooking videos</summary>
 
 - **Project Focus**
 
-  This project aims to explore how **single-serving meals** are presented and circulated in short-form cooking videos on social media, using TikTok as a case study. Situated within a broader focus on food culture, the project examines both the types of foods that appear in single-serving content and the ways these meals are framed through narratives of convenience, creator presentation, and short-video formats.
+    This project aims to explore how **single-serving meals** are presented and circulated in short-form cooking videos on social media, using TikTok as a case study. Situated within a broader focus on food culture, the project examines both the types of foods that appear in single-serving content and the ways these meals are     framed through narratives of convenience, creator presentation, and short-video formats.
   
 - **Potential topics of interest**
   
@@ -36,7 +37,7 @@
       
   - **Narratives of convenience**
     - Whether convenience or ease is emphasized (explicitly, implicitly, or not at all)
-  Creator presentation**
+  - **Creator presentation**
     - Whether the creator appears on screen and/or claims a recognizable identity (e.g., student, office worker, fitness-oriented creator), or remains anonymous and task-focused; Cooking context or setting (e.g., dorm room, small apartment, workplace, late-night setting)
       
   - **Video form**
@@ -61,4 +62,5 @@
     - Each selected video will be manually reviewed and annotated for contents listed in the section above
       
 - **Automated Process (TBD)**
-  
+
+</details>
