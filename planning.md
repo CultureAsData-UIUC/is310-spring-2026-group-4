@@ -12,7 +12,7 @@
 
 ## Group Theme: Food 🍽️
 
-## Individual Dataset Ideas
+## Individual Dataset Ideas (Click the > next to our names to expand)
 
 <details>
 <summary><strong><b>Cynthia Shen</b></strong> — Representation of single-serving meals in TikTok cooking videos</summary>
@@ -62,5 +62,40 @@
     - Each selected video will be manually reviewed and annotated for contents listed in the section above
       
 - **Automated Process (TBD)**
+
+</details>
+
+<details>
+<summary><strong><b>Michelle Yi</b></strong> — TBD</summary>
+
+(Pending)
+
+</details>
+
+<details>
+<summary><strong><b>Rana Bouchama</b></strong> — TBD</summary>
+
+(Pending)
+
+</details>
+
+<details>
+<summary><strong><b>Soham Solanki</b></strong> — TBD</summary>
+
+(Pending)
+
+</details>
+
+<details>
+<summary><strong><b>Diara Shah</b></strong> — TBD</summary>
+
+(Pending)
+
+</details>
+
+<details>
+<summary><strong><b>Flynn Huynh</b></strong> — TBD</summary>
+
+(Pending)
 
 </details>
