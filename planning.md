@@ -15,7 +15,7 @@
 ## Individual Dataset Ideas (Click the > next to our names to expand)
 
 <details>
-<summary><strong><b>Cynthia Shen</b></strong> — Representation of single-serving meals in TikTok cooking videos</summary>
+<summary><strong><b>Cynthia Shen</b></strong> — Representation of Single-serving Meals in TikTok</summary>
 
 - **Project Focus**
 
@@ -94,8 +94,94 @@
 </details>
 
 <details>
-<summary><strong><b>Flynn Huynh</b></strong> — TBD</summary>
+<summary><strong><b>Flynn Huynh</b></strong> — Pizza, Chinese Takeout, etc. - Authentic or Not? Culinary Transformations in U.S vs International Cuisine</summary>
 
-(Pending)
+#### Project Focus
+
+This project aims to explore how immigrant-origin dishes are transformed, documented, and discussed when adapted to American contexts. Situated within a broader focus on food culture of our group theme, the project examines culinary transformations across multiple immigrant communities—including Chinese-American, Italian-American, Mexican-American, and potentially Indian-American or Jewish-American cuisines—to identify patterns in how these dishes are represented, and how "authenticity" is constructed in contemporary digital spaces.
+
+#### Potential topics of interest (will be minimized)
+
+* How different types of transformations (pure American inventions vs. adaptations) are narrated differently across food and recipe sources, and community discussions
+* Patterns in ingredient substitutions across immigrant cuisines and what these reveal about American preferences, ingredient availability, and cultural adaptation
+* The creator background (community member vs. mainstream food writer vs. corporate source) of these dishes among different recipes
+* How "authenticity" is claimed, contested, or dismissed differently across immigrant communities
+
+#### Example dishes under consideration
+
+Some example dishes that this project will examine:<br>
+**(NOTE: These examples are based on my personal food knowledge and will need further research):**
+
+**Chinese-American:**
+* **Orange Chicken** - Type: Pure American invention - Origin claim: Panda Express, though contested - Key transformation: Does not exist in China; created for American palates - Ingredients: Orange juice concentrate, sweet sauce, American-style breading
+* **Fortune Cookie** - Type: Misattribution (actually Japanese-American) - Origin: Japanese tea gardens, San Francisco (1900s-1910s?) - Key transformation: Became synonymous with "Chinese restaurants" post-WWII 
+
+**Italian-American:**
+* **Chicken Parmesan** - Type: American invention inspired by Italian techniques - Origin: Italian-American communities - Key transformation: Chicken not traditional in Italian "parmigiana" (eggplant is) - Substitutions: Mozzarella abundance, meat-heavy American preferences
+* **Spaghetti and Meatballs** - Type: Adaptation (meatballs exist in Italy, but not with spaghetti) - Origin: Italian-American communities (1880s+) - Key transformation: Meat became affordable in US; dishes combined, portions increased
+
+**Mexican-American:**
+* **Mission-Style Burrito** - Type: American invention (San Francisco) - Origin: Mission District taquerías - Key transformation: Size (massive), rice inside (not traditional Mexican), foil-wrapped - Cultural note: "Chipotle model" of customization
+* **Nachos** - Type: Border invention (Tex-Mex) - Origin: Ignacio "Nacho" Anaya, Piedras Negras, Mexico (1940s) for American customers - Key transformation: Created specifically for American tourists; stadium nachos barely resemble original
+
+**Additional communities under consideration:**
+* **Indian-American:** Chicken Tikka Masala (UK→US transformation), American-style Naan (garlic naan as default, used for pizza/tacos)
+* **Jewish-American:** New York-Style Bagel (larger, softer than Eastern European originals), Pastrami on Rye (Romanian -> NYC deli culture)
+
+Final dish selection (8-12 dishes total each with 5-8 different recipes / sources) will be determined based on data availability and to ensure representation across transformation types and immigrant communities.
+
+#### Dataset contents
+
+The dataset will include documentation of approximately 8-12 transformed dishes across 3-4 immigrant communities. For each dish, the dataset will record information from three source types:
+
+* **Recipe documentation (contemporary, 2020-2026)**
+   * Recipe source type (community-created food blog, mainstream recipe aggregator, YouTube channel, corporate site)
+   * Author background (when identifiable: community member, non-community food writer, corporate/anonymous)
+   * Ingredients listed and notable substitutions from "traditional" versions
+   * Cooking techniques and equipment
+   * How origin story is told (if mentioned)
+
+* **Food media**
+   * TasteAtlas
+   * Michelin Guide
+   * Eater
+   * etc.
+
+* **Community discussions (public social media)**
+   * Platform (Reddit, YouTube comments, food blog comments)
+   * Commenter self-identified background (when stated)
+   * Discussion themes (authenticity debates, ingredient debates, personal/family memories, dismissal of authenticity concerns) (**IF ENOUGH TIME ONLY**)
+
+#### Dataset creation approach
+
+* **Data sourcing**
+   * The dataset will be created through a combination of web scraping (for recipes and structured data) and manual content analysis (for narratives and qualitative themes)
+   * Recipe sources will include community-specific food blogs (Ex: The Woks of Life, Chicano Eats, The Nosher), mainstream recipe aggregators (AllRecipes, NYT Cooking, Food Network), and YouTube cooking channels
+   * Food media sources will include magazine articles (Bon Appétit, Eater, Saveur), books on immigrant food history (Ex: "The Fortune Cookie Chronicles," "Taco USA"), and food documentaries
+
+* **Selection criteria**
+   * Dishes must have clear immigrant-community origins AND documented transformation/adaptation in American contexts
+   * Dishes should represent a range of transformation types: pure American inventions (Orange Chicken, Mission burrito), significant adaptations (Spaghetti & Meatballs, Chicken Parm), and misattributions (Fortune Cookie)
+   * Sources must be contemporary (2020-2026) to capture current documentation practices and narratives
+   * For community discussions, only public posts will be included; private groups and personal communications excluded
+
+* **Manual annotation & coding**
+   * Each recipe source will be manually reviewed and coded for ingredients, techniques, framing, and author background
+   * Food media sources will be qualitatively analyzed for credibility, whose voices are centered, and how transformation is explained
+   * Community discussions will be thematically coded for authenticity debates, sentiment, and language patterns
+
+#### Connection to responsible data practices (For me to keep in mind while working)
+
+Here is how my idea resonates with several principles from "Responsible Datasets in Context":
+
+* **Tell the data's story:** The dataset will explicitly document the dishes themselves, from its origin to its transformation in the US.
+
+* **Acknowledge what's missing:** Early immigrant restaurant documentation is often non-existent (working-class establishments didn't formally document recipes; oral traditions weren't written down). The dataset will explicitly discuss these gaps and treat absence as meaningful data—what does it tell us that certain communities or dish origins are poorly documented?
+
+* **Consider data labor:** Immigrant communities created these dishes, often without credit or compensation. Contemporary recipe bloggers, food writers, and corporations may profit from documenting or adapting these foods. The analysis will consider who benefits from this cultural knowledge and whether original creators are credited.
+
+* **Touch every data point:** Rather than relying on pre-existing datasets (like Kaggle), this project involves manual review of each source to understand context, assess credibility, and identify patterns in how stories are told. (**NOTE: This could lead to a small dataset, thus each dishes will have multiple recipes to counteract that**)
+
+* **Privacy and ethics:** Only publicly shared recipes and posts will be used; usernames will be anonymized; family recipes not intended for public sharing will be excluded.
 
 </details>

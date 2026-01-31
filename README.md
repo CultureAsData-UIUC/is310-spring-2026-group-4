@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-[Brief description of Project Here]
+Our project explores ***Food As Cultural Artifacts***. <br>
+Please visit our [planning document](./planning.md/) to explores the available individual relevant dataset. Hopefully you will find something you like! 🙏🏻
 
-This project explores [our chosen topic here]. Our goal is to [TBD].
 
 ## Team Members / Contributors
 
