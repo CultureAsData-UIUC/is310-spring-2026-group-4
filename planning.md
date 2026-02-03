@@ -75,7 +75,7 @@
 <details>
 <summary><strong><b>Rana Bouchama</b></strong> — The popularity of "ethnic" cuisine vs. "western" cuisine on TikTok
 
-(Pending)
+
 
 </details>
 
