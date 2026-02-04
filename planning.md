@@ -80,9 +80,71 @@
 </details>
 
 <details>
-<summary><strong><b>Soham Solanki</b></strong> — TBD</summary>
+<summary><strong><b>Soham Solanki</b></strong> — "Protein in Everything": Healthy Eating, Optimization, and Food as Cultural Performance on Social Media</summary>
 
-(Pending)
+## Project Focus
+This project examines how “healthy habits” are constructed, performed, and circulated on social media through the growing trend of adding protein to everyday foods. It being within the broader theme of food as a cultural artifact, the project explores how protein-focused food content frames health not merely as physical well-being, but as a visible marker of discipline, productivity, and self-optimization. By analyzing short-form social media content, this project investigates how protein becomes a symbolic ingredient, used to moralize food choices, aestheticize routines, and signal participation in contemporary wellness and fitness cultures.
+
+## Potential Topics of Interest
+- How protein is framed as a “good,” “clean,” or morally superior nutrient
+- Differences in how protein is incorporated into meals, snacks, desserts, and beverages
+- Language used to associate protein with discipline, productivity, and self-improvement
+- Visual and aesthetic patterns in protein-focused food content (gym-adjacent imagery, minimalist kitchens, routine formats)
+
+## Example Content Under Consideration
+#### Protein-Enhanced Everyday Foods
+- Protein coffee or protein matcha
+- High-protein cereals, pancakes, or oatmeal
+- Protein desserts framed as “guilt-free” alternatives
+#### Routine & Habit Content
+- “What I eat in a day (high-protein)” videos
+- “Easy” meal prep content emphasizing macros and efficiency
+- Morning or post-workout food routines
+#### Wellness & Fitness-Oriented Framing
+- Food presented as “fuel” or “investment”
+- Protein intake linked to productivity or mental clarity
+- Overlap between gym culture and food aesthetics
+#### Cultural Pushback & Humor
+- Satirical or ironic takes on protein overload
+- Comment sections questioning necessity or balance
+- Creators resisting or recontextualizing the trend
+
+## Dataset Contents
+The dataset will consist of publicly available social media posts that explicitly frame protein consumption as part of healthy habits or wellness routines. For each post, the dataset will record information across the following categories:
+
+#### Post Metadata
+- Platform (TikTok, Instagram Reels, YouTube Shorts)
+- Date posted
+- Engagement metrics (likes, comments, shares)
+#### Media & Text
+- Video or image (or archived link)
+- Caption text and hashtags
+- On-screen text emphasizing protein or health claims
+#### Creator Context (when publicly stated)
+- Self-positioning (fitness-focused, lifestyle, casual home cooking)
+- Framing of expertise (personal experience vs instructional authority)
+
+## Dataset Creation Approach
+#### Data Sourcing
+- Public posts will be collected manually from sources such as TikTok and Instagram
+- Initial discovery through hashtags such as #highprotein, #healthyhabits, #proteinrecipes, #wellnessroutine
+- Posts will be archived via links and screenshots rather than downloaded media
+#### Selection Criteria
+Posts must meet at least two of the following criteria:
+- Explicit mention of protein in captions, text overlays, or audio
+- Framing of food as part of a “healthy” or “productive” habit
+- Routine-based or repeatable content format
+
+Excluded content:
+- Pure supplement advertisements
+- Medical or clinical nutrition advice
+- Brand-only influencer partnerships without narrative framing
+#### Manual Annotation & Coding
+Each post will be manually annotated, mainly looking at:
+- Health Framing (optimization, balance, restriction, humor)
+- Protein Function (enhancement, replacement, justification)
+- Narrative Tone (aspirational, instructional, ironic)
+- Cultural Context (fitness culture, wellness lifestyle, productivity norms)
 
 </details>
 
