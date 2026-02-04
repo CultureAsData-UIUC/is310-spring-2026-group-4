@@ -12,6 +12,9 @@
 
 ## Group Theme: Food 🍽️
 
+## Collaboration Plan
+We have made a Messages group chat, and that will be our main form of communication. We plan to organize the GitHub by individual contributions, adding group assignments as seperate files as necessary.
+
 ## Individual Dataset Ideas (Click the > next to our names to expand)
 
 <details>
