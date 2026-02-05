@@ -13,7 +13,7 @@
 ## Group Theme: Food as Cultural Artifacts 🍽️
 We are interested in how food functions as a cultural artifact in contemporary digital and media spaces. We explore food beyond its ingredients, but as a medium through which identity, values, performance, health, and cultural meaning are constructed and contested within contemporary online platforms.
 
-**OUR DATASETS PLAN to CAPTURES:**
+**OUR DATASETS INTEND to CAPTURE:** <br>
 	•	Digital representations of food
 	•	Short-form video content (e.g., TikTok)
 	•	Captions, hashtags, comments, and engagement metrics
