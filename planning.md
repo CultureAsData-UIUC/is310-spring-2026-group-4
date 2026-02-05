@@ -131,7 +131,25 @@ For each video, the dataset will record:
 <details>
 <summary><strong><b>Rana Bouchama</b></strong> — The popularity of "ethnic" cuisine vs. "western" cuisine on TikTok
 
+## Project Focus
 
+This project intends to examine how ethnic vs. Western cuisine is received online, futhermore it seeks to look at biases both in the way people engage with this cuisine as well as biases in social media algorithms when it comes to promoting different cuisine. This project specifically seeks to analyze short-form video content, specifically TikTok videos.
+
+## Potential Topics of Interest
++ Cooking profiles on TikTok
++ Trending hashtags related to cooking on TikTok
++ What the TikTok For You Page recommends to a fresh account interested in cooking
++ What kind of cuisine gets the most engagement
++ How do people engage with different kinds of cuisine
+
+## Dataset Contents
++ 50-100 TikTok videos publicly posted
++ Trending hashtags these videos are posted under
++ One hit comment from the TikTok video
+
+## Post Metadata
++ Hashtags used
++ Engagement metrics: likes, comments, and saves in total
 
 </details>
 
