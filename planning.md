@@ -84,9 +84,47 @@ We have made a **Messages** group chat, and that will be our main form of commun
 </details>
 
 <details>
-<summary><strong><b>Michelle Yi</b></strong> — TBD</summary>
+<summary><strong><b>Michelle Yi</b></strong> — Extreme Eating as Digital Performance</summary>
 
-(Pending)
+## Project Focus
+
+This project examines whether portion sizes in extreme eating content have increased over time as a strategy to maintain viewer interest on social media. Focusing on creators such as ErikTheElectric, Matt Stonie, and Nikocado Avocado, the study explores how changing portion sizes, spectacle, and presentation reflect platform incentives for attention and virality rather than nutrition. 
+
+## Potential topics of interest
+
+
+* Whether portion sizes appear to grow over time within individual creators’ content
+* How increasing portion size is used as a strategy for shock value or entertainment
+* The relationship between portion size and engagement (likes, comments, shares)
+* How audiences react to escalating portions (admiration, concern, or criticism)
+
+## Dataset contents
+
+The dataset will include approximately 30–45 publicly available videos (about 10–15 per creator) from TikTok, YouTube Shorts, and/or Instagram Reels, sampled across different years of each creator’s content.
+
+For each video, the dataset will record:
+
+* **Post metadata**
+    * Platform
+    * Date uploaded
+    * Engagement metrics (likes, comments, shares)
+* **Portion & Food Features**
+    * Type of food
+    * Estimated volume of food
+* **Audience Response**
+    * Comment themes (concern, encouraging)
+
+## Dataset creation approach
+
+* **Data sourcing**
+    * Videos will be manually collected through the creator channels listed above (ErikTheElectric, Nikocado Avocado, Matt Stonie)
+
+## Responsible Data Practices
+* Only publicly available content will be used
+* Usernames will be anonymized in analysis
+
+    
+</summary>
 
 </details>
 
