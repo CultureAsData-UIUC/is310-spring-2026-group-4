@@ -35,17 +35,17 @@ We have made a **Messages** group chat, and that will be our main form of commun
 <details>
 <summary><strong><b>Cynthia Shen</b></strong> — Representation of Single-serving Meals in TikTok</summary>
 
-- **Project Focus**
+## Project Focus
 
-    This project aims to explore how **single-serving meals** are presented and circulated in short-form cooking videos on social media, using TikTok as a case study. Situated within a broader focus on food culture, the project examines both the types of foods that appear in single-serving content and the ways these meals are     framed through narratives of convenience, creator presentation, and short-video formats.
+This project aims to explore how **single-serving meals** are presented and circulated in short-form cooking videos on social media, using TikTok as a case study. Situated within a broader focus on food culture, the project examines both the types of foods that appear in single-serving content and the ways these meals are     framed through narratives of convenience, creator presentation, and short-video formats.
   
-- **Potential topics of interest**
+## Potential topics of interest
   
-  - Patterns in the types of foods most commonly associated with single-serving cooking (e.g., recurring dish categories or “quick meal” formats)
-  - How short-form video conventions influence which kinds of single-serving meals are produced, promoted, and made popular
-  - The relationship between food types, creator presentation and visibility (e.g., identity cues, anonymity, setting) and Video traffic and dissemination
+- Patterns in the types of foods most commonly associated with single-serving cooking (e.g., recurring dish categories or “quick meal” formats)
+- How short-form video conventions influence which kinds of single-serving meals are produced, promoted, and made popular
+- The relationship between food types, creator presentation and visibility (e.g., identity cues, anonymity, setting) and Video traffic and dissemination
     
-- **Dataset contents**
+## Dataset contents
 
   The dataset will include approximately 50–100 manually selected TikTok videos featuring single-serving meals. For each item, the dataset will record structured information including:
   
@@ -66,7 +66,7 @@ We have made a **Messages** group chat, and that will be our main form of commun
     Hashtags used
     Available engagement metrics (e.g., likes, saves, comments), when visible
   
-- **Dataset creation approach**
+## Dataset creation approach
   
   - **Data sourcing**
     - The dataset will be created from scratch through manual collection of publicly accessible TikTok videos
@@ -122,9 +122,6 @@ For each video, the dataset will record:
 ## Responsible Data Practices
 * Only publicly available content will be used
 * Usernames will be anonymized in analysis
-
-    
-</summary>
 
 </details>
 
