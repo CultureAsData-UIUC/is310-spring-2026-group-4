@@ -285,11 +285,11 @@ This project treats limited food choices as a normal and meaningful part of ever
 <details>    
 <summary><strong><b>Flynn Huynh</b></strong> — Pizza, Chinese Takeout, etc. - Authentic or Not? Culinary Transformations in U.S vs International Cuisine</summary>
 
-#### Project Focus
+## Project Focus
 
 This project aims to explore how immigrant-origin dishes are transformed, documented, and discussed when adapted to American contexts. Situated within a broader focus on food culture of our group theme, the project examines culinary transformations across multiple immigrant communities—including Chinese-American, Italian-American, Mexican-American, and potentially Indian-American or Jewish-American cuisines—to identify patterns in how these dishes are represented, and how "authenticity" is constructed in contemporary digital spaces.
 
-#### Potential topics of interest (will be minimized)
+## Potential topics of interest (will be minimized)
 
 * How different types of transformations (pure American inventions vs. adaptations) are narrated differently across food and recipe sources, and community discussions
 * Patterns in ingredient substitutions across immigrant cuisines and what these reveal about American preferences, ingredient availability, and cultural adaptation
@@ -341,7 +341,7 @@ The dataset will include documentation of approximately 8-12 transformed dishes 
    * Commenter self-identified background (when stated)
    * Discussion themes (authenticity debates, ingredient debates, personal/family memories, dismissal of authenticity concerns) (**IF ENOUGH TIME ONLY**)
 
-#### Dataset creation approach
+## Dataset creation approach
 
 * **Data sourcing**
    * The dataset will be created through a combination of web scraping (for recipes and structured data) and manual content analysis (for narratives and qualitative themes)
