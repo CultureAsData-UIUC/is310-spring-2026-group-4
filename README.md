@@ -3,6 +3,7 @@
 ## Project Overview
 
 Our project explores ***Food As Cultural Artifacts***. <br>
+We approach food as something that *circulates culturally*: it is represented, framed, optimized, aestheticized, and debated, particularly across **various platforms — from social media to recipe sites to food journalism.**
 Please visit our [planning document](./planning.md/) to explores the available individual relevant dataset. Hopefully you will find something you like! 🙏🏻
 
 
