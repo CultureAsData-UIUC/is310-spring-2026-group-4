@@ -35,7 +35,7 @@ cd is310-spring-2026-group-4
 
 ## Data Sources
 
-[List our data sources with links and citations]
+- [The Food Timeline](https://www.foodtimeline.org/)
 
 ## Contributing
 
