@@ -129,7 +129,7 @@ For each video, the dataset will record:
 </details>
 
 <details>
-<summary><strong><b>Rana Bouchama</b></strong> — The popularity of "ethnic" cuisine vs. "western" cuisine on TikTok
+</summary><strong><b>Rana Bouchama</b></strong> — The popularity of "ethnic" cuisine vs. "western" cuisine on TikTok
 
 ## Project Focus
 
