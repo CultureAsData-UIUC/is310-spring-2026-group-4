@@ -227,7 +227,9 @@ The dataset will consist of a **manually curated collection of public posts** th
 
 This project treats limited food choices as a normal and meaningful part of everyday food culture.
 
-<details>
+</details>
+
+<details>    
 <summary><strong><b>Flynn Huynh</b></strong> — Pizza, Chinese Takeout, etc. - Authentic or Not? Culinary Transformations in U.S vs International Cuisine</summary>
 
 #### Project Focus
