@@ -167,11 +167,65 @@ Each post will be manually annotated, mainly looking at:
 </details>
 
 <details>
-<summary><strong><b>Diara Shah</b></strong> — TBD</summary>
+<summary><strong><b>Diara Shah</b></strong> — Constraint-Driven Food Practices: Eating Under Limited Time, Space, and Resources</summary>
 
-(Pending)
+## Project Focus
 
-</details>
+This project explores how food practices are shaped, represented, and normalized under everyday **constraints**, particularly within students in university and young-adult contexts. Situated within the broader group theme of food culture, the project treats eating and cooking not hust as nutritional behaviors, but as cultural practices negotiated under limitations such as time pressure, financial constraints, limited kitchen access, and academic or work demands.
+
+This dataset focuses on everyday eating rather than “perfect” food, highlighting meals that are quick, cheap, or improvised, and how food is talked about, justified, and valued in public discourse.
+
+## Potential Topics of Interest
+
+- How people mention or hint at limits like time, money, energy, or kitchen access
+- How shortcuts (packaged food, microwaves, dining halls, skipping meals) are treated as normal
+- Use of humor or jokes when talking about limited or low-effort meals
+- Whether these limits are described as temporary (like during college) or just part of daily life
+- Differences between “perfect” food posts and more realistic or “survival” meals
+
+## Dataset Contents
+
+The dataset will consist of a **manually curated collection of public posts** that show food practices under everyday constraints, mainly from social media platforms and online forums. For each item, the dataset will include:
+
+- **Post information**
+  - Platform (e.g., TikTok, Reddit)
+  - Approximate posting date
+  - Engagement indicators (likes, comments, upvotes), when visible
+
+- **Constraint context**
+  - What kind of limitation is present (time, money, kitchen access, energy, workload)
+  - Whether the limitation is clearly stated or just implied
+
+- **Food details**
+  - Type of food (homemade, packaged, dining hall, fast food, skipped meal)
+  - Level of effort involved
+  - How the meal is described (practical, casual, apologetic, humorous)
+
+- **Tone**
+  - Overall tone of the post (humorous, resigned, proud, complaining)
+  - Presence of disclaimers or justifications (e.g., “don’t judge,” “this is all I had time for”)
+
+## Dataset Creation Approach
+
+- **Data sourcing**
+  - Posts will be found through manual browsing using tags or forums such as #collegefood, #dormeats, #whatIeatincollege, and student-focused subreddits
+  - Only publicly available content will be used
+
+- **Selection criteria**
+  - Posts must show or describe eating under at least one clear constraint
+  - Posts must include some explanation through captions, comments, or on-screen text
+  - The dataset will remain small (around 30-60 items)
+
+- **Manual annotation**
+  - Each post will be briefly reviewed and labeled with its main constraint and food type
+  - Labels will stay simple and descriptive
+## Responsible Data Practices (For me to keep in mind while working)
+
+- This dataset reflects people who choose to post publicly and may not represent all experiences  
+- Platform algorithms affect which posts become visible  
+- Usernames will be anonymized, and only public content will be included  
+
+This project treats limited food choices as a normal and meaningful part of everyday food culture.
 
 <details>
 <summary><strong><b>Flynn Huynh</b></strong> — Pizza, Chinese Takeout, etc. - Authentic or Not? Culinary Transformations in U.S vs International Cuisine</summary>
