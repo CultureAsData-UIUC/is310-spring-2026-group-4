@@ -37,10 +37,6 @@ cd is310-spring-2026-group-4
 
 [List our data sources with links and citations]
 
-## Methods
-
-[Brief description of computational methods we're using]
-
 ## Contributing
 
 ### Workflow
