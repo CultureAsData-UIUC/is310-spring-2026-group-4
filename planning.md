@@ -14,22 +14,18 @@
 We are interested in how food functions as a cultural artifact in contemporary digital and media spaces. We explore food beyond its ingredients, but as a medium through which identity, values, performance, health, and cultural meaning are constructed and contested within contemporary online platforms.
 
 **OUR DATASETS INTEND to CAPTURE:** <br>
-	•	Digital representations of food
-	•	Short-form video content (e.g., TikTok)
-	•	Captions, hashtags, comments, and engagement metrics
-	•	Cultural narratives around food, such as:
-	•	Authenticity vs. adaptation (e.g., “real” vs. “Americanized” cuisines)
-	•	Health, optimization, and productivity framing (e.g., protein-focused diets)
-	•	Convenience, single-serving meals, and individualized eating
-	•	“Ethnic” vs. “Western” cuisine categorization and visibility
-	•	Food as identity and performance
-	•	Food used to signal lifestyle, morality, discipline, tradition, or trendiness
-	•	Cultural ownership, hybridity, and transformation across contexts
-	•	Platform-mediated food culture
-	•	Algorithmic amplification of certain cuisines or aesthetics
-	•	Trends, challenges, and viral food formats
+- Digital representations of food
+- Short-form video content (e.g., TikTok)
+- Captions, hashtags, comments, and engagement metrics
+- Cultural narratives around food, Ex: “real” vs. “Americanized” cuisines
+- Food as identity and performance
+- Food used to signal lifestyle, morality, discipline, tradition, or trendiness
+- Cultural ownership, hybridity, and transformation across contexts
+- Platform-mediated food culture
+- Algorithmic amplification of certain cuisines or aesthetics
+- Trends, challenges, and viral food formats
+- etc.
 
-These areas directly support our individual dataset ideas, which analyze how food circulates as a cultural object rather than a purely material one.
 
 ## Collaboration Plan
 We have made a **Messages** group chat, and that will be our main form of communication. We plan to organize the GitHub by individual contributions, adding group assignments as seperate files as necessary.
