@@ -1,12 +1,18 @@
-# Group 4 - Mass Digitization and Digital Libraries Group Assignment
+# Mass Digitization and Digital Libraries
+## Group 4 Assignment - Food as Cultural Artifacts
 
-# Group Members
-- **Flynn Huynh** (@FlinnH)
-- **Cynthia Shen** (@Cynthia387) 
-- **Rana Bouchama** (@ranabouchama) 
-- **Soham Solanki** (@sohamsolanki)
-- **Diara Shah** (@diarashah)
-- **Michelle Yi** (@mich-yi)
+---
+
+## 👥 Group Members
+
+| Name | GitHub Handle | Assignment Section |
+|------|---------------|-------------------|
+| Flynn Huynh | [@FlinnH](https://github.com/FlinnH/is310-coding-assignments) | Historical Equivalents |
+| Cynthia Shen | [@Cynthia387](https://github.com/Cynthia387/is310-coding-assignments) | Newest Digital Library/Archive |
+| Rana Bouchama | [@ranabouchama](https://github.com/ranabouchama/is310-coding-assignments) | Born-Digital Materials, Oldest Archive |
+| Soham Solanki | [@sohamsolanki](https://github.com/sohamsolanki/is310-coding-assignments) | Digital Representation, Free vs. Proprietary |
+| Diara Shah | [@diarashah](https://github.com/diarashah/is310-coding-assignments) | Digitization Process |
+| Michelle Yi | [@mich-yi](https://github.com/mich-yi/is310-coding-assignments) | Viral Examples |
 
 ## Poems
 - Prayer-Bells (Benjamin Griffith Brawley): https://hdl.handle.net/2027/coo.31924063832863?urlappend=%3Bseq=212%3Bownerid=13510798903230764-216
@@ -72,7 +78,7 @@ Some digital objects/representations that would be valuable for studying food as
 </details>
 
 <details>
-<summary><strong><b>Flynn Hyunh</b></strong> — Historical Equivalents</summary>
+<summary><strong><b>Flynn Huynh</b></strong> — Historical Equivalents</summary>
 
 </details>
 
