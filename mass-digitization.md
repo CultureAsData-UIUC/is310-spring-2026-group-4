@@ -91,6 +91,19 @@ Some digital objects/representations that would be valuable for studying food as
 
 <details>
 <summary><strong><b>Diara Shah</b></strong> — Digitization Process</summary>
+Some of the main ways food becomes digitized as a cultural artifact are:
+
+- **Born-digital food content:**  
+  Most food content now a days is created digitally from the start, usually on platforms like TikTok, Instagram, YouTube, and food blogs posted online. Recipes are shared as videos, photos, or posts, with captions, hashtags and also likes and comments.
+
+- **Platform metadata instead of library metadata:**  
+  Food content is organized mainly using hashtags, sounds, and algorithms rather than formal library systems. Hashtags like #lazyrecipes, #tofusaladrecipe, and specific things like that can be used across social medias or on search engines. This is different from HathiTrust, which uses structured catalog records and OCR.
+
+- **Digitizing older food materials:**  
+  Historical food items such as cookbooks, menus, and food magazines are digitized by scanning physical pages and using OCR, similar to what we observed in HathiTrust. However, OCR often struggles with decorative fonts, handwritten notes, or stained pages which are pretty coomon in food-related materials to make it more aesthetically pleasing.
+
+- **Changing and unstable digital objects:**  
+  Unlike scanned materials in HathiTrust, digital food content can be edited, deleted, or remixed over time, making it harder to preserve as a just a stable object object.
 
 </details>
 
