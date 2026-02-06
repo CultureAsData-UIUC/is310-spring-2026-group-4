@@ -7,17 +7,34 @@
 
 | Name | GitHub Handle | Assignment Section |
 |------|---------------|-------------------|
-| Flynn Huynh | [@FlinnH](https://github.com/FlinnH/is310-coding-assignments) | Historical Equivalents |
-| Cynthia Shen | [@Cynthia387](https://github.com/Cynthia387/is310-coding-assignments) | Newest Digital Library/Archive |
-| Rana Bouchama | [@ranabouchama](https://github.com/ranabouchama/is310-coding-assignments) | Born-Digital Materials, Oldest Archive |
 | Soham Solanki | [@sohamsolanki](https://github.com/sohamsolanki/is310-coding-assignments) | Digital Representation, Free vs. Proprietary |
 | Diara Shah | [@diarashah](https://github.com/diarashah/is310-coding-assignments) | Digitization Process |
+| Flynn Huynh | [@FlinnH](https://github.com/FlinnH/is310-coding-assignments) | Historical Equivalents |
+| Rana Bouchama | [@ranabouchama](https://github.com/ranabouchama/is310-coding-assignments) | Born-Digital Materials, Oldest Archive |
+| Cynthia Shen | [@Cynthia387](https://github.com/Cynthia387/is310-coding-assignments) | Newest Digital Library/Archive |
 | Michelle Yi | [@mich-yi](https://github.com/mich-yi/is310-coding-assignments) | Viral Examples |
 
-## Poems
-- Prayer-Bells (Benjamin Griffith Brawley): https://hdl.handle.net/2027/coo.31924063832863?urlappend=%3Bseq=212%3Bownerid=13510798903230764-216
-- June (William Stanley Braithwaite): https://babel.hathitrust.org/cgi/pt?id=uc1.31970005429748&seq=103&q1=braithwaite (Page 103)
-- A Song to the Flowers (Azalia E. Martin): https://hdl.handle.net/2027/uva.x000492470?urlappend=%3Bseq=393%3Bownerid=27021597769126055-397
+## 📚 Part 1: HathiTrust Exploration
+
+### Our Selected Poems from African American Periodical Poetry Dataset
+
+#### 1. Prayer-Bells
+**Author:** Benjamin Griffith Brawley  
+**Source:** [HathiTrust Digital Library](https://hdl.handle.net/2027/coo.31924063832863?urlappend=%3Bseq=212%3Bownerid=13510798903230764-216)  
+**Magazine:** The Colored American  
+**Location:** Page 212
+
+#### 2. June
+**Author:** William Stanley Braithwaite  
+**Source:** [HathiTrust Digital Library](https://babel.hathitrust.org/cgi/pt?id=uc1.31970005429748&seq=103&q1=braithwaite)  
+**Location:** Page 103
+
+#### 3. A Song to the Flowers
+**Author:** Azalia E. Martin  
+**Source:** [HathiTrust Digital Library](https://hdl.handle.net/2027/uva.x000492470?urlappend=%3Bseq=393%3Bownerid=27021597769126055-397)  
+**Location:** Page 393
+
+---
 
 ## Questions
 1) What search strategies did you use?
