@@ -1,4 +1,4 @@
-# Group 4 - Mass Digitization and Digital Planning Assignment
+# Group 4 - Mass Digitization and Digital Libraries Group Assignment
 
 # Group Members
 - **Flynn Huynh** (@FlinnH)
