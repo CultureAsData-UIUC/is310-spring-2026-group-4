@@ -147,6 +147,19 @@ This project intends to examine how ethnic vs. Western cuisine is received onlin
 ## Post Metadata
 + Hashtags used
 + Engagement metrics: likes, comments, and saves in total
++ Presentation of video: text, whether a person's face is shown during it or not etc.
+
+## Data Sourcing
++ Hand-collected via hashtags and For You Page
++ Posts archived via links
+
+## Selection Criteria
++ Any videos specifically about food/preparation of food
+
+## Manual Annotation
++ Perceived popularity of video
++ Whether or not the food prepared was "Western" or "Ethnic"
++ Whether or not a person was featured in the video (and if so, the demographics (perceived age, gender, race etc) of that person)
 
 </details>
 
