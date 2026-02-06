@@ -60,8 +60,9 @@
 <details>
 <summary><strong><b>Soham Solanki</b></strong> — Digital Representation</summary>
 Some digital objects/representations that would be valuable for studying food as cultural artifacts are:
-  - TikTok recipe videos (with full metadata): the video itself, with captions, hashtags, likes, comments, and engagement metrics would capture not just the food but the performance, cultural framing, and community response.
-  - “Food Discourse” tweet threads: there are many debates surrounding the authenticity of different foods (e.g. “Is this authentic pad thai?” or “You can’t call that jollof rice.”). These threads can talk about cultural ownership and authority in real-time
-  - Food prep content: videos where food preparation is hand-in-hand with lifestyle performance (e.g. “get ready with me” or “easy 5-ingredient recipes if you’re in a rush”), showing how food signals discipline, morality, or identity.
+
+- TikTok recipe videos (with full metadata): the video itself, with captions, hashtags, likes, comments, and engagement metrics would capture not just the food but the performance, cultural framing, and community response.
+- “Food Discourse” tweet threads: there are many debates surrounding the authenticity of different foods (e.g. “Is this authentic pad thai?” or “You can’t call that jollof rice.”). These threads can talk about cultural ownership and authority in real-time
+- Food prep content: videos where food preparation is hand-in-hand with lifestyle performance (e.g. “get ready with me” or “easy 5-ingredient recipes if you’re in a rush”), showing how food signals discipline, morality, or identity.
 </details>
 
