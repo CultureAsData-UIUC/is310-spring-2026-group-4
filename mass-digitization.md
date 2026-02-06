@@ -66,3 +66,47 @@ Some digital objects/representations that would be valuable for studying food as
 - Food prep content: videos where food preparation is hand-in-hand with lifestyle performance (e.g. “get ready with me” or “easy 5-ingredient recipes if you’re in a rush”), showing how food signals discipline, morality, or identity.
 </details>
 
+<details>
+<summary><strong><b>Diara Shah</b></strong> — Digitization Process</summary>
+
+</details>
+
+<details>
+<summary><strong><b>Flynn Hyunh</b></strong> — Historical Equivalents</summary>
+
+</details>
+
+<details>
+<summary><strong><b>Rana Bouchama</b></strong> — Born-digital materials</summary>
+
+</details>
+
+<details>
+<summary><strong><b>Rana Bouchama</b></strong> — Oldest Digital Library/Archive</summary>
+
+</details>
+
+<details>
+<summary><strong><b>Cynthia Shen</b></strong> — Newest Digital Library/Archive</summary>
+
+</details>
+
+<details>
+<summary><strong><b>Michelle Yi</b></strong> — Viral Examples</summary>
+
+</details>
+
+<details>
+<summary><strong><b>Soham Solanki</b></strong> — Free vs. Proprietary Access</summary>
+
+**Free:**
+
+- **Internet Archive (archive.org)**: Fully open, searchable, crawlable. Wayback Machine captures food blogs, recipe sites, and early food media. Also has cookbooks, food magazines, historical culinary texts. However, it doesn’t systematically collect social media food content, captures are opportunistic rather than curated for food culture research
+- **Library of Congress Web Archives - Food Culture Collection**: free, but selective. Curated collections of food blogs, culinary websites, some social media preservation. However, it misses the vernacular, everyday food content where most cultural “negotiation” happens.
+- **University food repositories**: examples include NYU’s Food Studies collection and Boston University’s Gastronomy archives. Free for academic use, and it really only has a physical/historical focus, not much social media content
+
+**Commercial (or proprietary)**:
+- CrowdTangle (Meta, no longer): was restricted to approved researchers, journalists, non profits. It tracked lots of content, including viral food content, across Facebook and Instagram.
+- Brandwatch/Sprout Social/Hootsuite: expensive subscriptions, designed for marketing. It captured social media food trends, hashtag analysis, and user engagement. It was mainly commercial analytics tools, not preservation. The data disappears when subscription ends, which ties in to Besser’s nightmare of "leased" vs. "owned" access.
+- TikTok Creative Center and Research API: limited researcher access, constantly changing the terms and conditions of access. Gives direct access to TikTok food content, the main platform for food culture. However, the platform controls what can be studied, for how long, under what terms - referred to as a “walled garden”.
+</details>
