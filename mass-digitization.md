@@ -146,7 +146,7 @@ Some of the main ways food becomes digitized as a cultural artifact are:
 
 ---
 
-#### Example 2: Physical Restaurant Menus -> Digital Menu Archives
+#### Example 2: Physical Restaurant Menus -> Digital Menu
 
 **Historical Object: 1900s Restaurant Menu**
 
@@ -172,7 +172,7 @@ Some of the main ways food becomes digitized as a cultural artifact are:
 - **Data analysis:** Can computationally analyze dish frequency, pricing trends—impossible with physical menus alone
 ---
 
-#### Example 3: Broadcast TV Cooking Shows -> YouTube Cooking Videos
+#### Example 3: Broadcast TV Cooking Shows -> Online/Streamed Cooking Videos or Shows
 
 **Historical Object: Broadcast Cooking/Recipe Shows**
 
