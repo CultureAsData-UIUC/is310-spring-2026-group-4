@@ -5,7 +5,7 @@
 
 ## 👥 Group Members
 
-| Name | GitHub Handle | Assignment Section |
+| Name | GitHub | Assignment Section |
 |------|---------------|-------------------|
 | Soham Solanki | [@sohamsolanki](https://github.com/sohamsolanki/is310-coding-assignments) | Digital Representation, Free vs. Proprietary |
 | Diara Shah | [@diarashah](https://github.com/diarashah/is310-coding-assignments) | Digitization Process |
@@ -110,6 +110,92 @@ Some of the main ways food becomes digitized as a cultural artifact are:
 <details>
 <summary><strong><b>Flynn Huynh</b></strong> — Historical Equivalents</summary>
 
+### 3. Historical Equivalents
+
+*Kahle repeatedly referenced the Library of Alexandria as the ancient world's attempt to collect all knowledge, which was ultimately lost to fire. Our digital food archives face similar preservation challenges, even as they make culinary knowledge far more accessible than their physical predecessors.*
+
+---
+
+#### Example 1: Handwritten Recipe Cards -> Digital Recipe Blogs
+
+**Historical Object: Mid-20th Century Recipe Card Box**
+
+<img src="https://i.redd.it/xd0j9azfukz61.jpg" width="500" height="250"> <br>
+*Image: (Reddit) recipes card from 1930s-1950s. : r/Old_Recipes*
+
+**Modern Equivalent: Online Recipe Blogs/Libraries**
+
+<img src="https://cdn.tasteatlas.com/images/cdn/recipe-share.png?m=facebook" width="500" height="250"> <br>
+*Image: (TasteAtlas) Online Recipe Blog*
+
+**Comparison:**
+
+**What's lost in digitization:**
+- **Handwriting as identity:** The chef's handwriting carried meaning and care in writing it down
+- **Materiality:** Stained index cards showed which recipes were cooked most often
+- **Physical context:** Recipe boxes lived in kitchens, were tactile objects tied to specific places and people
+- **Intimacy:** Recipe cards were personal, often shared one-to-one (friend to friend, mother to daughter)
+- **Uniqueness:** Many handwritten recipes existed in only one copy—their loss was permanent
+
+**What's gained in digitization:**
+- **Photos/video:** Modern blogs show what the dish should look like at each step (impossible with handwritten cards)
+- **Permanence of sharing:** A blog post reaches millions and can be archived; a recipe card could be lost or hoarded
+- **Searchability:** Can find " recipe" instantly; physical recipe boxes required manual sorting
+- **Updates:** Digital recipes can be edited/improved; handwritten cards were fixed
+- **Accessibility features:** Digital recipes can be scaled (2x, 3x servings), translated, read aloud
+
+---
+
+#### Example 2: Physical Restaurant Menus -> Digital Menu Archives
+
+**Historical Object: 1900s Restaurant Menu**
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3d_dJOO1geVr8vvWCPEP0HmAdpMPd4OA-HQ&s" width="250" height="500"> <br>
+*Image: (The New York Public Library) Menu from the Hotel La Salle. (Probably) Chicago in 1920*
+
+**Modern Equivalent: Online Ordering Kiosk or Website's Menu**
+
+<img src="https://www.mheducation.com/content/dam/mhe/blog/higher-ed/2025/images/introbiz/output-onlinepngtools-2024-10-08T073222.049.png" width="250" height="500"> <br>
+*Image: (McDonald's) Ordering Kiosk*
+
+**Comparison:**
+
+**What's lost in digitization:**
+- **Physical design:** The texture of menu paper, embossed lettering, original colors (scans fade/distort)
+- **Size/format:** Physical menus had fold-out sections, unusual sizes that conveyed the restaurant's style
+- **Complete artifact:** Stains, tears, wear patterns told stories (Ex: popular restaurants had more fingerprints)
+
+**What's gained in digitization:**
+- **Preservation:** Physical menus deteriorate quickly (cheap paper, grease, handling); digital copies don't
+- **Access:** Physical menus require in-person visit; digital version accessible worldwide
+- **Ease in Updating:** Easy to alter dishes or add new menu items
+- **Data analysis:** Can computationally analyze dish frequency, pricing trends—impossible with physical menus alone
+---
+
+#### Example 3: Broadcast TV Cooking Shows -> YouTube Cooking Videos
+
+**Historical Object: Broadcast Cooking/Recipe Shows**
+
+<img src="https://i.ytimg.com/vi/aU8BhMYpJaQ/maxresdefault.jpg" width="500" height="250"> <br>
+*Image: Julia Child on The French Chef, PBS broadcast (source: YouTube archival upload)*
+
+**Modern Equivalent: Online Streamed Cooking/Recipe Shows**
+
+<img src="https://m.media-amazon.com/images/M/MV5BMmM3MmUwYzEtYzIyMy00ZWFiLWFlMWUtZGNkNWRjN2ZlNzQ4XkEyXkFqcGc@._V1_.jpg" width="250" height="500"> <br>
+*Image: MasterChef (American TV series) season 15*
+
+**Comparison:**
+
+**What's lost in digitization:**
+- **Broadcast experience:** Watching at a scheduled time, as a communal event (everyone watched together)
+- **Appointment viewing:** The ritual of tuning in at 7pm created different engagement than on-demand
+
+**What's gained in digitization:**
+- **On-demand access:** Watch anytime, pause, rewind, rewatch—impossible with broadcast TV
+- **Global reach:** Web-streamed videos reach billions; PBS was regional/national
+- **Direct interaction:** Comments allow viewers to ask questions, share results; TV was one-way
+
+---
 </details>
 
 <details>
