@@ -110,7 +110,7 @@ Some of the main ways food becomes digitized as a cultural artifact are:
 <details>
 <summary><strong><b>Flynn Huynh</b></strong> — Historical Equivalents</summary>
 
-### 3. Historical Equivalents
+### Historical Equivalents
 
 *Kahle repeatedly referenced the Library of Alexandria as the ancient world's attempt to collect all knowledge, which was ultimately lost to fire. Our digital food archives face similar preservation challenges, even as they make culinary knowledge far more accessible than their physical predecessors.*
 
@@ -201,15 +201,37 @@ Some of the main ways food becomes digitized as a cultural artifact are:
 <details>
 <summary><strong><b>Rana Bouchama</b></strong> — Born-digital materials</summary>
 
+### Our Relevant Materials
+____
+
+**Plenty of born-digital materials:** online cookbooks, cooking videos (YouTube, TikTok, etc), cooking websites etc etc.
+
+**Comparison to digitized materials:** less convenient. 
+  - If I’m looking for a recipe online, chances are I’m not going to go for a pdf of a cookbook but rather to a cooking website (or an online cookbook)
+
 </details>
 
 <details>
 <summary><strong><b>Rana Bouchama</b></strong> — Oldest Digital Library/Archive</summary>
 
+### Oldest Digital Archive
+___
+
+**One of the oldest digital libraries I could find:** [The Food Timeline](https://www.foodtimeline.org/)
+- Created in 1999, the most recent update is August 2024!!
+- Began as a series of books before becoming digitized (also somehow born digital? Because text was turned into a website)
+- Done via HTML
+- Lynne Oliver died in 2015, upkeep done by family members before donated to Virginia Tech
+
 </details>
 
 <details>
 <summary><strong><b>Cynthia Shen</b></strong> — Newest Digital Library/Archive</summary>
+
+### Newest Digital Library/Archive
+___
+  
+  - **Newest:** `Google Arts & Culture`, founded in 2011, but is more focused when food are served as visual culture/art topics in a curated way, there’s also reports of food stories in modern time including like astronaut food, but overall really lack of those historical materials and digitizing print of food, so it’s more like a curated cultural platform.
 
 </details>
 
