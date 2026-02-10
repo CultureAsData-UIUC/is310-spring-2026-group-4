@@ -241,7 +241,7 @@ ___
 - There is no shortage of viral examples of our digital object, from rainbow bagels to Dubai chocolate.
 - These spread rapidly through social media, as people share related content, and they gain widespread attention and mainstream popularity.
 - A food going viral often leads to the food becoming heavily commodified. For instance, Dubai chocolate is now being mass-produced by companies and brands for profit, which centers corporate profit over the cultures and people that originated the food.
-<img src="https://cdn.tasteatlas.com/images/cdn/recipe-share.png?m=facebook](https://www.tasteofhome.com/wp-content/uploads/2025/02/GettyImages-2181217380-scaled-e1739904698896.jpg)](https://www.tasteofhome.com/wp-content/uploads/2025/02/GettyImages-2181217380-scaled-e1739904698896.jpg?fit=750%2C750" width="500"> <br>
+<img src="https://www.tasteofhome.com/wp-content/uploads/2025/02/GettyImages-2181217380-scaled-e1739904698896.jpg?fit=750%2C750" width="350"> <br>
 - Another example of how a food trend can impact the food is the gentrification of trending foods like ube, where prices are raised, and it is marketed towards affluent consumers, making it less affordable for the Filipino communities it originally came from.
 
 </details>
