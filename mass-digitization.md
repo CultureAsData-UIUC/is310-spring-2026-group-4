@@ -231,7 +231,7 @@ ___
 ### Newest Digital Library/Archive
 ___
   
-  - **Newest:** `Google Arts & Culture`, founded in 2011, but is more focused when food are served as visual culture/art topics in a curated way, there’s also reports of food stories in modern time including like astronaut food, but overall really lack of those historical materials and digitizing print of food, so it’s more like a curated cultural platform.
+  - **Newest:** `Google Arts & Culture`(https://artsandculture.google.com/), founded in 2011, but is more focused when food are served as visual culture/art topics in a curated way, there’s also reports of food stories in modern time including like astronaut food, but overall really lack of those historical materials and digitizing print of food, so it’s more like a curated cultural platform.
 
 </details>
 
