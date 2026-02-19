@@ -251,12 +251,13 @@ ___
 
 **Free:**
 
-- **Internet Archive (archive.org)**: Fully open, searchable, crawlable. Wayback Machine captures food blogs, recipe sites, and early food media. Also has cookbooks, food magazines, historical culinary texts. However, it doesn’t systematically collect social media food content, captures are opportunistic rather than curated for food culture research
-- **Library of Congress Web Archives - Food Culture Collection**: free, but selective. Curated collections of food blogs, culinary websites, some social media preservation. However, it misses the vernacular, everyday food content where most cultural “negotiation” happens.
-- **University food repositories**: examples include NYU’s Food Studies collection and Boston University’s Gastronomy archives. Free for academic use, and it really only has a physical/historical focus, not much social media content
+- **[Internet Archive](archive.org)**: Fully open, searchable, crawlable. Wayback Machine captures food blogs, recipe sites, and early food media. Also has cookbooks, food magazines, historical culinary texts. However, it doesn’t systematically collect social media food content, captures are opportunistic rather than curated for food culture research
+- **[Library of Congress Web Archives - Food Culture Collection](https://www.loc.gov/collections/food-and-foodways-web-archive/about-this-collection/)**: free, but selective. Curated collections of food blogs, culinary websites, some social media preservation. However, it misses the vernacular, everyday food content where most cultural “negotiation” happens.
+- **University food repositories**: examples include [NYU’s Food Studies](https://guides.nyu.edu/foodstudies/databases) collection and [Boston University’s Gastronomy archives](https://sites.bu.edu/gastronomyblog/2016/12/01/the-schlesinger-library/). Free for academic use, and it really only has a physical/historical focus, not much social media content
 
 **Commercial (or proprietary)**:
-- CrowdTangle (Meta, no longer): was restricted to approved researchers, journalists, non profits. It tracked lots of content, including viral food content, across Facebook and Instagram.
-- Brandwatch/Sprout Social/Hootsuite: expensive subscriptions, designed for marketing. It captured social media food trends, hashtag analysis, and user engagement. It was mainly commercial analytics tools, not preservation. The data disappears when subscription ends, which ties in to Besser’s nightmare of "leased" vs. "owned" access.
-- TikTok Creative Center and Research API: limited researcher access, constantly changing the terms and conditions of access. Gives direct access to TikTok food content, the main platform for food culture. However, the platform controls what can be studied, for how long, under what terms - referred to as a “walled garden”.
+
+- **[CrowdTangle (Meta, no longer)](https://transparency.meta.com/researchtools/other-data-catalogue/crowdtangle/)**: was restricted to approved researchers, journalists, non profits. It tracked lots of content, including viral food content, across Facebook and Instagram.
+- **[Brandwatch/Sprout Social/Hootsuite](https://www.hootsuite.com/?srsltid=AfmBOopSP3NtaIadKHeMPXO4bvRFdtidddtIijDViMG46FmVjC7BV7Ps)**: expensive subscriptions, designed for marketing. It captured social media food trends, hashtag analysis, and user engagement. It was mainly commercial analytics tools, not preservation. The data disappears when subscription ends, which ties in to Besser’s nightmare of "leased" vs. "owned" access.
+- **[TikTok Creative Center and Research API](https://developers.tiktok.com/products/research-api/)**: limited researcher access, constantly changing the terms and conditions of access. Gives direct access to TikTok food content, the main platform for food culture. However, the platform controls what can be studied, for how long, under what terms - referred to as a “walled garden”.
 </details>
