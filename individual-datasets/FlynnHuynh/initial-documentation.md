@@ -1,7 +1,7 @@
 # How Immigrant Dishes Are Narrated in American Food Media
 
-**IS310 | Individual Dataset — Initial Submission**  
-**Author:** Flynn Huynh
+**IS310SP26 Individual Dataset — Initial Submission** <br>
+**Author:** Flynn Huynh <br>
 **Repository:** `is310-spring-2026-group-4`
 
 ---
