@@ -1,4 +1,4 @@
-# My Individual Dataset Initial Documentation: How Immigrant Dishes Are Narrated in American Food Media
+# How Immigrant Dishes Are Narrated in American Food Media
 
 **IS310 | Individual Dataset — Initial Submission**  
 **Author:** Flynn Huynh
