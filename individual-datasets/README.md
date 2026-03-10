@@ -20,5 +20,5 @@ Please see below to explores the available topics. Hopefully you will find somet
 
 **Diara Shah** — Constraint-Driven Food Practices: Eating Under Limited Time, Space, and Resources
 
-**Flynn Huynh** — How Immigrant Dishes Are Narrated in American Food Media
+**Flynn Huynh** — [How Immigrant Dishes Are Narrated in American Food Media](./FlynnHuynh/)
 
