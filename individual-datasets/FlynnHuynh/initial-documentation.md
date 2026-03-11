@@ -100,17 +100,20 @@ Two supplementary ninth entries were added to reach the 50-item minimum: a YouTu
 
 ### annotation_helper.py
 
-The primary computational tool is `annotation_helper.py`, a Python script that uses the Anthropic Claude API to assist with coding the qualitative fields (`origin_story_mentioned`, `origin_story_framing`, `authenticity_framing`, `community_credit_given`, and `annotation_notes`).
+The primary computational tool is `annotation_helper.py`, a Python script that uses the **Google Gemini API (free tier)** to assist with coding the qualitative fields (`origin_story_mentioned`, `origin_story_framing`, `authenticity_framing`, `community_credit_given`, and `annotation_notes`). Gemini was chosen over paid alternatives because its free tier (~15 requests/minute, ~1,500 requests/day) is sufficient for a 50-item bespoke dataset without incurring any cost. The script uses the `gemini-2.5-flash` model via the `google-generativeai` Python library.
 
-**How it was used**: For each source, relevant text — typically the recipe headnote, article introduction, or reference description — was pasted into the annotation helper. The script sent this text to Claude with a detailed system prompt specifying the coding scheme and category definitions. Claude returned a structured JSON annotation, which was then reviewed, evaluated, and either accepted or revised before being added to the dataset.
+**How it was used**: For each source, relevant text — typically the recipe headnote, article introduction, or reference description — was pasted into the annotation helper. The script sent this text to Gemini with a detailed system prompt specifying the coding scheme and category definitions. Gemini returned a structured JSON annotation, which was then reviewed, evaluated, and either accepted or revised before being added to the dataset.
+
+To stay within free-tier rate limits, the script enforces a minimum 60-second wait between requests and automatically retries once if a 429 (quota exceeded) error is returned. In practice this made annotation a slow but cost-free process — a worthwhile tradeoff for a dataset of this size.
 
 This workflow reflects the assignment's intent: computation augmented manual work rather than replacing it. Every entry was still manually reviewed and every annotation was evaluated for accuracy. The script accelerated the consistent application of the coding scheme across 50 entries and helped surface cases where my category definitions were ambiguous.
 
-**Limitations**: 
+**Limitations**:
 - The tool depends on the quality of the text excerpt provided. For recipe sources where cultural framing is absent from headnotes, the tool reliably coded `origin_story_mentioned` as No — but couldn't distinguish between deliberate omission and structural absence (i.e., the site simply doesn't include headnotes at all). This distinction was added manually in `annotation_notes`.
 - For corporate sources (Panda Express, Chipotle), the promotional framing occasionally caused the model to code `authenticity_framing` as `claimed` when the more accurate coding was `not_mentioned` — the corporate source wasn't claiming authenticity so much as simply not engaging with the question. These cases were corrected manually.
 - The tool cannot visit URLs or read visual design cues (photography, layout), which are themselves meaningful data points about how a source positions a dish culturally. This limitation is acknowledged.
 - For the YouTube source (Made With Lau, OC-09), the annotation helper was given a text transcript excerpt rather than the video itself. Tone, visual framing, and spoken commentary that doesn't appear in transcripts are meaningful dimensions of how video sources narrate food culture — and are invisible to text-based annotation tools. This is a limitation that becomes more significant if YouTube channels are expanded in the scaling phase.
+- The 60-second rate limit delay means annotating all 50 entries in a single session takes roughly 50 minutes of wall-clock time. For the scaling phase (500–1,000+ items), a paid API tier or batch processing approach will be necessary.
 
 ---
 
@@ -161,8 +164,8 @@ After Spring Break, this dataset will be scaled from 50 items to 500–1,000+ us
 The most natural extension is to expand the source coverage for each dish and add more dishes (targeting 15–20 total, including Indian-American and Jewish-American dishes). The `annotation_helper.py` script is already structured to accept source text and return coded JSON — the scaling phase will wrap this in an automated pipeline:
 
 1. **Web scraping with BeautifulSoup**: For recipe aggregators and food media sites that permit scraping (verified against `robots.txt`), Python scripts will extract recipe headnotes, article introductions, and metadata automatically.
-2. **LLM-assisted bulk annotation**: The annotation helper's prompt and coding scheme will be applied programmatically to scraped text, generating draft annotations for human review.
-3. **Batch API calls**: The Anthropic Batch API can process many annotation requests simultaneously at lower cost, enabling 500+ items within the API tier.
+2. **LLM-assisted bulk annotation**: The annotation helper's prompt and coding scheme will be applied programmatically to scraped text, generating draft annotations for human review. At scale, the free-tier rate limit (60s/request) will no longer be feasible — the scaling phase will either upgrade to a paid Gemini tier or switch to a provider with a batch processing API to handle 500+ items efficiently.
+3. **Batch processing**: Gemini's paid tier supports higher request rates and batch-style processing, enabling 500+ items within a reasonable timeframe.
 
 **Option 2 (supplementary): Merge with existing food datasets**
 
