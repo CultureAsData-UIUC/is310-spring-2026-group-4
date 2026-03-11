@@ -10,7 +10,7 @@ Please see below to explores the available topics. Hopefully you will find somet
 
 ## Contributors / Individual Available Topics
 
-**Cynthia Shen** — Representation of Single-serving Meals in TikTok
+**Cynthia Shen** — [Representation of Single-serving Meals in TikTok](./CynthiaShen/)
 
 **Michelle Yi** — Extreme Eating as Digital Performance
 
