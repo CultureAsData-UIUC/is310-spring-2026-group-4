@@ -8,7 +8,7 @@
 
 ## What Is This Dataset?
 
-This dataset documents how six chosen immigrant-origin dishes are represented, framed, and narrated across contemporary American food sources (2020–2026). Each entry captures a single source — a recipe site, food media article, corporate page, or reference encyclopedia — and records structured observations about how that source handles (or avoids) questions of cultural origin, authenticity, and community credit.
+This dataset documents how six chosen immigrant-origin dishes are represented, framed, and narrated across contemporary American food sources (2000–2026). Each entry captures a single source — a recipe site, food media article, corporate page, or reference encyclopedia — and records structured observations about how that source handles (or avoids) questions of cultural origin, authenticity, and community credit.
 
 The dataset contains **50 entries** across six dishes, with source counts ranging from eight to nine per dish.
 
@@ -18,9 +18,9 @@ The dataset contains **50 entries** across six dishes, with source counts rangin
 
 ### The cultural question
 
-When immigrant dishes enter mainstream American food culture, something happens to their stories. Orange Chicken gets sold as "Chinese food" at Panda Express without any acknowledgment that it has no equivalent in China. Fortune cookies appear in every American Chinese restaurant as a symbol of Chinese culture, despite originating in Japanese-American communities in San Francisco. Spaghetti and meatballs is listed in Italian cookbooks as a timeless classic, even though the dish as a combined plate was invented by Italian immigrants in New York when affordable meat became available to them for the first time.
+When immigrant dishes enter mainstream American food culture, something happens to their stories. Orange Chicken gets sold as "Chinese food" at Panda Express without any acknowledgment that it has no equivalent in China. Fortune cookies appear in every American Chinese restaurant as a symbol of Chinese culture, despite originating in Japanese-American communities in San Francisco. Spaghetti and meatballs are listed in Italian cookbooks as a timeless classic, even though the dish, as a combined plate, was invented by Italian immigrants in New York when affordable meat became available to them for the first time.
 
-These dishes share a structure: they were created by or for immigrant communities navigating American ingredients, American tastes, and American economics — and then their stories were either erased, simplified, or appropriated as they entered the mainstream. This dataset asks: how is that story (or its absence) distributed across different types of sources today?
+These dishes share a structure: they were created by or for immigrant communities navigating American ingredients, American tastes, and American economics — and then their stories were either erased, simplified, or appropriated as they entered the mainstream. My dataset aims to wonder: *How is that story (or its absence) distributed across different types of sources today?*
 
 ### Approach: Create from Scratch
 
@@ -30,7 +30,7 @@ This dataset was created from scratch through close manual review of each source
 
 ## Dataset Structure
 
-Each row represents **one source about one dish**. The unit of analysis is the source-dish pair, not the dish alone, because the central research question is about how narration varies across source types rather than about the dish itself.
+Each row represents **one source about one dish**. The unit of analysis is the source-dish pair, not the dish alone, because the central research question is about how narration varies across recipe source types rather than about the dish itself.
 
 | Column | Description |
 |---|---|
@@ -70,11 +70,11 @@ The six dishes were selected to ensure:
 
 2. **Three immigrant communities** — Chinese-American, Italian-American, and Mexican-American. These three communities represent different historical waves of immigration, different levels of mainstream food media visibility, and different relationships to the question of authenticity in American food culture.
 
-3. **Documentation availability** — All six dishes have substantial contemporary documentation (2020–2026) across multiple source types, making cross-source comparison possible.
+3. **Documentation availability** — All six dishes have substantial contemporary documentation (2000–2026) across multiple source types, making cross-source comparison possible.
 
-Dishes originally considered but excluded include Chicken Tikka Masala (UK-to-US transformation adds complexity that exceeds the scope of this dataset) and New York-Style Bagel (fewer recipe sources with origin framing). These may be added in the scaling phase.
+Dishes originally considered but excluded include Chicken Tikka Masala (UK-to-US transformation adds complexity that exceeds the scope of this dataset) and New York-Style Bagel (fewer recipe sources with origin framing). **These may be added in the scaling phase.**
 
-### Why eight sources per dish
+### Why 8-9 sources per dish
 
 The base structure is eight sources per dish, with two dishes receiving a ninth entry to reach the 50-item threshold. The eight core sources were selected to represent a structured range:
 
@@ -88,9 +88,9 @@ Two supplementary ninth entries were added to reach the 50-item minimum: a YouTu
 
 ### What was excluded
 
-**Community discussions (Reddit, YouTube comments)**: Originally planned, but excluded from this submission for two reasons. First, coding qualitative sentiment across comment threads requires substantially more entries to be meaningful. Second, consistent anonymization and ethical handling of social media data exceeds what is feasible in a 50-item bespoke dataset; this dimension is better suited to the scaling phase using structured scraping with clear methodology.
+**Community discussions (Reddit, YouTube comments)**: Originally planned, but excluded from this submission for two reasons. First, coding qualitative sentiment across comment threads requires substantially more entries to be meaningful, which would require me to invest an unachievable amount of time. Second, consistent anonymization and ethical handling of social media data exceeds my capability to assess what is feasible in a 50-item bespoke dataset; this dimension is better suited to the scaling phase using structured scraping with clear methodology.
 
-**Sources before 2020**: To keep the dataset focused on contemporary narration practices, sources are limited to 2020–2026. Historical framing is captured in the `annotation_notes` field when sources discuss older origins, but the sources themselves are contemporary.
+**Sources before 2000**: To keep the dataset focused on contemporary narration practices, sources are limited to 2000–2026. Historical framing is captured in the `annotation_notes` field when sources discuss older origins, but the sources themselves are contemporary.
 
 **Non-English sources**: This dataset focuses on how these dishes are narrated in English-language American food media. Spanish-language, Italian-language, or Cantonese-language sources would be valuable for comparison but fall outside the scope of this phase.
 
@@ -100,19 +100,19 @@ Two supplementary ninth entries were added to reach the 50-item minimum: a YouTu
 
 ### annotation_helper.py
 
-The primary computational tool is `annotation_helper.py`, a Python script that uses the **Google Gemini API (free tier)** to assist with coding the qualitative fields (`origin_story_mentioned`, `origin_story_framing`, `authenticity_framing`, `community_credit_given`, and `annotation_notes`). Gemini was chosen over paid alternatives because its free tier (~15 requests/minute, ~1,500 requests/day) is sufficient for a 50-item bespoke dataset without incurring any cost. The script uses the `gemini-2.5-flash` model via the `google-generativeai` Python library.
+My primary computational tool in this phase is `annotation_helper.py`, a Python script that uses the **Google Gemini API (free tier)** to assist with coding the qualitative fields (`origin_story_mentioned`, `origin_story_framing`, `authenticity_framing`, `community_credit_given`, and `annotation_notes`). Gemini was chosen over paid alternatives because its free tier (~15 requests/minute, ~1,500 requests/day) is sufficient for a 50-item bespoke dataset without incurring any cost, and **I am trying to limit payment for college projects unless truly necessary.** The script uses the `gemini-2.5-flash` model via the `google-generativeai` Python library.
 
 **How it was used**: For each source, relevant text — typically the recipe headnote, article introduction, or reference description — was pasted into the annotation helper. The script sent this text to Gemini with a detailed system prompt specifying the coding scheme and category definitions. Gemini returned a structured JSON annotation, which was then reviewed, evaluated, and either accepted or revised before being added to the dataset.
 
-To stay within free-tier rate limits, the script enforces a minimum 60-second wait between requests and automatically retries once if a 429 (quota exceeded) error is returned. In practice this made annotation a slow but cost-free process — a worthwhile tradeoff for a dataset of this size.
+To stay within free-tier rate limits, the script enforces a minimum 60-second wait between requests and automatically retries once if a 429 (quota exceeded) error is returned. In practice, this made annotation a slow but cost-free process — a worthwhile tradeoff for a dataset of this size.
 
-This workflow reflects the assignment's intent: computation augmented manual work rather than replacing it. Every entry was still manually reviewed and every annotation was evaluated for accuracy. The script accelerated the consistent application of the coding scheme across 50 entries and helped surface cases where my category definitions were ambiguous.
+I anticipated this workflow to reflect the assignment's intent: computation augmented manual work rather than replacing it. Every entry was still manually reviewed, and every annotation was evaluated for accuracy. The script accelerated the consistent application of the coding scheme across 50 entries and helped surface cases where my category definitions were ambiguous.
 
 **Limitations**:
 - The tool depends on the quality of the text excerpt provided. For recipe sources where cultural framing is absent from headnotes, the tool reliably coded `origin_story_mentioned` as No — but couldn't distinguish between deliberate omission and structural absence (i.e., the site simply doesn't include headnotes at all). This distinction was added manually in `annotation_notes`.
 - For corporate sources (Panda Express, Chipotle), the promotional framing occasionally caused the model to code `authenticity_framing` as `claimed` when the more accurate coding was `not_mentioned` — the corporate source wasn't claiming authenticity so much as simply not engaging with the question. These cases were corrected manually.
 - The tool cannot visit URLs or read visual design cues (photography, layout), which are themselves meaningful data points about how a source positions a dish culturally. This limitation is acknowledged.
-- For the YouTube source (Made With Lau, OC-09), the annotation helper was given a text transcript excerpt rather than the video itself. Tone, visual framing, and spoken commentary that doesn't appear in transcripts are meaningful dimensions of how video sources narrate food culture — and are invisible to text-based annotation tools. This is a limitation that becomes more significant if YouTube channels are expanded in the scaling phase.
+- For the YouTube source (Made With Lau, OC-09), the annotation helper was given a text transcript excerpt rather than the video itself. Tone, visual framing, and spoken commentary that don't appear in transcripts are meaningful dimensions of how video sources narrate food culture — and are invisible to text-based annotation tools. This is a limitation that becomes more significant if YouTube channels are expanded in the scaling phase.
 - The 60-second rate limit delay means annotating all 50 entries in a single session takes roughly 50 minutes of wall-clock time. For the scaling phase (500–1,000+ items), a paid API tier or batch processing approach will be necessary.
 
 ---
@@ -121,7 +121,7 @@ This workflow reflects the assignment's intent: computation augmented manual wor
 
 ### The hardest coding decision: `community_credit_given`
 
-Whether community credit is "given" required distinguishing between surface-level naming ("this is a Chinese-American dish") and substantive crediting that acknowledges immigrant labor, historical context, or community contribution. In practice, this distinction proved hard to operationalize consistently. 
+Whether community credit is "given" requires distinguishing between surface-level naming ("this is a Chinese-American dish") and substantive crediting that acknowledges immigrant labor, historical context, or community contribution. In practice, this distinction proved hard to operationalize consistently. 
 
 For example, TasteAtlas entries typically name the community of origin but provide no cultural depth — these were coded as `Partial` rather than `Yes`. But the line between a "sufficient" and "insufficient" acknowledgment is inherently interpretive, and a different researcher might draw it differently. This is the kind of decision that gets hidden when datasets are downloaded without documentation.
 
@@ -145,11 +145,9 @@ Working through 50 entries manually made several patterns visible:
 
 **Mainstream recipe aggregators systematically omit cultural context.** AllRecipes and Food Network entries almost never mention origin stories. The result is that the highest-traffic sources — the ones most people encounter — strip these dishes of their immigrant histories.
 
-**Corporate sources appropriate community identity without substantive acknowledgment.** Panda Express and Chipotle both claim cultural connections (Chinese food heritage; Mission-style burritos) through branding while omitting the immigrant communities that created those traditions. This is documented but not evaluable as intentional without further research.
-
 **The Fortune Cookie is the most contested entry in the dataset.** Because the misattribution is itself the cultural story, sources that engage with it at all tend to engage deeply. Sources that omit it are omitting more than a footnote — they are reinforcing a factual error.
 
-**"Authenticity" is almost never engaged with substantively in recipe aggregators.** The word does not appear; neither does its absence get marked. Authenticity debates, which are active in food media and community discussions, are structurally invisible in recipe-format sources.
+**"Authenticity" is rarely engaged with substantively in recipe aggregators.** The word does not appear; neither does its absence get marked. Authenticity debates, which are active in food media and community discussions, are structurally invisible in recipe-format sources.
 
 ---
 
@@ -157,13 +155,13 @@ Working through 50 entries manually made several patterns visible:
 
 ### How to generate more data computationally
 
-After Spring Break, this dataset will be scaled from 50 items to 500–1,000+ using a combination of approaches:
+After Spring Break, I plan to scale this dataset from 50 items to 500–1,000+ using a combination of approaches:
 
 **Option 1 (primary): Scale up via web scraping and LLM-assisted annotation**
 
 The most natural extension is to expand the source coverage for each dish and add more dishes (targeting 15–20 total, including Indian-American and Jewish-American dishes). The `annotation_helper.py` script is already structured to accept source text and return coded JSON — the scaling phase will wrap this in an automated pipeline:
 
-1. **Web scraping with BeautifulSoup**: For recipe aggregators and food media sites that permit scraping (verified against `robots.txt`), Python scripts will extract recipe headnotes, article introductions, and metadata automatically.
+1. **Web scraping with BeautifulSoup or LLM**: For recipe aggregators and food media sites that permit scraping (verified against `robots.txt`), Python scripts will extract recipe headnotes, article introductions, and metadata automatically.
 2. **LLM-assisted bulk annotation**: The annotation helper's prompt and coding scheme will be applied programmatically to scraped text, generating draft annotations for human review. At scale, the free-tier rate limit (60s/request) will no longer be feasible — the scaling phase will either upgrade to a paid Gemini tier or switch to a provider with a batch processing API to handle 500+ items efficiently.
 3. **Batch processing**: Gemini's paid tier supports higher request rates and batch-style processing, enabling 500+ items within a reasonable timeframe.
 
@@ -173,7 +171,7 @@ The [Epicurious Recipes dataset (Kaggle)](https://www.kaggle.com/datasets/hugoda
 
 ### What will change when scaling
 
-**What changes**: At 500+ items, individual review of every entry is no longer feasible. The interpretive labor of deciding whether a source "gives community credit" — which was done manually for 50 entries — must be either operationalized into rules precise enough for an LLM to apply consistently, or relaxed into a coarser coding scheme. This is the central challenge: the categories that were most analytically interesting in the bespoke phase are also the hardest to automate reliably.
+**What changes**: At 500+ items, individual review of every entry is no longer feasible for me. The interpretive labor of deciding whether a source "gives community credit" — which was done manually for 50 entries — must be either operationalized into rules precise enough for an LLM to apply consistently, or relaxed into a coarser coding scheme. This is the central challenge: the categories that were most analytically interesting in the bespoke phase are also the hardest to automate reliably.
 
 **What to automate**: `origin_story_mentioned` (Yes/No/Partial) and `source_type` are the most automatable fields — they depend on structural features (does this text mention origin?) that LLMs handle well. `author_background` can be partially automated by scraping byline information and matching against known community bloggers.
 
@@ -185,3 +183,5 @@ The [Epicurious Recipes dataset (Kaggle)](https://www.kaggle.com/datasets/hugoda
 - LLM annotation consistency may drift across large batches; prompt calibration will require testing
 - Adding new communities (Indian-American, Jewish-American) requires new source research before automation can begin
 - Expanding YouTube coverage will require working with video transcripts (via YouTube's auto-caption API) rather than written text, adding a preprocessing step before annotation can be applied
+
+***Overall, I considered this plan to be relatively ambitious and hard to perfectly accomplish all the mentioned goals, yet it would be a fruitful project if I nailed it!***
