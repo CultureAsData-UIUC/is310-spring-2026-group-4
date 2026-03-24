@@ -18,7 +18,7 @@ Please see below to explores the available topics. Hopefully you will find somet
 
 **Soham Solanki** — ["Protein in Everything": Healthy Eating, Optimization, and Food as Cultural Performance on Social Media](./SohamSolanki/)
 
-**Diara Shah** — Constraint-Driven Food Practices: Eating Under Limited Time, Space, and Resources
+**Diara Shah** — [Constraint-Driven Food Practices: Eating Under Limited Time, Space, and Resources](./DiaraShah/)
 
 **Flynn Huynh** — [How Immigrant Dishes Are Narrated in American Food Media](./FlynnHuynh/)
 
