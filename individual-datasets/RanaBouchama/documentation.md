@@ -14,8 +14,8 @@ It is important to note that I lump white-centric cuisines together as "Western"
 ### Computational Tools ###
 * As previously stated, this dataset was created manually and from scratch
  * Many factors contributed to this choice:
-  * Being a coding novice, I still did not fully have a grasp on how to gather my data any other way
-  * TikTok's API use is strict; additionally, scraping has the potential to get my account banned. I did not want to take this risk
+   * Being a coding novice, I still did not fully have a grasp on how to gather my data any other way
+   * TikTok's API use is strict; additionally, scraping has the potential to get my account banned. I did not want to take this risk
 
 What cultural materials are you working with and why? What approach did you take (from scratch or auditing)?
 What computational tools did you use to assist your work? How did they help? What were their limitations?
