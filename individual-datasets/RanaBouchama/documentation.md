@@ -46,7 +46,5 @@ It is important to note that I lump white-centric cuisines together as "Western"
 * Thus, equally unsurprisingly, the food presented was mostly Western
   * Exactly half of the dataset was Western food
 * Furthermore, most of the "ethnic" cuisine was posted by people of marginalized identities
-
-What cultural materials are you working with and why? What approach did you take (from scratch or auditing)?
-What computational tools did you use to assist your work? How did they help? What were their limitations?
-What decisions did you make about what to include, exclude, or how to categorize? Why? What challenges did you encounter? How did you address them? What patterns, questions, or tensions emerged from working closely with this data?
+  * With a few exceptions, people, regardless of individual identity, posted "Western" food.
+  * There were also white creators posting "ethnic" food as well.
