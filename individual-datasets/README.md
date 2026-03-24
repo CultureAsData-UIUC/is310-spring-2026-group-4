@@ -16,7 +16,7 @@ Please see below to explores the available topics. Hopefully you will find somet
 
 **Rana Bouchama** — The popularity of "ethnic" cuisine vs. "western" cuisine on TikTok
 
-**Soham Solanki** — "Protein in Everything": Healthy Eating, Optimization, and Food as Cultural Performance on Social Media
+**Soham Solanki** — ["Protein in Everything": Healthy Eating, Optimization, and Food as Cultural Performance on Social Media](./SohamSolanki/)
 
 **Diara Shah** — Constraint-Driven Food Practices: Eating Under Limited Time, Space, and Resources
 
