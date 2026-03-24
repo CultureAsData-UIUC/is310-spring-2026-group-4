@@ -3,7 +3,7 @@
 ### Dataset information ###
 * Made from scratch
 * Made manually, wanted to be as impartial as possible, and thus selected videos that landed in my FYP in a completely fresh, never-before-used account. 
-** This is to simulate what a new user would be seeing after demonstrating interest in food-related content, what is naturally pushed by the algorithm, and, in turn, what is deemed "popular."
+  * This is to simulate what a new user would be seeing after demonstrating interest in food-related content, what is naturally pushed by the algorithm, and, in turn, what is deemed "popular."
 * Tried to include as much context about the videos as possible, without including every minute detail
 
 What cultural materials are you working with and why? What approach did you take (from scratch or auditing)?
