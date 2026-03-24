@@ -9,7 +9,7 @@ It is important to note that I lump white-centric cuisines together as "Western"
 * Made manually, wanted to be as impartial as possible, and thus selected videos that landed in my FYP in a completely fresh, never-before-used account. 
   * This is to simulate what a new user would be seeing after demonstrating interest in food-related content, what is naturally pushed by the algorithm, and, in turn, what is deemed "popular."
 * I attempted to include as much context about the videos as possible, without including every minute detail
-  * Data included: post metadata (likes, favorites, and shares, this is due to these metrics being tied most directly to whether a viewer enjoyed the video and whether they were more or less likely to share with friends), the ethnic identity of the user (if that was discernible based on their profile/face or hands in the video), the origin of the food shown, the top comment (to somewhat preserve context), tags used on the post, as well as the link to the video.
+  * Data included: post metadata (likes, favorites, and shares, this is due to these metrics being tied most directly to whether a viewer enjoyed the video and whether they were more or less likely to share with friends), the ethnic/racial identity of the user (if that was discernible based on their profile/face or hands in the video), the origin of the food shown, the top comment (to somewhat preserve context), tags used on the post, as well as the link to the video.
 * My only criteria for what videos could be added were:
  * A) That it was about food in some way
  * B) That it surpassed 100K likes, this is a rather low bar, but this was my "minimum" for a video to be considered "viral."
@@ -25,10 +25,10 @@ It is important to note that I lump white-centric cuisines together as "Western"
 ### Challenges ###
 * Of course, with this dataset being made manually, there was no shortage of challenges: namely, it was a bit time-consuming to compile all this data together. Where I'm sure creating a code to semi-automate the process and collect post metadata would have been much, *much* faster.
 * Additionally, I found labeling the food rather challenging
- * There is, naturally, a lot of overlap between cultures. When is a food traditionally "Western" and when is it just something that can be found no matter where you are, like salad, for instance
- * Furthermore, due to globalization, a lot of "Western" foods technically aren't "Western" in origin (Chipotle, for instance, has Mexican influence but originated in the United States; would that be considered Mexican or Western?), and foods that may be "Western" in origin are now in turn found around the globe.
- * I created a "non-specific" category for foods that are not intrinsically tied to one specific culture, but this felt more like a quick "band-aid" solution.
- * Perhaps to mitigate this, I should have looked into only food recipes instead of broadening my range to all kinds of food videos. Perhaps this would also give me a better idea of where the food originated, as this would be part of the post's caption
+  * There is, naturally, a lot of overlap between cultures. When is a food traditionally "Western" and when is it just something that can be found no matter where you are, like salad, for instance
+  * Furthermore, due to globalization, a lot of "Western" foods technically aren't "Western" in origin (Chipotle, for instance, has Mexican influence but originated in the United States; would that be considered Mexican or Western?), and foods that may be "Western" in origin are now in turn found around the globe.
+  * I created a "non-specific" category for foods that are not intrinsically tied to one specific culture, but this felt more like a quick "band-aid" solution.
+  * Perhaps to mitigate this, I should have looked into only food recipes instead of broadening my range to all kinds of food videos. Perhaps this would also give me a better idea of where the food originated, as this would be part of the post's caption
 * Additionally, labeling people's ethnicities based on perception was incredibly challenging and felt incredibly constraining
 * 
 
