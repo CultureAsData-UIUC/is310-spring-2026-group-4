@@ -1,0 +1,51 @@
+id,platform,post_link,approx_date,constraint_type,constraint_expression,adaptation_strategy,food_type,effort_level,framing_of_constraint,tone,notes
+1,tiktok,https://vt.tiktok.com/ZSutstu1W/,2026,space,explicit,microwave_only,packaged,low,normalized,neutral,dorm meals without a kitchen
+2,tiktok,https://vt.tiktok.com/ZSutsvXhy/,2026,time,implicit,microwave_only,homemade,low,normalized,neutral,easy dorm meals quick prep
+3,tiktok,https://vt.tiktok.com/ZSuts7grY/,2026,time,implicit,no_cooking,mixed,low,normalized,neutral,what i eat in a day college routine meals
+4,tiktok,https://vt.tiktok.com/ZSutsEQG4/,2026,time,implicit,mixed,mixed,low,normalized,neutral,realistic week of college meals reflects busy schedule
+5,tiktok,https://vt.tiktok.com/ZSutG2ec7/,2026,money,implicit,stocking,packaged,low,normalized,neutral,fridge restock suggests budgeting/prep mindset
+6,reddit,https://www.reddit.com/r/EatCheapAndHealthy/comments/17vphr/tips_for_someone_living_in_a_dorm_room/,2026,space,explicit,microwave_only,mixed,low,problem,neutral,asking for dorm-friendly meals without kitchen
+7,reddit,https://www.reddit.com/r/EatCheapAndHealthy/comments/ggu2be/quick_cheap_easy_to_make_nutritious_and/,2026,time,explicit,substitution,homemade,medium,problem,neutral,request for quick cheap nutritious dorm meals
+8,reddit,https://www.reddit.com/r/EatCheapAndHealthy/comments/v3u9tu/cheap_and_easy_food_for_a_college_student/,2026,money,explicit,substitution,mixed,low,problem,neutral,cheap easy food for college student
+9,reddit,https://www.reddit.com/r/EatCheapAndHealthy/comments/923o31/im_a_college_student_who_needs_a_cheap_healthy/,2026,money,explicit,planning,homemade,medium,problem,neutral,needs cheap healthy diet plan
+10,reddit,https://www.reddit.com/r/EatCheapAndHealthy/comments/30hmi7/my_uni_dorm_has_an_incredibly_sensitive_fire/,2026,space,explicit,restriction,homemade,medium,problem,neutral,fire alarm restricts cooking methods
+11,reddit,https://www.reddit.com/r/Cheap_Meals/comments/1crtii7/college_meals_with_only_a_microwave_and_mini/,2026,space,explicit,microwave_only,mixed,low,problem,neutral,limited to microwave and mini fridge
+12,reddit,https://www.reddit.com/r/AskWomen/comments/taa7ft/what_do_you_do_when_youre_too_tired_to_cook_but/,2026,energy,explicit,no_cooking,mixed,low,normalized,neutral,too tired to cook but still need to eat
+13,reddit,https://www.reddit.com/r/Cooking/comments/1r51iw3/whats_your_favorite_too_tired_to_cook_cook_dinner/,2026,energy,explicit,no_cooking,mixed,low,normalized,neutral,discussion of low-effort meals when tired
+14,tiktok,https://vt.tiktok.com/ZSutGcEoe/,2026,space,implicit,microwave_only,packaged,low,normalized,neutral,ramen in dorm minimal context
+15,tiktok,https://vt.tiktok.com/ZSutG3HfY/,2026,time,implicit,mixed,homemade,low,normalized,neutral,easy quick meal preparation
+16,tiktok,https://vt.tiktok.com/ZSuttJxCR/,2026,space,implicit,no_cooking,mixed,low,normalized,neutral,easy meal without full kitchen setup
+17,reddit,https://www.reddit.com/r/college/comments/1eqeuvm/what_do_you_guys_eat_in_college/,2026,time,implicit,mixed,mixed,low,normalized,neutral,general discussion of college eating habits
+18,reddit,https://www.reddit.com/r/EatCheapAndHealthy/comments/xzuprn/uni_student_needing_food_advice/,2026,money,explicit,planning,homemade,medium,problem,neutral,budget constraint £20/week for healthy meals
+19,reddit,https://www.reddit.com/r/EatCheapAndHealthy/comments/6xsie5/house_of_5_college_students/,2026,money,explicit,bulk_cooking,homemade,medium,problem,neutral,feeding 5 students cheaply large portions
+20,reddit,https://www.reddit.com/r/EatCheapAndHealthy/comments/p9xnh6/any_tips_on_eating_cheap_healthy_and_plantbased/,2026,money,explicit,substitution,homemade,medium,problem,neutral,cheap healthy plant-based meals request
+21,reddit,https://www.reddit.com/r/EatCheapAndHealthy/comments/17s9e1m/advice_for_a_vegetarian_college_student/,2026,money,explicit,planning,homemade,medium,problem,neutral,broke vegetarian student balancing health and cost
+22,tiktok,https://vt.tiktok.com/ZSuttAmf1/,2026,time,implicit,meal_prep,homemade,low,normalized,neutral,meal that can be carried and eaten cold or reheated
+23,tiktok,https://vt.tiktok.com/ZSuttUy2F/,2026,time,implicit,meal_prep,mixed,low,normalized,neutral,full week of meals suggests planning for busy schedule
+24,tiktok,https://vt.tiktok.com/ZSuttfhm9/,2026,skill,explicit,no_cooking,mixed,low,normalized,neutral,easy veg meals for student who can't cook
+25,tiktok,https://vt.tiktok.com/ZSutneK65/,2026,time,implicit,meal_prep,homemade,low,normalized,neutral,university lunch box preparation
+26,tiktok,https://vt.tiktok.com/ZSuttTQob/,2026,time,implicit,one_pot,homemade,low,normalized,neutral,one pot vegetarian meals reduce effort
+27,tiktok,https://vt.tiktok.com/ZSutt7fw9/,2026,time,implicit,meal_prep,homemade,low,normalized,neutral,easy healthy vegetarian meal prep
+28,tiktok,https://vt.tiktok.com/ZSutn1Ggs/,2026,money,implicit,planning,mixed,low,normalized,neutral,budget vegetarian dinners listed
+29,reddit,https://www.reddit.com/r/EatCheapAndHealthy/comments/1bkbgbe/redditors_of_ecah_what_recipes_would_you_consider/,2026,money,explicit,planning,homemade,medium,normalized,neutral,frugal cooking recipe compilation
+30,reddit,https://www.reddit.com/r/EatCheapAndHealthy/comments/q9s5u1/im_tired_of_eating_sandwiches_everyday_can_i_get/,2026,time,explicit,no_cooking,mixed,low,problem,neutral,needs quick lunch alternatives
+31,tiktok,https://vt.tiktok.com/ZSutnuFAx/,2026,time,implicit,mixed,homemade,low,normalized,neutral,college cooking series with varied recipes
+32,tiktok,https://vt.tiktok.com/ZSutWYKFW/,2026,time,implicit,planning,homemade,low,normalized,neutral,healthy meals using same ingredients suggests efficiency
+33,tiktok,https://vt.tiktok.com/ZSutW8NBT/,2026,time,implicit,mixed,mixed,low,normalized,neutral,general student meal content limited context
+34,tiktok,https://vt.tiktok.com/ZSutWLMqj/,2026,money,explicit,substitution,homemade,low,problem,neutral,high protein dinner for broke student
+35,tiktok,https://vt.tiktok.com/ZSutWqrox/,2026,time,explicit,simplification,homemade,low,normalized,neutral,5 ingredient quick customizable recipe
+36,tiktok,https://vt.tiktok.com/ZSutWbNPW/,2026,time,implicit,meal_prep,homemade,low,normalized,neutral,easy healthy uni meal prep
+37,tiktok,https://vt.tiktok.com/ZSutW7NJQ/,2026,money,explicit,substitution,mixed,low,normalized,neutral,cheap meals from broke uni student
+38,reddit,https://www.reddit.com/r/MealPrepSunday/comments/1mcctda/meal_preps_ive_made_as_a_college_student_pt2/,2026,time,implicit,meal_prep,homemade,medium,normalized,neutral,college meal prep series
+39,reddit,https://www.reddit.com/r/college/comments/17jayhw/college_students_of_reddit_what_food_hacks_do_did/,2026,money,explicit,planning,mixed,low,problem,neutral,food hacks to save money
+40,reddit,https://www.reddit.com/r/lowspooncooking/comments/1nqmr4i/does_anyone_have_any_good_depressed_college/,2026,energy,explicit,no_cooking,mixed,low,problem,neutral,needs very low effort meals due to mental health/energy limits
+41,tiktok,https://vt.tiktok.com/ZSut7BjsV/,2026,time,explicit,no_cooking,mixed,low,normalized,neutral,fast meal when needing something quick
+42,tiktok,https://vt.tiktok.com/ZSutW3Qqy/,2026,time,implicit,meal_prep,homemade,low,normalized,neutral,high protein meal prep for efficiency
+43,tiktok,https://vt.tiktok.com/ZSutW3bV2/,2026,time,implicit,series,mixed,low,normalized,neutral,cheap and easy meals part series
+44,tiktok,https://vt.tiktok.com/ZSutcmbY9/,2026,money,explicit,substitution,mixed,low,normalized,neutral,broke girl dinner with dietary constraint
+45,tiktok,https://vt.tiktok.com/ZSutcakwY/,2026,money,explicit,planning,mixed,low,normalized,neutral,cheap weekly dinners from budget grocery
+46,tiktok,https://vt.tiktok.com/ZSutcr8jS/,2026,money,implicit,substitution,homemade,low,normalized,neutral,affordable low calorie meals series
+47,reddit,https://www.reddit.com/r/Cooking/comments/vc2ury/any_really_low_effort_meals_for_a_college_student/,2026,energy,explicit,no_cooking,mixed,low,problem,neutral,very low effort meals for busy student
+48,reddit,https://www.reddit.com/r/Frugal/comments/1hsqm3r/any_cheap_fillingish_meals_for_a_college_student/,2026,money,explicit,substitution,homemade,medium,problem,neutral,cheap filling meals on low income
+49,reddit,https://www.reddit.com/r/AskReddit/comments/7vnx33/excluding_ramen_what_is_your_favorite_college/,2026,time,implicit,mixed,mixed,low,normalized,neutral,discussion of typical college meals
+50,reddit,https://www.reddit.com/r/EatCheapAndHealthy/comments/2gz39v/basic_meal_plan_ideas_for_broke_college_student/,2026,money,explicit,planning,homemade,medium,problem,neutral,meal planning for broke student with health goals
