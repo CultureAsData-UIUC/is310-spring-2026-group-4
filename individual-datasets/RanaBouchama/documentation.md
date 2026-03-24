@@ -36,15 +36,15 @@ It is important to note that I lump white-centric cuisines together as "Western"
 
 ### Trends ###
 * Unsurprisingly, the For You Page is overwhelmingly white. This is information that TikTok itself acknowledges; the For You Page typically promotes people who are "conventionally attractive", and what is deemed "conventionally attractive" by the algorithm is pale skin
- * In total, 20 of the 50 entries were White
- * 4 of 50 were WANA/MENA
- * 10 of 50 were Asian
- * 3 of 50 were Black
- * 3 of 50 were Latinx
- * 2 of 50 were unclear but non-white
- * The rest were more anonymous
+  * In total, 20 of the 50 entries were White
+  * 4 of 50 were WANA/MENA
+  * 10 of 50 were Asian
+  * 3 of 50 were Black
+  * 3 of 50 were Latinx
+  * 2 of 50 were unclear but non-white
+  * The rest were more anonymous
 * Thus, equally unsurprisingly, the food presented was mostly Western
- * Exactly half of the dataset was Western food
+  * Exactly half of the dataset was Western food
 * Furthermore, most of the "ethnic" cuisine was posted by people of marginalized identities
 
 What cultural materials are you working with and why? What approach did you take (from scratch or auditing)?
