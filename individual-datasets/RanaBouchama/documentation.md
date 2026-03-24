@@ -10,12 +10,21 @@ It is important to note that I lump white-centric cuisines together as "Western"
   * This is to simulate what a new user would be seeing after demonstrating interest in food-related content, what is naturally pushed by the algorithm, and, in turn, what is deemed "popular."
 * I attempted to include as much context about the videos as possible, without including every minute detail
   * Data included: post metadata (likes, favorites, and shares, this is due to these metrics being tied most directly to whether a viewer enjoyed the video and whether they were more or less likely to share with friends), the ethnic identity of the user (if that was discernible based on their profile/face or hands in the video), the origin of the food shown, the top comment (to somewhat preserve context), tags used on the post, as well as the link to the video.
+* My only criteria for what videos could be added were:
+ * A) That it was about food in some way
+ * B) That it surpassed 100K likes, this is a rather low bar, but this was my "minimum" for a video to be considered "viral."
  
 ### Computational Tools ###
-* As previously stated, this dataset was created manually and from scratch
- * Many factors contributed to this choice:
+* As previously stated, this dataset was created manually and from scratch. In essence, it was me, a Google spreadsheet, and my TikTok For You Page against the world. Many factors contributed to this choice:
    * Being a coding novice, I still did not fully have a grasp on how to gather my data any other way
    * TikTok's API use is strict; additionally, scraping has the potential to get my account banned. I did not want to take this risk
+   * I wanted to simulate what a user would have seen scrolling through the For You Page, instead of specifically scraping specific tags
+* In the future, however, I aim to try to take advantage of these tools, not necessarily to scrape the tags. I still do not wish to risk getting banned; however, I would like to see if there are any pre-existing databases that I can audit and add my data to.
+
+
+### Challenges ###
+* Of course, with this dataset being made manually, there was no shortage of challenges: namely, it was a bit time-consuming to compile all this data together. Where I'm sure creating a code to semi-automate the process and collect post metadata would have been much, *much* faster.
+* 
 
 What cultural materials are you working with and why? What approach did you take (from scratch or auditing)?
 What computational tools did you use to assist your work? How did they help? What were their limitations?
