@@ -12,7 +12,7 @@ Please see below to explores the available topics. Hopefully you will find somet
 
 **Cynthia Shen** — [Representation of Single-serving Meals in TikTok](./CynthiaShen/)
 
-**Michelle Yi** — [Extreme Eating as Digital Performance](https://github.com/mich-yi/is310-coding-assignments/tree/main/MichelleYi)
+**Michelle Yi** — [Extreme Eating as Digital Performance](./MichelleYi/)
 
 **Rana Bouchama** — The popularity of "ethnic" cuisine vs. "western" cuisine on TikTok
 
