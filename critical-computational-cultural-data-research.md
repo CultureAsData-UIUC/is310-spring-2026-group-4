@@ -95,64 +95,31 @@ The GitHub repository contains the annotated dataset in JSON and CoNLL format, a
 <details>
 <summary><strong><b>Cynthia Shen</b></strong> — Add your article title here</summary>
 
-> **📝 Cynthia — replace this stub with your individual section.**
->
-> Your section should include:
-> - Bibliographic info (authors, title, venue, year, DOI, code repo link)
-> - Part 1: AI Summary (paste the exact prompt you used + the AI output)
-> - Part 2: Your Critical Assessment (What is the Data? + How is Computation Used and Why?)
-> - Part 3: What AI Missed
-> - Bonus (optional): Code repo reflection
->
-> **Please commit this section yourself** so it registers under your GitHub username for the pass/fail grade.
-
+> **Replace this stub with your individual section.**
+> **Commit this section yourself** so it registers under your GitHub username for the pass/fail grade.
 </details>
 
 <details>
 <summary><strong><b>Michelle Yi</b></strong> — Add your article title here</summary>
 
-> **📝 Michelle — replace this stub with your individual section.**
->
-> Your section should include:
-> - Bibliographic info (authors, title, venue, year, DOI, code repo link)
-> - Part 1: AI Summary (paste the exact prompt you used + the AI output)
-> - Part 2: Your Critical Assessment (What is the Data? + How is Computation Used and Why?)
-> - Part 3: What AI Missed
-> - Bonus (optional): Code repo reflection
->
-> **Please commit this section yourself** so it registers under your GitHub username for the pass/fail grade.
+> **Replace this stub with your individual section.**
+> **Commit this section yourself** so it registers under your GitHub username for the pass/fail grade.
 
 </details>
 
 <details>
 <summary><strong><b>Rana Bouchama</b></strong> — Add your article title here</summary>
 
-> **📝 Rana — replace this stub with your individual section.**
->
-> Your section should include:
-> - Bibliographic info (authors, title, venue, year, DOI, code repo link)
-> - Part 1: AI Summary (paste the exact prompt you used + the AI output)
-> - Part 2: Your Critical Assessment (What is the Data? + How is Computation Used and Why?)
-> - Part 3: What AI Missed
-> - Bonus (optional): Code repo reflection
->
-> **Please commit this section yourself** so it registers under your GitHub username for the pass/fail grade.
+> **Replace this stub with your individual section.**
+> **Commit this section yourself** so it registers under your GitHub username for the pass/fail grade.
 
 </details>
 
 <details>
 <summary><strong><b>Soham Solanki</b></strong> — Add your article title here</summary>
 
-> **📝 Soham — replace this stub with your individual section.**
->
-> Your section should include:
-> - Bibliographic info (authors, title, venue, year, DOI, code repo link)
-> - Part 1: AI Summary (paste the exact prompt you used + the AI output)
-> - Part 2: Your Critical Assessment (What is the Data? + How is Computation Used and Why?)
-> - Part 3: What AI Missed
-> - Bonus (optional): Code repo reflection
->
-> **Please commit this section yourself** so it registers under your GitHub username for the pass/fail grade.
+> **Replace this stub with your individual section.**
+> **Commit this section yourself** so it registers under your GitHub username for the pass/fail grade.
 
 </details>
 
