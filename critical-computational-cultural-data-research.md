@@ -126,16 +126,53 @@ The GitHub repository contains the annotated dataset in JSON and CoNLL format, a
 <details>
 <summary><strong><b>Diara Shah</b></strong> — FoodieQA: A Multimodal Dataset for Fine-Grained Understanding of Chinese Food Culture</summary>
 
-> **📝 Diara — replace this stub with your individual section.**
+> ## Bibliographic Information
+
+**Authors:** Wenyan Li, Xinyu Zhang, Jiaang Li, Qiwei Peng, Raphael Tang, Li Zhou, Weijia Zhang, Guimin Hu, Yifei Yuan, Anders Søgaard, Daniel Hershcovich, Desmond Elliott  
+
+**Title:** FoodieQA: A Multimodal Dataset for Fine-Grained Understanding of Chinese Food Culture  
+
+**Publication venue:** arXiv preprint  
+
+**Year:** 2024  
+
+**DOI/URL:** https://arxiv.org/abs/2406.11030  
+
+**Code repository:** https://github.com/lyan62/FoodieQA 
 >
-> Your section should include:
-> - Bibliographic info (authors, title, venue, year, DOI, code repo link)
-> - Part 1: AI Summary (paste the exact prompt you used + the AI output)
-> - Part 2: Your Critical Assessment (What is the Data? + How is Computation Used and Why?)
-> - Part 3: What AI Missed
-> - Bonus (optional): Code repo reflection
->
-> **Please commit this section yourself** so it registers under your GitHub username for the pass/fail grade.
+## Part 1: AI Summary
+
+**Prompt used:**
+
+> "Summarize this research paper in 1–2 paragraphs, focusing on what the dataset is, what computational methods are used, and what the main contribution is."
+
+**AI-generated summary(ChatGPt):**
+
+The paper presents FoodieQA, a multimodal dataset developed to evaluate the capability of artificial intelligence systems to understand culturally grounded food knowledge. The dataset consists of image-text pairs and structured question-answer tasks that focus on regional Chinese food culture, including aspects such as ingredients, cuisine types, and geographic origins. It includes three primary evaluation tasks: multi-image visual question answering, single-image visual question answering, and text-based question answering. The dataset is manually curated to ensure fine-grained representation of cultural details and to provide a benchmark for assessing model performance.
+
+To evaluate the dataset, the authors apply vision-language models (VLMs) and large language models (LLMs) and analyze their performance across different tasks. The results indicate that while language models achieve relatively strong performance on text-based questions, models demonstrate significant limitations in visual understanding, particularly in tasks requiring multi-image reasoning. The study highlights the gap between current model capabilities and the complexity of cultural understanding, emphasizing the need for improved multimodal reasoning in AI systems.
+
+## Part 2: My Critical Assessment
+
+**What is the Data?**
+
+The FoodieQA dataset is made up of around 389 images and 350 different Chinese food dishes, along with question-answer pairs about them. The questions focus on things like ingredients, regional origin, and cuisine type. The images were collected from volunteers instead of being scraped online, which helps with consistency but also limits where the data comes from.
+
+Even though the dataset is meant to capture food culture, it only represents a very specific version of it. It focuses only on Chinese cuisine and reduces cultural knowledge into fixed questions and answers. Things like personal experience with food, context, or how food is actually eaten in real life are not included. So while it looks like it’s capturing “culture,” it’s really just capturing structured facts about food.
+
+**How is Computation Used and Why?**
+
+Computation is used to test how well different AI models can answer questions about food using both images and text. Nodels  are given tasks like identifying the region a dish comes from or understanding ingredients based on images. This helps researchers compare how well models perform with different kinds of inputs.
+
+The main purpose of computation here is to analyze model performance. It makes sense to use computation because the dataset is too large to evaluate manually. But also the method assumes that answering these types of questions means the model understands food culture. In reality, models might just be recognizing patterns without actually understanding the cultural meaning behind the food. So the results might show performance but probably not real understanding.
+
+The dataset is designed specifically to test model performance, so it structures food culture into tasks rather than doing any reflecting on how food is experienced in real life. 
+
+## Part 3: What AI Missed
+
+The AI summary explains the dataset and methods pretty well, but it doesn’t really question anything. It treats the dataset like it fully represents food culture, when it’s actually pretty limited. It only looks at Chinese cuisine and turns culture into simple Q n A pairs, which leaves out a lot of context.
+
+It also assumes that if a model answers correctly, it understands the culture. But realistically, the model could just be picking up patterns without actually understanding what the food means. The AI summary doesn’t really address this gap.
 
 </details>
 
@@ -159,8 +196,7 @@ The GitHub repository contains the annotated dataset in JSON and CoNLL format, a
 | Michelle | *TBD* | *TBD* | *TBD* | *TBD* |
 | Rana | *TBD* | *TBD* | *TBD* | *TBD* |
 | Soham | *TBD* | *TBD* | *TBD* | *TBD* |
-| Diara | *TBD* | *TBD* | *TBD* | *TBD* |
-
+| Diara | FoodieQA (Li et al., 2024) | **Analysis** | Computation is used to test how well models understand food culture using image and text questions. It shows that models struggle with cultural understanding, especially in images. | *To be filled after group discussion* |
 ---
 
 ### Step 2: Trends, Divergences, and Silences
@@ -186,4 +222,4 @@ The GitHub repository contains the annotated dataset in JSON and CoNLL format, a
 | Michelle Yi | ⬜ Pending |
 | Rana Bouchama | ⬜ Pending | 
 | Soham Solanki | ⬜ Pending | 
-| Diara Shah | ⬜ Pending |
+| Diara Shah | Completed individual article section and contributed to group discussion and spectrum placement|
