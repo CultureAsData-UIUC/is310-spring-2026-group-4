@@ -124,7 +124,7 @@ The GitHub repository contains the annotated dataset in JSON and CoNLL format, a
 </details>
 
 <details>
-<summary><strong><b>Diara Shah</b></strong> — Add your article title here</summary>
+<summary><strong><b>Diara Shah</b></strong> — FoodieQA: A Multimodal Dataset for Fine-Grained Understanding of Chinese Food Culture</summary>
 
 > **📝 Diara — replace this stub with your individual section.**
 >
