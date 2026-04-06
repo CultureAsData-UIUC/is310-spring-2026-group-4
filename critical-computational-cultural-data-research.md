@@ -93,11 +93,62 @@ The GitHub repository contains the annotated dataset in JSON and CoNLL format, a
 </details>
 
 <details>
-<summary><strong><b>Cynthia Shen</b></strong> — Add your article title here</summary>
+<summary><strong><b>Cynthia Shen</b></strong> — Camera Eats First: Exploring Food Aesthetics Portrayed on Social Media Using Deep Learning</summary>
 
-> **Replace this stub with your individual section.**
-> **Commit this section yourself** so it registers under your GitHub username for the pass/fail grade.
-</details>
+## Bibliographic Information
+
+**Authors:** Alessandro Gambetti, Qiwei Han
+
+**Title:** Camera Eats First: Exploring Food Aesthetics Portrayed on Social Media Using Deep Learning
+
+**Publication venue:** International Journal of Contemporary Hospitality Management
+
+**Year:** 2022
+
+**DOI:** https://doi.org/10.1108/IJCHM-09-2021-1206
+
+**Article link:** https://www.emerald.com/ijchm/article/34/9/3300/117219/Camera-eats-first-exploring-food-aesthetics
+
+**Code repository:** https://github.com/Data-Science-Knowledge-Center-Nova-SBE/food-aesthetics
+
+---
+
+## Part 1: AI Summary
+
+**Prompt used:**
+
+> "Please summarize the following research article in 1–2 paragraphs, focusing on:
+> (1) what the data is,
+> (2) what computational methods are used,
+> (3) what the authors' main contribution is, and
+> (4) how the article relates social media food images to broader questions of visual representation.
+>
+> Please keep the summary descriptive rather than critical, since I will write the critique separately.
+>
+> Article: Alessandro Gambetti and Qiwei Han, 'Camera Eats First: Exploring Food Aesthetics Portrayed on Social Media Using Deep Learning,' International Journal of Contemporary Hospitality Management, 2022, DOI: 10.1108/IJCHM-09-2021-1206."
+
+**AI-generated summary (ChatGPT Thinking mode):**
+
+This article studies how food is visually represented on social media using a large dataset of food images from Yelp. The authors treat these images as cultural data that reflect how people present food online, especially through aesthetics such as color, plating, composition, and visual appeal. Rather than only identifying what the food is, the paper asks how food looks across different restaurant settings, including cuisine types, rating levels, chain versus non-chain restaurants, and customer-posted versus owner-posted images.
+
+To analyze this, the authors build a deep learning model that assigns each image a food aesthetics score. They adapt a pre-trained image aesthetics model and fine-tune it on food-related visual data, then compare the model’s results with human judgments and known photographic features. The paper’s main contribution is a way to measure food aesthetics at scale, showing that social media food images do not just record meals, but also shape how dining experiences are visually represented online.
+
+---
+
+## Part 2: My Critical Assessment
+
+The data in this article is a large collection of food images from Yelp, which the authors use as a form of social media representation of dining. They focus on Las Vegas restaurants and collect 50,018 food images from 577 restaurants, along with metadata such as cuisine type, rating, price level, chain status, and whether the image was posted by a customer or the restaurant owner. This is useful because it shows how food is visually presented online at scale. However, the data is limited to Yelp, one city, and restaurant settings, so it leaves out other forms of food culture such as home cooking, everyday meals, and short-form video content. For my topic, this matters because TikTok single-serving meals are shaped not only by images, but also by captions, narration, editing, and platform trends, which this dataset cannot capture.
+
+Computation is used mainly for analysis. The authors build a deep-learning model that assigns each food image an aesthetic score, then compare those scores across different restaurant categories and posting sources. This makes it possible to study visual patterns across a very large dataset that would be difficult to evaluate manually. At the same time, the method narrows representation to one main dimension: visual attractiveness. That is helpful for measuring food aesthetics, but it can flatten other meanings, such as comfort, convenience, affordability, or cultural familiarity. So the computational method is useful and mostly necessary for the article’s goals, but it also limits the kinds of claims the paper can make about food representation more broadly.
+
+---
+
+## Part 3: What AI Missed
+
+The AI summary correctly described the article’s topic, data, and method, but it was too general. It did not stress that the dataset only comes from Yelp restaurants in Las Vegas, which limits how broadly the findings can apply. It also focused mainly on visual aesthetics and did not mention that important parts of online food culture—such as captions, narration, and everyday context—are missing from the data. Most importantly, it did not question how turning food images into a single aesthetic score may oversimplify other meanings, such as comfort, convenience, or cultural familiarity.
+
+**Why I chose this article:**
+This article is closely related to my topic, Representation of Single-serving Meals in TikTok, because it studies how food is visually represented on social media through computational methods. Although it focuses on social media food images rather than TikTok videos specifically, it is highly relevant to my project because single-serving meals on TikTok are also often framed through visual aesthetics, plating, color, and presentation. The paper is also a strong fit for the assignment because it is peer-reviewed, published within the required time range, and has publicly available code.
 
 <details>
 <summary><strong><b>Michelle Yi</b></strong> — Add your article title here</summary>
@@ -192,7 +243,7 @@ It also assumes that if a model answers correctly, it understands the culture. B
 | Member | Article | Primary Role | Justification | Agrees / Disagrees |
 |---|---|---|---|---|
 | Flynn | TASTEset (Wróblewska et al., 2022) | **Augmentation** | Computation structures raw recipe text into labeled entity data for downstream use — no cultural argument is being made; the output is infrastructure | *To be filled after group discussion* |
-| Cynthia | *TBD* | *TBD* | *TBD* | *TBD* |
+| Cynthia | *Camera Eats First (Gambetti & Han, 2022)* | *Analysis* | *Computation converts large-scale social media food images into aesthetic scores, enabling comparison across restaurant types and posting sources — the method is used to identify patterns in visual representation rather than to build data infrastructure* | *To be filled after group discussion* |
 | Michelle | *TBD* | *TBD* | *TBD* | *TBD* |
 | Rana | *TBD* | *TBD* | *TBD* | *TBD* |
 | Soham | *TBD* | *TBD* | *TBD* | *TBD* |
@@ -218,7 +269,7 @@ It also assumes that if a model answers correctly, it understands the culture. B
 | Member | Group Mapping Contributions |
 |---|---|
 | Flynn Huynh | Spectrum placement for TASTEset + GitHub/Markdown template set up |
-| Cynthia Shen | ⬜ Pending |
+| Cynthia Shen | Spectrum placement and individual parts finished |
 | Michelle Yi | ⬜ Pending |
 | Rana Bouchama | ⬜ Pending | 
 | Soham Solanki | ⬜ Pending | 
