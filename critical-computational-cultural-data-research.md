@@ -150,6 +150,8 @@ The AI summary correctly described the article’s topic, data, and method, but 
 **Why I chose this article:**
 This article is closely related to my topic, Representation of Single-serving Meals in TikTok, because it studies how food is visually represented on social media through computational methods. Although it focuses on social media food images rather than TikTok videos specifically, it is highly relevant to my project because single-serving meals on TikTok are also often framed through visual aesthetics, plating, color, and presentation. The paper is also a strong fit for the assignment because it is peer-reviewed, published within the required time range, and has publicly available code.
 
+</details>
+
 <details>
 <summary><strong><b>Michelle Yi</b></strong> — Add your article title here</summary>
 
