@@ -161,10 +161,52 @@ This article is closely related to my topic, Representation of Single-serving Me
 </details>
 
 <details>
-<summary><strong><b>Rana Bouchama</b></strong> — Add your article title here</summary>
+<summary><strong><b>Rana Bouchama</b></strong> — SAPPHIRE: A stacking-based ensemble learning framework for accurate prediction of thermophilic proteins </summary>
 
-> **Replace this stub with your individual section.**
-> **Commit this section yourself** so it registers under your GitHub username for the pass/fail grade.
+> ## Bibliographic Information
+
+**Authors:** Phasit Charoenkwan, Nalini Schaduangrat, Mohammad Ali Moni, Pietro Lio, Balachandran Manavalan, Watshara Shoombuatong 
+
+**Title:** SAPPHIRE: A stacking-based ensemble learning framework for accurate prediction of thermophilic proteins
+
+**Publication venue:** ScienceDirect
+
+**Year:** 2022
+
+**DOI/URL:** https://www.sciencedirect.com/science/article/pii/S0010482522004863?casa_token=i9X6MZxGmpQAAAAA:dftWHZChqxySHI55aYZCiQe53uRU3qm-91yH6kD5O-uICkcZK5ZfMXGLzf5-R9EifBkN7t0Qow
+
+**Code repository:** https://github.com/plenoi/SAPPHIRE
+>
+## Part 1: AI Summary
+
+**Prompt used:**
+
+> "write me a 1-2 paragraph summary on this article https://www.sciencedirect.com/science/article/pii/S0010482522004863?casa_token=i9X6MZxGmpQAAAAA:dftWHZChqxySHI55aYZCiQe53uRU3qm-91yH6kD5O-uICkcZK5ZfMXGLzf5-R9EifBkN7t0Qow and include apa citation"
+
+**AI-generated summary(ChatGPt):**
+
+The article published in Computers in Biology and Medicine (2022) provides a comprehensive review of how deep learning techniques are applied to medical image analysis, with a particular focus on tasks such as image segmentation, classification, and disease detection. It explains that medical imaging—such as MRI, CT scans, and X-rays—produces complex, high-dimensional data that can be difficult to interpret using traditional methods. Deep learning models, especially convolutional neural networks (CNNs), are highlighted for their ability to automatically learn hierarchical features from images, enabling more accurate detection of abnormalities like tumors or lesions. The paper emphasizes that these methods significantly improve diagnostic accuracy and efficiency, supporting clinicians in making faster and more informed decisions.
+
+The article also discusses the limitations and challenges associated with deep learning in medical imaging. These include the need for large, high-quality annotated datasets, the risk of overfitting, and the lack of interpretability in many models, which can hinder clinical trust and adoption. Additionally, computational cost and data privacy concerns are identified as barriers to widespread implementation. The authors suggest that future research should focus on explainable AI, improved data-sharing frameworks, and hybrid models that combine domain knowledge with machine learning. Overall, the study concludes that while deep learning has transformative potential in healthcare, careful validation and integration into clinical workflows are essential for its successful use.
+
+APA Citation:
+Author(s). (2022). Deep learning for medical image analysis: A review. Computers in Biology and Medicine, 152, 106347. https://doi.org/10.1016/j.compbiomed.2022.106347
+
+## Part 2: My Critical Assessment
+
+**What is the Data?**
+
+The data in this article is a collection of Thermophilic Proteins (TTPS) identified by the SAPPHIRE computational program. The dataset was based on the pre-existing Charoenkwan2021 dataset and augmented by the SAPPHIRE program, which is meant to analyze strings and determine whether a protein is a TTPS or not. In this situation, there is no "cultural phenomenon" being observed; it has more to do with whether or not the SAPPHIRE is an effective model at identifying TTPS. Therefore, I would not say anything is necessarily "missing" from the dataset, nor does it flatten cultural context, as the data has little to do with the cultural context of these proteins to begin with. Moreso, the cultural element to it is how the SAPPHIRE can shape the culture around TTPS identification: whether or not the food industry will adopt its use on a grand scale.
+
+**How is Computation Used and Why?**
+
+Computation is a Machine Learning algorithm used for data analysis. In essence, you put in the DNA string for coding a certain protein, and the SAPPHIRE will return whether or not that protein is a thermophilic protein. The article wishes to make the argument that SAPPHIRE should be an industry standard. Therefore, the data must reflect positively on the SAPPHIRE. Charoenkwan et al. make the point to emphasize that the SAPPHIRE has a much higher success rate, 5.12% higher than its contemporaries. Whether or not that is statistically sound remains to be seen; admittedly, I am no expert, but I do believe that anything lower than 5% is statistically insignificant, which the SAPPHIRE only barely clears. Regardless, Charoenkwan et al.'s main goal is to argue for it to be the new industry standard, and therefore, they must make the data seem more successful than it is. Computation, in this case, is more than just necessary. Having a human being check individual strings of data is time-consuming and laborious; it would be much more efficient, as well as beneficial to whatever poor soul has to do that job, to have a machine check the strings.
+
+## Part 3: What AI Missed
+
+The AI completely missed a lot of this very central information. Perhaps this is in part due to my lacklustre prompting; however, it completely misses the point of the article. Not once is the article's namesake mentioned in the AI summary. It does not discuss the SAPPHIRE, nor does it discuss machine learning, models relating to TTPS analysis, or even TTPS as a whole. Rather, it seems ChatGPT has hallucinated a completely different article. At no point is medical imaging mentioned in the article, which, according to ChatGPT, is what the article is completely about. It feels almost like a waste of time going over everything the AI got wrong, because it got the entire article wrong. I had to copy and paste the link I sent into a new tab just to make absolutely certain I provided it with the right one and didn't accidentally paste something else. The only part of the article that is correct is the journal the article was published in. I'm not quite sure why the AI was completely unable to summarize this article, perhaps it is because you need to complete a CAPTCHA to access it, or perhaps because the full article is not free to the general public. But as a whole, this was a very eye-opening experience to see how AI can so often get it wrong.
+
+</details>
 
 </details>
 
@@ -247,7 +289,7 @@ It also assumes that if a model answers correctly, it understands the culture. B
 | Flynn | TASTEset (Wróblewska et al., 2022) | **Augmentation** | Computation structures raw recipe text into labeled entity data for downstream use — no cultural argument is being made; the output is infrastructure | *To be filled after group discussion* |
 | Cynthia | *Camera Eats First (Gambetti & Han, 2022)* | *Analysis* | *Computation converts large-scale social media food images into aesthetic scores, enabling comparison across restaurant types and posting sources — the method is used to identify patterns in visual representation rather than to build data infrastructure* | *To be filled after group discussion* |
 | Michelle | *TBD* | *TBD* | *TBD* | *TBD* |
-| Rana | *TBD* | *TBD* | *TBD* | *TBD* |
+| Rana | *SAPPHIRE: A stacking-based ensemble learning framework for accurate prediction of thermophilic proteins* | *Analysis* | *Computation analyzes strings of DNA data to determine whether or not proteins are thermophilic. The article is mainly a justification for the use of this machine learning model called "SAPPHIRE" the AI summary was a complete hallucination and did not discuss the main ideas of the article.* | *To be filled after group discussion* |
 | Soham | *TBD* | *TBD* | *TBD* | *TBD* |
 | Diara | FoodieQA (Li et al., 2024) | **Analysis** | Computation is used to test how well models understand food culture using image and text questions. It shows that models struggle with cultural understanding, especially in images. | *To be filled after group discussion* |
 ---
@@ -273,6 +315,6 @@ It also assumes that if a model answers correctly, it understands the culture. B
 | Flynn Huynh | Spectrum placement for TASTEset + GitHub/Markdown template set up |
 | Cynthia Shen | Spectrum placement and individual parts finished |
 | Michelle Yi | ⬜ Pending |
-| Rana Bouchama | ⬜ Pending | 
+| Rana Bouchama | ⬜ Individual part completed & Spectrum placement | 
 | Soham Solanki | ⬜ Pending | 
 | Diara Shah | Completed individual article section and contributed to group discussion and spectrum placement|
