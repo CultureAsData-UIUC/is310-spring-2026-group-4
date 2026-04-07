@@ -153,7 +153,7 @@ This article is closely related to my topic, Representation of Single-serving Me
 </details>
 
 <details>
-<summary><strong><b>Michelle Yi</b></strong> 
+<summary><strong><b>Michelle Yi</b></strong> </summary>
 ## Part 1: Article Summary
 **Title:** “Food-101 – Mining Discriminative Components with Random Forests”
 **Authors:** Lukas Bossard, Matthieu Guillaumin, Luc Van Gool
