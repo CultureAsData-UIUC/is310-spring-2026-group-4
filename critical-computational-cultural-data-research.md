@@ -349,7 +349,7 @@ It also assumes that if a model answers correctly, it understands the culture. B
 |---|---|
 | Flynn Huynh | Spectrum placement for TASTEset + GitHub/Markdown template set up |
 | Cynthia Shen | Spectrum placement and individual parts finished |
-| Michelle Yi | Individual article section completed |
+| Michelle Yi | Individual article section and spectrum placement |
 | Rana Bouchama | ⬜ Individual part completed & Spectrum placement | 
 | Soham Solanki | ⬜ Pending | 
 | Diara Shah | Completed individual article section and contributed to group discussion and spectrum placement|
