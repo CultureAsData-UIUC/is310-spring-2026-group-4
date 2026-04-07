@@ -266,12 +266,7 @@ The scale of 31,282 posts is great for deep learning but represents only a small
 
 The data captures individual posts but misses critical aspects of social media culture:
 
-1.  **Comments and engagement networks**: The dataset includes comment counts but not comment content, where conversations actually happen. This is where performative authenticity gets contested and where "savvy users" (mentioned in the paper) might be called out.
-2.  **Duets, stitches, and responses**: Instagram allows users to respond to, remix, and recontextualize posts. The dataset treats each post as isolated rather than part of an ongoing cultural conversation.
-3.  **Algorithm**: The dataset doesn't capture how users encountered these posts, whether that was through hashtag search, influencer follows, or Instagram's recommendation algorithm. The "For You" feed shapes which vaccine messages get amplified, but this isn't shown.
-4.  **Evolution over time**: The dataset is a snapshot. It can't show how anti-vaccine rhetoric evolved, how new hashtags emerged to evade detection (as the authors talk about with "subvert the regulation"), or how communities adapted their visual strategies over time.
-5.  **Creator demographics and context**: The paper notes that young mothers from low-income populations are key audiences, but systematically captures no demographic data about content creators or their audiences. Who is performing anti-vaccine messaging? Are they wellness influencers, concerned parents, alternative health entrepreneurs, or more?
-6.  **Platform-specific features**: Instagram's features: Stories (ephemeral content), carousel posts (multiple images), video vs. static images—shape how messages are constructed, but the dataset only includes single static posts with captions and hashtags.
+The dataset includes comment counts but not comment content, where conversations actually happen. This is where performative authenticity gets contested and where "savvy users" (mentioned in the paper) might be called out. Instagram allows users to respond to, remix, and recontextualize posts. The dataset treats each post as isolated rather than part of an ongoing cultural conversation. The dataset doesn't capture how users encountered these posts, whether that was through hashtag search, influencer follows, or Instagram's recommendation algorithm. The "For You" feed shapes which vaccine messages get amplified, but this isn't shown.
 
 **How Well Does Data Represent the Phenomenon:**
 
@@ -282,10 +277,6 @@ The data **flattens important cultural complexity** in several ways:
 **Decontextualized posts:** By treating posts as isolated texts and images, the data misses how meaning emerges through context. A post with #provaccine could be genuine advocacy or sarcastic trolling (as the authors acknowledge in Fig. 3). The dataset captures the surface but not the performative irony that's central to social media culture.
 
 **Institutional bias:** The "pro-vaccine" category draws heavily from verified institutional accounts (CDC, WHO, medical schools), while "anti-vaccine" comes from grassroots influencers and community accounts. This means the dataset might be capturing class and authority differences as much as vaccine attitudes.
-
-**Visual culture reduced to objects:** The CNN extracts visual features (syringes, doctors, memes), but social media images carry meaning through aesthetic codes, like the "clean eating" minimalism, the mommy-blogger aesthetic, the conspiracy-theory collage style. The data captures what is in images but not how the visual style gives off certain persuasive vibes.
-
-**Missing: The labor of persuasion:** Anti-vaccine content doesn't just state claims; it performs doubt, builds community, and offers alternative frameworks for understanding risk. The dataset captures the output (posts) but not the cultural work (persuasion tactics, emotional appeals, trust-building) that makes these messages effective.
 
 
 ### How is Computation Used and Why?
@@ -309,37 +300,19 @@ The paper uses multimodal deep learning to automatically classify Instagram post
 
 The framing as a public health detection problem fundamentally shapes data collection and structure:
 
-**Binary labels required:** Because the goal is automated detection (flag or don't flag), posts must be labeled anti-vaccine vs. non-anti-vaccine. This forces complex attitudes into binary categories, erasing spectrum thinking.
-
-**Emphasis on "savvy users" evading detection:** The paper repeatedly mentions users who "overlay text on images to subvert regulation" or use pro-vaccine hashtags to "disturb vaccination supporters." 
-
-**Institutional pro-vaccine sources as ground truth:** By sampling pro-vaccine content from CDC, WHO, and verified medical accounts, the data encodes institutional medical authority as the standard against which  health discourse is measured. This isn't neutral, rather, it gives a specific stance about who has legitimate health knowledge.
-
-**Focus on persuasion tactics over substantive claims:** The model learns visual and linguistic patterns (fear language, urgency, medical imagery) rather than evaluating factual accuracy. A post could be scientifically accurate but stylistically similar to misinformation and get flagged.
+Because the goal is automated detection (flag or don't flag), posts must be labeled anti-vaccine vs. non-anti-vaccine. This forces complex attitudes into binary categories, erasing spectrum thinking. The paper repeatedly mentions users who "overlay text on images to subvert regulation" or use pro-vaccine hashtags to "disturb vaccination supporters." By sampling pro-vaccine content from CDC, WHO, and verified medical accounts, the data encodes institutional medical authority as the standard against which  health discourse is measured. This isn't neutral, rather, it gives a specific stance about who has legitimate health knowledge. The model learns visual and linguistic patterns (fear language, urgency, medical imagery) rather than evaluating factual accuracy. A post could be scientifically accurate but stylistically similar to misinformation and get flagged.
 
 **How Data Shapes Claims:**
 
-The 31,282-post dataset enables the paper's core claims:
+The 31,282-post dataset enables the paper's core claims: 
 
-**"Multimodal fusion is necessary":** With 97% accuracy vs. 89-91% single-modality, the data demonstrates that images + text together capture anti-vaccine messaging better than either alone. This wouldn't be provable with a smaller dataset or single-modality data.
+With 97% accuracy vs. 89-91% single-modality, the data demonstrates that images + text together capture anti-vaccine messaging better than either alone. This wouldn't be provable with a smaller dataset or single-modality data. The ablation study (Table II) shows attention increases accuracy from 94.2% to 96.6%. But this claim relies on having thousands of training examples: attention mechanisms need large datasets to learn meaningful weights. Fig. 6 examples show posts that text-only or image-only models missed but multimodal caught. However, these are cherry-picked examples from 6,200+ test posts. The data enables the claim but the selective presentation shapes reader interpretation.
 
-**"Attention mechanisms improve detection":** The ablation study (Table II) shows attention increases accuracy from 94.2% to 96.6%. But this claim relies on having thousands of training examples: attention mechanisms need large datasets to learn meaningful weights.
-
-**"Visual information matters":** Fig. 6 examples show posts that text-only or image-only models missed but multimodal caught. However, these are cherry-picked examples from 6,200+ test posts. The data enables the claim but the selective presentation shapes reader interpretation.
-
-**What the data CAN'T support:** The paper achieves 97% detection accuracy but provides **no evidence** that detection actually reduces vaccine hesitancy or improves public health outcomes. The data measures classification performance, not persuasive impact or behavioral change.
 
 **Is Computation Necessary?**
 
-**Yes, purely for the scale, but the question reveals deeper issues:**
+**Yes** -- Manually reviewing 31,282 Instagram posts would require approximately 520 hours (assuming 1 minute per post for viewing image + reading caption/hashtags + labeling). Three annotators did this for labeling, but applying that process daily to new posts is impractical. If Instagram has 500 million daily active users posting vaccine content, human moderation is impossible at scale. Humans can integrate visual and textual information intuitively, but systematically analyzing how specific visual elements (syringes, charts, memes) correlate with anti-vaccine messaging across 31,000 posts would be extraordinarily difficult manually. The CNN identifies patterns (e.g., crying babies + warning text) that emerge from aggregate visual data.
 
-**Necessary for volume:** Manually reviewing 31,282 Instagram posts would require approximately 520 hours (assuming 1 minute per post for viewing image + reading caption/hashtags + labeling). Three annotators did this for labeling, but applying that process daily to new posts is impractical. If Instagram has 500 million daily active users posting vaccine content, human moderation is impossible at scale.
-
-**Necessary for multimodal analysis:** Humans can integrate visual and textual information intuitively, but systematically analyzing how specific visual elements (syringes, charts, memes) correlate with anti-vaccine messaging across 31,000 posts would be extraordinarily difficult manually. The CNN identifies patterns (e.g., crying babies + warning text) that emerge from aggregate visual data.
-
-**NOT necessary for insight:** The paper's core insights—that anti-vaccine content uses fear language, questions institutional authority, leverages visual memes, and employs strategic hashtags—could be discovered through qualitative analysis of 50-100 posts. Ethnographic research on anti-vaccine communities has documented these patterns for years without deep learning.
-
-**NOT necessary for understanding cultural meaning:** Computation here detects patterns but doesn't explain _why_ anti-vaccine messaging resonates, _how_ it builds community, or _what_ cultural anxieties it addresses. The failure cases (Fig. 7) are telling: posts requiring "domain knowledge" (like knowing SB792 is vaccine legislation) or cultural context (understanding autism-vaccine discourse) can't be detected by pattern matching alone.
 
 ## Part 3: What AI Missed
 
