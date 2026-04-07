@@ -153,10 +153,44 @@ This article is closely related to my topic, Representation of Single-serving Me
 </details>
 
 <details>
-<summary><strong><b>Michelle Yi</b></strong> — Add your article title here</summary>
+<summary><strong><b>Michelle Yi</b></strong> 
+## Part 1: Article Summary
+**Title:** “Food-101 – Mining Discriminative Components with Random Forests”
+**Authors:** Lukas Bossard, Matthieu Guillaumin, Luc Van Gool
+**Publication Year:** 2014
+**DOI:** 10.1007/978-3-319-10599-4_29
+**Code Repository:** https://github.com/alpapado/food-101 
 
-> **Replace this stub with your individual section.**
-> **Commit this section yourself** so it registers under your GitHub username for the pass/fail grade.
+**Prompt: “Summarize the following article in 1-2 paragraphs please.”**
+
+**AI-generated Summary:** This article introduces Food-101, a large public dataset of 101,000 food images across 101 dish categories, and presents a new computer vision method for recognizing food in photographs. The authors argue that food recognition is especially difficult because dishes often do not have a fixed spatial structure and can vary a lot in appearance due to lighting, angle, and preparation style. To address this, they use Random Forests to identify discriminative visual “components,” or informative image regions, based on superpixels rather than traditional sliding-window patches. This makes the method more efficient and allows it to focus on local textures, colors, and patterns that help distinguish one dish from another.
+
+
+The paper’s main contributions are both methodological and infrastructural. First, it proposes a new Random Forest–based component mining framework that can find useful visual parts for all food categories at once. Second, it introduces the Food-101 dataset as a benchmark for real-world food recognition. In their experiments, the authors show that their method achieves 50.76% average accuracy on Food-101, outperforming several alternative classification methods, including Improved Fisher Vectors and other discriminative part-mining approaches, though it does not beat a convolutional neural network. Overall, the paper helps establish food recognition as a serious computer vision problem and provides both a new dataset and an efficient recognition method for future research.
+
+
+## Part 2: Critical Assessment
+**What is the Data?**
+What cultural data is being analyzed? (e.g., poems, tweets, film scripts, museum catalogs)
+Where does it come from? How was it collected, gathered, or created? What is the scale?
+What might be missing? What aspects of the cultural phenomenon doesn’t the data capture?
+How well does the data represent the cultural phenomena? Does it capture complexity or flatten important dimensions?
+
+
+This article analyzes photographs of dishes shared by users online. The images are taken from a food dataset called foodspotting.com, where users upload images of their food with the place and type of food. 750 training images and 250 testing images were collected for the 101 top most popular dishes. This led to a dataset of 101,000 images in total. Something that the dataset does not capture is the cultural meaning of a dish beyond its visual appearance. The images also only capture the final plated dish, which erases the process or variation that defines cuisine. Additionally, less globally visible or foods that are more difficult to label, may be excluded. As a result, I believe the data may reinforce dominant cuisines while underrepresenting others. I also believe that the data flattens the complexity of the emotional or symbolic meanings attached to food in different cultures. 
+
+
+**How is Computation Used and Why?**
+What computational methods are being used? Focus on what the method does conceptually.
+What is the primary purpose? Is computation augmenting the data (cleaning, enriching), analyzing it (patterns, arguments), sharing it (storytelling, visualization), or some combination?
+How do the article’s goals shape the data? How does the data shape the article’s claims?
+Is computation necessary here? Would the same insights be possible without it?
+
+The paper uses computer vision and machine learning to classify food images. It uses a Random Forest-based model, which essentially breaks images into smaller regions called superpixels and identifies which parts of an image are most useful for distinguishing between different dishes. Afterward, these are used to train classifiers that recognize food categories. The primary purpose of this is to identify patterns in food images and distinguish between different food categories. With the article’s goal being to accurately classify food images, the data only includes images, which suggests that food can be understood visually, but ignores cultural context. The scale of the dataset being 101,000 images would make it extremely difficult and ambitious to complete manual image classification. Machine learning allows the model to detect visual patterns and while similar insights could theoretically be achieved through human analysis, it would require a significant amount of labor, and would not be as efficient as computational methods.
+
+
+## Part 3: What AI Missed	
+The AI accurately summarized the key takeaways from the article. However, the summary skims over the computational methods used and does not elaborate in detail what the methods are and how they work. The AI oversimplified the computational methods, as exemplified in how they describe how the authors “use Random Forests to identify discriminative visual “components,” or informative image regions, based on superpixels rather than traditional sliding-window patches.” The summary fails to provide a description of what this technique means and how it works. Additionally, the summary does not address the limitations of the computational approach, with the lack of cultural context in the data.
 
 </details>
 
@@ -314,7 +348,7 @@ It also assumes that if a model answers correctly, it understands the culture. B
 |---|---|
 | Flynn Huynh | Spectrum placement for TASTEset + GitHub/Markdown template set up |
 | Cynthia Shen | Spectrum placement and individual parts finished |
-| Michelle Yi | ⬜ Pending |
+| Michelle Yi | Individual article section completed |
 | Rana Bouchama | ⬜ Individual part completed & Spectrum placement | 
 | Soham Solanki | ⬜ Pending | 
 | Diara Shah | Completed individual article section and contributed to group discussion and spectrum placement|
