@@ -411,7 +411,11 @@ It also assumes that if a model answers correctly, it understands the culture. B
 - SAPPHIRE has no cultural phenomenon at stake at all — Rana's article is essentially about whether a particular tool works better than a prior tool.
 
 #### Silences
-- *TBD*
+- Who defines the categories is almost never discussed. Every paper has a classification scheme: food entities, aesthetic quality, anti-vaccine vs. not, thermophilic vs. not, but almost none of them look at who made those distinctions, what was ambiguous, or what the classification scheme rules out. 
+- Flynn noted the annotation guidelines reveal real ambiguity (PHYSICAL_QUALITY vs. PROCESS) that the paper itself doesn't address. 
+- Soham's paper uses three annotators with majority voting, but doesn't discuss how annotators resolved genuinely contested cases. When disagreement disappears into "majority vote," the labor becomes invisible.
+- What the data excludes and why is consistently underexplored. Cynthia and Michelle both noted their datasets are skewed toward specific cuisines, platforms, or contexts (Las Vegas restaurants, globally visible dishes on foodspotting.com) but the papers treat these as minor caveats rather than structural constraints on what claims can be made. 
+- FoodieQA is exclusively Chinese cuisine, which arguably makes the cultural limitation a feature rather than a bug, but the framework it proposes (VLM benchmarking for cultural understanding) generalizes.
 
 ---
 
