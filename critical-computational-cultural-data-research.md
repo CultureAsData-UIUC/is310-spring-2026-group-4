@@ -399,10 +399,16 @@ It also assumes that if a model answers correctly, it understands the culture. B
 ### Step 2: Trends, Divergences, and Silences
 
 #### Trends
-- *TBD*
+- The most shared assumption is that scale equals validity. Almost every paper — TASTEset's 13,000 entities, Food-101's 101,000 images, the medical misinformation dataset's 31,282 posts, FoodieQA's 389 images — treats dataset size as a primary signal of rigor. Larger datasets are presented as more trustworthy, more generalizable, more publishable. None of the papers really look at whether a bigger dataset with the same structural blind spots is actually better, or just more confidently wrong.
+- Almost all papers treat supervised classification as the default mode of inquiry. Whether the task is NER, image aesthetics scoring, food recognition, protein identification, or misinformation detection, the computational move is the same: define categories, label data, train a model, report accuracy. This is so uniform across the articles that it barely gets justified. That's just what doing computational research looks like.
+- A third trend is benchmark-building as contribution. TASTEset, Food-101, and FoodieQA all frame releasing a labeled dataset as the core scholarly output, sometimes more than any finding the dataset enables. There's an implied assumption that infrastructure is neutral.
 
 #### Divergences
-- *TBD*
+- The most meaningful divergence is what the data is supposed to represent culturally. Flynn and Michelle's articles (TASTEset, Food-101) treat food as essentially a technical parsing problem — recipes are token sequences, dishes are visual patterns. 
+- Diara's article (FoodieQA) explicitly tries to capture cultural knowledge, but then reduces it to Q&A pairs about regional origin and ingredients. 
+- Cynthia's article (Camera Eats First) sits somewhere in between: it acknowledges food images as cultural representations but then collapses all visual meaning into a single aesthetic score. The gap between claiming to study food culture and actually encoding food culture in the data is widest in the papers that are most explicit about cultural ambition.
+- There's also a meaningful divergence in what counts as the thing to be explained. Soham's misinformation paper treats misinformation as the phenomenon and builds a system to detect it — but in doing so, it must define what misinformation looks like, which means encoding a normative stance (institutional medical authority as the baseline for "correct" vaccine discourse) into what looks like a neutral classifier. 
+- SAPPHIRE has no cultural phenomenon at stake at all — Rana's article is essentially about whether a particular tool works better than a prior tool.
 
 #### Silences
 - *TBD*
