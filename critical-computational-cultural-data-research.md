@@ -420,7 +420,6 @@ It also assumes that if a model answers correctly, it understands the culture. B
 ---
 
 ## Contributors
-> Further details regarding our contributions in the group part
 
 | Member | Group Mapping Contributions |
 |---|---|
