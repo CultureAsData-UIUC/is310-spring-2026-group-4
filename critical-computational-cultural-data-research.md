@@ -392,8 +392,8 @@ It also assumes that if a model answers correctly, it understands the culture. B
 | Cynthia | *Camera Eats First (Gambetti & Han, 2022)* | *Analysis* | *Computation converts large-scale social media food images into aesthetic scores, enabling comparison across restaurant types and posting sources — the method is used to identify patterns in visual representation rather than to build data infrastructure* | *To be filled after group discussion* |
 | Michelle | *Food-101 – Mining Discriminative Components with Random Forests* | *Analysis* | *Computation is used to identify visual patterns in food images and classify them into categories* | *To be filled after group discussion* |
 | Rana | *SAPPHIRE: A stacking-based ensemble learning framework for accurate prediction of thermophilic proteins* | *Analysis* | *Computation analyzes strings of DNA data to determine whether or not proteins are thermophilic. The article is mainly a justification for the use of this machine learning model called "SAPPHIRE" the AI summary was a complete hallucination and did not discuss the main ideas of the article.* | *To be filled after group discussion* |
-| Soham | *TBD* | *TBD* | *TBD* | *TBD* |
-| Diara | FoodieQA (Li et al., 2024) | **Analysis** | Computation is used to test how well models understand food culture using image and text questions. It shows that models struggle with cultural understanding, especially in images. | *To be filled after group discussion* |
+| Soham | *Detecting Medical Misinformation on Social Media Using Multimodal Deep Learning* | *Analysis* | Computation is used to classify anti-vaccine Instagram posts by identifying patterns across images, text, and hashtags. The goal is to reveal how misnformation spreads multimodally, not to build further data infrastructure. | *To be filled after group discussion.* |
+| Diara | *FoodieQA (Li et al., 2024)* | *Analysis* | Computation is used to test how well models understand food culture using image and text questions. It shows that models struggle with cultural understanding, especially in images. | *To be filled after group discussion* |
 ---
 
 ### Step 2: Trends, Divergences, and Silences
@@ -417,6 +417,6 @@ It also assumes that if a model answers correctly, it understands the culture. B
 | Flynn Huynh | Spectrum placement for TASTEset + GitHub/Markdown template set up |
 | Cynthia Shen | Spectrum placement and individual parts finished |
 | Michelle Yi | Individual article section and spectrum placement |
-| Rana Bouchama | ⬜ Individual part completed & Spectrum placement | 
-| Soham Solanki | ⬜ Pending | 
+| Rana Bouchama | Individual part completed & Spectrum placement | 
+| Soham Solanki | Individual part completed, spectrum placement + started on trends/divergences/silences | 
 | Diara Shah | Completed individual article section and contributed to group discussion and spectrum placement|
