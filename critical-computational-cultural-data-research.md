@@ -93,49 +93,283 @@ The GitHub repository contains the annotated dataset in JSON and CoNLL format, a
 </details>
 
 <details>
-<summary><strong><b>Cynthia Shen</b></strong> — Add your article title here</summary>
+<summary><strong><b>Cynthia Shen</b></strong> — Camera Eats First: Exploring Food Aesthetics Portrayed on Social Media Using Deep Learning</summary>
 
-> **Replace this stub with your individual section.**
-> **Commit this section yourself** so it registers under your GitHub username for the pass/fail grade.
-</details>
+## Bibliographic Information
 
-<details>
-<summary><strong><b>Michelle Yi</b></strong> — Add your article title here</summary>
+**Authors:** Alessandro Gambetti, Qiwei Han
 
-> **Replace this stub with your individual section.**
-> **Commit this section yourself** so it registers under your GitHub username for the pass/fail grade.
+**Title:** Camera Eats First: Exploring Food Aesthetics Portrayed on Social Media Using Deep Learning
 
-</details>
+**Publication venue:** International Journal of Contemporary Hospitality Management
 
-<details>
-<summary><strong><b>Rana Bouchama</b></strong> — Add your article title here</summary>
+**Year:** 2022
 
-> **Replace this stub with your individual section.**
-> **Commit this section yourself** so it registers under your GitHub username for the pass/fail grade.
+**DOI:** https://doi.org/10.1108/IJCHM-09-2021-1206
 
-</details>
+**Article link:** https://www.emerald.com/ijchm/article/34/9/3300/117219/Camera-eats-first-exploring-food-aesthetics
 
-<details>
-<summary><strong><b>Soham Solanki</b></strong> — Add your article title here</summary>
+**Code repository:** https://github.com/Data-Science-Knowledge-Center-Nova-SBE/food-aesthetics
 
-> **Replace this stub with your individual section.**
-> **Commit this section yourself** so it registers under your GitHub username for the pass/fail grade.
+---
 
-</details>
+## Part 1: AI Summary
 
-<details>
-<summary><strong><b>Diara Shah</b></strong> — Add your article title here</summary>
+**Prompt used:**
 
-> **📝 Diara — replace this stub with your individual section.**
+> "Please summarize the following research article in 1–2 paragraphs, focusing on:
+> (1) what the data is,
+> (2) what computational methods are used,
+> (3) what the authors' main contribution is, and
+> (4) how the article relates social media food images to broader questions of visual representation.
 >
-> Your section should include:
-> - Bibliographic info (authors, title, venue, year, DOI, code repo link)
-> - Part 1: AI Summary (paste the exact prompt you used + the AI output)
-> - Part 2: Your Critical Assessment (What is the Data? + How is Computation Used and Why?)
-> - Part 3: What AI Missed
-> - Bonus (optional): Code repo reflection
+> Please keep the summary descriptive rather than critical, since I will write the critique separately.
 >
-> **Please commit this section yourself** so it registers under your GitHub username for the pass/fail grade.
+> Article: Alessandro Gambetti and Qiwei Han, 'Camera Eats First: Exploring Food Aesthetics Portrayed on Social Media Using Deep Learning,' International Journal of Contemporary Hospitality Management, 2022, DOI: 10.1108/IJCHM-09-2021-1206."
+
+**AI-generated summary (ChatGPT Thinking mode):**
+
+This article studies how food is visually represented on social media using a large dataset of food images from Yelp. The authors treat these images as cultural data that reflect how people present food online, especially through aesthetics such as color, plating, composition, and visual appeal. Rather than only identifying what the food is, the paper asks how food looks across different restaurant settings, including cuisine types, rating levels, chain versus non-chain restaurants, and customer-posted versus owner-posted images.
+
+To analyze this, the authors build a deep learning model that assigns each image a food aesthetics score. They adapt a pre-trained image aesthetics model and fine-tune it on food-related visual data, then compare the model’s results with human judgments and known photographic features. The paper’s main contribution is a way to measure food aesthetics at scale, showing that social media food images do not just record meals, but also shape how dining experiences are visually represented online.
+
+---
+
+## Part 2: My Critical Assessment
+
+The data in this article is a large collection of food images from Yelp, which the authors use as a form of social media representation of dining. They focus on Las Vegas restaurants and collect 50,018 food images from 577 restaurants, along with metadata such as cuisine type, rating, price level, chain status, and whether the image was posted by a customer or the restaurant owner. This is useful because it shows how food is visually presented online at scale. However, the data is limited to Yelp, one city, and restaurant settings, so it leaves out other forms of food culture such as home cooking, everyday meals, and short-form video content. For my topic, this matters because TikTok single-serving meals are shaped not only by images, but also by captions, narration, editing, and platform trends, which this dataset cannot capture.
+
+Computation is used mainly for analysis. The authors build a deep-learning model that assigns each food image an aesthetic score, then compare those scores across different restaurant categories and posting sources. This makes it possible to study visual patterns across a very large dataset that would be difficult to evaluate manually. At the same time, the method narrows representation to one main dimension: visual attractiveness. That is helpful for measuring food aesthetics, but it can flatten other meanings, such as comfort, convenience, affordability, or cultural familiarity. So the computational method is useful and mostly necessary for the article’s goals, but it also limits the kinds of claims the paper can make about food representation more broadly.
+
+---
+
+## Part 3: What AI Missed
+
+The AI summary correctly described the article’s topic, data, and method, but it was too general. It did not stress that the dataset only comes from Yelp restaurants in Las Vegas, which limits how broadly the findings can apply. It also focused mainly on visual aesthetics and did not mention that important parts of online food culture—such as captions, narration, and everyday context—are missing from the data. Most importantly, it did not question how turning food images into a single aesthetic score may oversimplify other meanings, such as comfort, convenience, or cultural familiarity.
+
+**Why I chose this article:**
+This article is closely related to my topic, Representation of Single-serving Meals in TikTok, because it studies how food is visually represented on social media through computational methods. Although it focuses on social media food images rather than TikTok videos specifically, it is highly relevant to my project because single-serving meals on TikTok are also often framed through visual aesthetics, plating, color, and presentation. The paper is also a strong fit for the assignment because it is peer-reviewed, published within the required time range, and has publicly available code.
+
+</details>
+
+<details>
+<summary><strong><b>Michelle Yi – Food-101 – Mining Discriminative Components with Random Forests</b></strong> </summary>
+  
+## Part 1: Article Summary
+**Title:** “Food-101 – Mining Discriminative Components with Random Forests”
+**Authors:** Lukas Bossard, Matthieu Guillaumin, Luc Van Gool
+**Publication Year:** 2014
+**DOI:** 10.1007/978-3-319-10599-4_29
+**Code Repository:** https://github.com/alpapado/food-101 
+
+**Prompt: “Summarize the following article in 1-2 paragraphs please.”**
+
+**AI-generated Summary:** This article introduces Food-101, a large public dataset of 101,000 food images across 101 dish categories, and presents a new computer vision method for recognizing food in photographs. The authors argue that food recognition is especially difficult because dishes often do not have a fixed spatial structure and can vary a lot in appearance due to lighting, angle, and preparation style. To address this, they use Random Forests to identify discriminative visual “components,” or informative image regions, based on superpixels rather than traditional sliding-window patches. This makes the method more efficient and allows it to focus on local textures, colors, and patterns that help distinguish one dish from another.
+
+
+The paper’s main contributions are both methodological and infrastructural. First, it proposes a new Random Forest–based component mining framework that can find useful visual parts for all food categories at once. Second, it introduces the Food-101 dataset as a benchmark for real-world food recognition. In their experiments, the authors show that their method achieves 50.76% average accuracy on Food-101, outperforming several alternative classification methods, including Improved Fisher Vectors and other discriminative part-mining approaches, though it does not beat a convolutional neural network. Overall, the paper helps establish food recognition as a serious computer vision problem and provides both a new dataset and an efficient recognition method for future research.
+
+
+## Part 2: Critical Assessment
+**What is the Data?**
+What cultural data is being analyzed? (e.g., poems, tweets, film scripts, museum catalogs)
+Where does it come from? How was it collected, gathered, or created? What is the scale?
+What might be missing? What aspects of the cultural phenomenon doesn’t the data capture?
+How well does the data represent the cultural phenomena? Does it capture complexity or flatten important dimensions?
+
+
+This article analyzes photographs of dishes shared by users online. The images are taken from a food dataset called foodspotting.com, where users upload images of their food with the place and type of food. 750 training images and 250 testing images were collected for the 101 top most popular dishes. This led to a dataset of 101,000 images in total. Something that the dataset does not capture is the cultural meaning of a dish beyond its visual appearance. The images also only capture the final plated dish, which erases the process or variation that defines cuisine. Additionally, less globally visible or foods that are more difficult to label, may be excluded. As a result, I believe the data may reinforce dominant cuisines while underrepresenting others. I also believe that the data flattens the complexity of the emotional or symbolic meanings attached to food in different cultures. 
+
+
+**How is Computation Used and Why?**
+What computational methods are being used? Focus on what the method does conceptually.
+What is the primary purpose? Is computation augmenting the data (cleaning, enriching), analyzing it (patterns, arguments), sharing it (storytelling, visualization), or some combination?
+How do the article’s goals shape the data? How does the data shape the article’s claims?
+Is computation necessary here? Would the same insights be possible without it?
+
+The paper uses computer vision and machine learning to classify food images. It uses a Random Forest-based model, which essentially breaks images into smaller regions called superpixels and identifies which parts of an image are most useful for distinguishing between different dishes. Afterward, these are used to train classifiers that recognize food categories. The primary purpose of this is to identify patterns in food images and distinguish between different food categories. With the article’s goal being to accurately classify food images, the data only includes images, which suggests that food can be understood visually, but ignores cultural context. The scale of the dataset being 101,000 images would make it extremely difficult and ambitious to complete manual image classification. Machine learning allows the model to detect visual patterns and while similar insights could theoretically be achieved through human analysis, it would require a significant amount of labor, and would not be as efficient as computational methods.
+
+
+## Part 3: What AI Missed	
+The AI accurately summarized the key takeaways from the article. However, the summary skims over the computational methods used and does not elaborate in detail what the methods are and how they work. The AI oversimplified the computational methods, as exemplified in how they describe how the authors “use Random Forests to identify discriminative visual “components,” or informative image regions, based on superpixels rather than traditional sliding-window patches.” The summary fails to provide a description of what this technique means and how it works. Additionally, the summary does not address the limitations of the computational approach, with the lack of cultural context in the data.
+
+</details>
+
+<details>
+<summary><strong><b>Rana Bouchama</b></strong> — SAPPHIRE: A stacking-based ensemble learning framework for accurate prediction of thermophilic proteins </summary>
+
+> ## Bibliographic Information
+
+**Authors:** Phasit Charoenkwan, Nalini Schaduangrat, Mohammad Ali Moni, Pietro Lio, Balachandran Manavalan, Watshara Shoombuatong 
+
+**Title:** SAPPHIRE: A stacking-based ensemble learning framework for accurate prediction of thermophilic proteins
+
+**Publication venue:** ScienceDirect
+
+**Year:** 2022
+
+**DOI/URL:** https://www.sciencedirect.com/science/article/pii/S0010482522004863?casa_token=i9X6MZxGmpQAAAAA:dftWHZChqxySHI55aYZCiQe53uRU3qm-91yH6kD5O-uICkcZK5ZfMXGLzf5-R9EifBkN7t0Qow
+
+**Code repository:** https://github.com/plenoi/SAPPHIRE
+>
+## Part 1: AI Summary
+
+**Prompt used:**
+
+> "write me a 1-2 paragraph summary on this article https://www.sciencedirect.com/science/article/pii/S0010482522004863?casa_token=i9X6MZxGmpQAAAAA:dftWHZChqxySHI55aYZCiQe53uRU3qm-91yH6kD5O-uICkcZK5ZfMXGLzf5-R9EifBkN7t0Qow and include apa citation"
+
+**AI-generated summary(ChatGPt):**
+
+The article published in Computers in Biology and Medicine (2022) provides a comprehensive review of how deep learning techniques are applied to medical image analysis, with a particular focus on tasks such as image segmentation, classification, and disease detection. It explains that medical imaging—such as MRI, CT scans, and X-rays—produces complex, high-dimensional data that can be difficult to interpret using traditional methods. Deep learning models, especially convolutional neural networks (CNNs), are highlighted for their ability to automatically learn hierarchical features from images, enabling more accurate detection of abnormalities like tumors or lesions. The paper emphasizes that these methods significantly improve diagnostic accuracy and efficiency, supporting clinicians in making faster and more informed decisions.
+
+The article also discusses the limitations and challenges associated with deep learning in medical imaging. These include the need for large, high-quality annotated datasets, the risk of overfitting, and the lack of interpretability in many models, which can hinder clinical trust and adoption. Additionally, computational cost and data privacy concerns are identified as barriers to widespread implementation. The authors suggest that future research should focus on explainable AI, improved data-sharing frameworks, and hybrid models that combine domain knowledge with machine learning. Overall, the study concludes that while deep learning has transformative potential in healthcare, careful validation and integration into clinical workflows are essential for its successful use.
+
+APA Citation:
+Author(s). (2022). Deep learning for medical image analysis: A review. Computers in Biology and Medicine, 152, 106347. https://doi.org/10.1016/j.compbiomed.2022.106347
+
+## Part 2: My Critical Assessment
+
+**What is the Data?**
+
+The data in this article is a collection of Thermophilic Proteins (TTPS) identified by the SAPPHIRE computational program. The dataset was based on the pre-existing Charoenkwan2021 dataset and augmented by the SAPPHIRE program, which is meant to analyze strings and determine whether a protein is a TTPS or not. In this situation, there is no "cultural phenomenon" being observed; it has more to do with whether or not the SAPPHIRE is an effective model at identifying TTPS. Therefore, I would not say anything is necessarily "missing" from the dataset, nor does it flatten cultural context, as the data has little to do with the cultural context of these proteins to begin with. Moreso, the cultural element to it is how the SAPPHIRE can shape the culture around TTPS identification: whether or not the food industry will adopt its use on a grand scale.
+
+**How is Computation Used and Why?**
+
+Computation is a Machine Learning algorithm used for data analysis. In essence, you put in the DNA string for coding a certain protein, and the SAPPHIRE will return whether or not that protein is a thermophilic protein. The article wishes to make the argument that SAPPHIRE should be an industry standard. Therefore, the data must reflect positively on the SAPPHIRE. Charoenkwan et al. make the point to emphasize that the SAPPHIRE has a much higher success rate, 5.12% higher than its contemporaries. Whether or not that is statistically sound remains to be seen; admittedly, I am no expert, but I do believe that anything lower than 5% is statistically insignificant, which the SAPPHIRE only barely clears. Regardless, Charoenkwan et al.'s main goal is to argue for it to be the new industry standard, and therefore, they must make the data seem more successful than it is. Computation, in this case, is more than just necessary. Having a human being check individual strings of data is time-consuming and laborious; it would be much more efficient, as well as beneficial to whatever poor soul has to do that job, to have a machine check the strings.
+
+## Part 3: What AI Missed
+
+The AI completely missed a lot of this very central information. Perhaps this is in part due to my lacklustre prompting; however, it completely misses the point of the article. Not once is the article's namesake mentioned in the AI summary. It does not discuss the SAPPHIRE, nor does it discuss machine learning, models relating to TTPS analysis, or even TTPS as a whole. Rather, it seems ChatGPT has hallucinated a completely different article. At no point is medical imaging mentioned in the article, which, according to ChatGPT, is what the article is completely about. It feels almost like a waste of time going over everything the AI got wrong, because it got the entire article wrong. I had to copy and paste the link I sent into a new tab just to make absolutely certain I provided it with the right one and didn't accidentally paste something else. The only part of the article that is correct is the journal the article was published in. I'm not quite sure why the AI was completely unable to summarize this article, perhaps it is because you need to complete a CAPTCHA to access it, or perhaps because the full article is not free to the general public. But as a whole, this was a very eye-opening experience to see how AI can so often get it wrong.
+
+</details>
+
+</details>
+
+<details>
+<summary><strong><b>Soham Solanki</b></strong> — Detecting Medical Misinformation on Social Media Using Multimodal Deep Learning</summary>
+
+## Part 1: The AI Summary
+From Claude:
+- This 2020 paper addresses the critical public health challenge of detecting anti-vaccine content on Instagram by proposing a multimodal deep learning system that analyzes both visual and textual components of social media posts. The researchers developed a three-branch neural network architecture that processes images (using fine-tuned VGG-19 CNN), text captions and OCR-extracted text from images (using BiLSTM), and hashtags (using fastText embeddings). A key innovation is their semantic- and task-level attention (SeTa) mechanism, which helps the model focus on content most relevant to anti-vaccine messaging—for instance, identifying important hashtags like #vaccineinjury or visual elements like syringes while understanding their semantic context.
+- The model was trained and tested on a dataset of 31,282 Instagram posts (50% anti-vaccine, 50% non-anti-vaccine) collected from January 2016 to October 2019. Results demonstrated that the multimodal approach significantly outperformed single-modality methods, achieving 97.4% accuracy with their ensemble method compared to ~89-91% for image-only or text-only models. This 6-8% improvement validates that combining visual features (detecting objects like medical equipment or memes), textual analysis (identifying fear-based language or scientific jargon), and hashtag patterns is essential for accurately detecting health misinformation on image-sharing platforms. The researchers also deployed their system for real-world detection over 30 days, successfully identifying anti-vaccine posts with 96.1% precision and 95.8% recall, demonstrating practical applicability for content moderation.
+
+## Part 2: Critical Assessment
+### What is the Data?
+
+**Cultural Data Being Analyzed:** The dataset consists of 31,282 Instagram posts about vaccines collected between January 2016 and October 2019. Each post is a multimodal cultural artifact containing: (1) images (photographs, infographics, memes with overlaid text), (2) captions (user-written commentary), and (3) hashtags (like #vaccineinjury, #bigpharma, #CDCwhistleblower). 
+
+**Collection Method & Scale:** The researchers used a "snowballing" approach: they first searched for posts using known anti-vaccine hashtags (#vaccinesafety, #informedconsent), then identified 32 influential anti-vaccine accounts (averaging 8.3k followers each) and downloaded their content. For the control group, they collected pro-vaccine and vaccine-irrelevant posts from 29 credible institutional accounts (CDC, WHO, Stanford Medical School). Three trained annotators labeled all posts using majority voting for consensus. The dataset was split 70% training (21,000), 10% validation (3,000), and 20% testing (about 6,200).
+
+The scale of 31,282 posts is great for deep learning but represents only a small population of Instagram's vaccine discourse during that specific 3.5-year period. Notably, data collection ended in October 2019—just months before COVID-19 would massively transform vaccine discourse online.
+
+**What's Missing:**
+
+The data captures individual posts but misses critical aspects of social media culture:
+
+The dataset includes comment counts but not comment content, where conversations actually happen. This is where performative authenticity gets contested and where "savvy users" (mentioned in the paper) might be called out. Instagram allows users to respond to, remix, and recontextualize posts. The dataset treats each post as isolated rather than part of an ongoing cultural conversation. The dataset doesn't capture how users encountered these posts, whether that was through hashtag search, influencer follows, or Instagram's recommendation algorithm. The "For You" feed shapes which vaccine messages get amplified, but this isn't shown.
+
+**How Well Does Data Represent the Phenomenon:**
+
+The data **flattens important cultural complexity** in several ways:
+
+**Binary classification problem:** The dataset codes posts as "anti-vaccine" or "non-anti-vaccine" (which includes both pro-vaccine and vaccine-irrelevant content). This creates a big problem.
+
+**Decontextualized posts:** By treating posts as isolated texts and images, the data misses how meaning emerges through context. A post with #provaccine could be genuine advocacy or sarcastic trolling (as the authors acknowledge in Fig. 3). The dataset captures the surface but not the performative irony that's central to social media culture.
+
+**Institutional bias:** The "pro-vaccine" category draws heavily from verified institutional accounts (CDC, WHO, medical schools), while "anti-vaccine" comes from grassroots influencers and community accounts. This means the dataset might be capturing class and authority differences as much as vaccine attitudes.
+
+
+### How is Computation Used and Why?
+
+**Computational Methods:**
+
+The paper uses multimodal deep learning to automatically classify Instagram posts as anti-vaccine or not. Three parallel neural networks process different modalities:
+
+1.  **VGG-19 Convolutional Neural Network (CNN)** for images: Extracts visual features from photographs, graphics, and memes. Conceptually, the CNN learns hierarchical patterns, early layers detect edges and textures, deeper layers recognize objects (syringes, doctors) and compositions. 
+2.  **Bidirectional LSTM (BiLSTM)** for text: Processes captions and OCR-extracted text from images. BiLSTM reads text both forward and backward to capture context.
+3.  **fastText embeddings** for hashtags: Represents hashtags as vectors by breaking them into subword components (so #vaccineinjury can be understood as vaccine + injury even if the exact hashtag wasn't in training data).
+4.  **Semantic- and Task-level Attention (SeTa)** mechanism: For each modality, the model computes two attention weights: semantic attention (which words/images contribute most to the post's meaning?) and _task attention_ (which elements are most similar to known anti-vaccine patterns?). These are combined to focus on discriminative content.
+5.  **Feature fusion and ensemble**: The three modality-specific features are projected into a shared space, fused with attention weighting, then concatenated. An SVM ensemble combines predictions from the full multimodal model plus three single-modality models for final classification.
+
+**Primary Purposes:**
+1.  Detection/Classification (primary):
+2.  Pattern Recognition (secondary)
+3.  Method Validation (tertiary)
+
+**How Goals Shape the Data:**
+
+The framing as a public health detection problem fundamentally shapes data collection and structure:
+
+Because the goal is automated detection (flag or don't flag), posts must be labeled anti-vaccine vs. non-anti-vaccine. This forces complex attitudes into binary categories, erasing spectrum thinking. The paper repeatedly mentions users who "overlay text on images to subvert regulation" or use pro-vaccine hashtags to "disturb vaccination supporters." By sampling pro-vaccine content from CDC, WHO, and verified medical accounts, the data encodes institutional medical authority as the standard against which  health discourse is measured. This isn't neutral, rather, it gives a specific stance about who has legitimate health knowledge. The model learns visual and linguistic patterns (fear language, urgency, medical imagery) rather than evaluating factual accuracy. A post could be scientifically accurate but stylistically similar to misinformation and get flagged.
+
+**How Data Shapes Claims:**
+
+The 31,282-post dataset enables the paper's core claims: 
+
+With 97% accuracy vs. 89-91% single-modality, the data demonstrates that images + text together capture anti-vaccine messaging better than either alone. This wouldn't be provable with a smaller dataset or single-modality data. The ablation study (Table II) shows attention increases accuracy from 94.2% to 96.6%. But this claim relies on having thousands of training examples: attention mechanisms need large datasets to learn meaningful weights. Fig. 6 examples show posts that text-only or image-only models missed but multimodal caught. However, these are cherry-picked examples from 6,200+ test posts. The data enables the claim but the selective presentation shapes reader interpretation.
+
+
+**Is Computation Necessary?**
+
+**Yes** -- Manually reviewing 31,282 Instagram posts would require approximately 520 hours (assuming 1 minute per post for viewing image + reading caption/hashtags + labeling). Three annotators did this for labeling, but applying that process daily to new posts is impractical. If Instagram has 500 million daily active users posting vaccine content, human moderation is impossible at scale. Humans can integrate visual and textual information intuitively, but systematically analyzing how specific visual elements (syringes, charts, memes) correlate with anti-vaccine messaging across 31,000 posts would be extraordinarily difficult manually. The CNN identifies patterns (e.g., crying babies + warning text) that emerge from aggregate visual data.
+
+
+## Part 3: What AI Missed
+
+Claude skipped the Projection Module, which is vital. Because features from the three branches (images, text, hashtags) exist in different "feature spaces," they cannot be simply added together. The authors had to use a fully connected layer with a ReLU activation function to project them into the same representation space before they could be fused. Without this step, the "multimodal fusion" Claude praised would be mathematically impossible. Claude mentioned visual elements like "syringes" , but it ignored the scSE block (spatial and channel squeeze-and-excitation). This isn't just "detecting objects", it’s a specific mechanism that helps the model pay attention to both where in the image things are (spatial) and which feature channels are most discriminative. Claude noted that an "SVM ensemble" was used, but it missed the specific RBF (Radial Basis Function) kernel used to train it. It also glossed over the fact that the ensemble doesn't just look at the multimodal output; it treats the prediction scores from the single-modal models as a four-dimensional feature to make the final "Yes/No" call.
+
+</details>
+
+<details>
+<summary><strong><b>Diara Shah</b></strong> — FoodieQA: A Multimodal Dataset for Fine-Grained Understanding of Chinese Food Culture</summary>
+
+> ## Bibliographic Information
+
+**Authors:** Wenyan Li, Xinyu Zhang, Jiaang Li, Qiwei Peng, Raphael Tang, Li Zhou, Weijia Zhang, Guimin Hu, Yifei Yuan, Anders Søgaard, Daniel Hershcovich, Desmond Elliott  
+
+**Title:** FoodieQA: A Multimodal Dataset for Fine-Grained Understanding of Chinese Food Culture  
+
+**Publication venue:** arXiv preprint  
+
+**Year:** 2024  
+
+**DOI/URL:** https://arxiv.org/abs/2406.11030  
+
+**Code repository:** https://github.com/lyan62/FoodieQA 
+>
+## Part 1: AI Summary
+
+**Prompt used:**
+
+> "Summarize this research paper in 1–2 paragraphs, focusing on what the dataset is, what computational methods are used, and what the main contribution is."
+
+**AI-generated summary(ChatGPt):**
+
+The paper presents FoodieQA, a multimodal dataset developed to evaluate the capability of artificial intelligence systems to understand culturally grounded food knowledge. The dataset consists of image-text pairs and structured question-answer tasks that focus on regional Chinese food culture, including aspects such as ingredients, cuisine types, and geographic origins. It includes three primary evaluation tasks: multi-image visual question answering, single-image visual question answering, and text-based question answering. The dataset is manually curated to ensure fine-grained representation of cultural details and to provide a benchmark for assessing model performance.
+
+To evaluate the dataset, the authors apply vision-language models (VLMs) and large language models (LLMs) and analyze their performance across different tasks. The results indicate that while language models achieve relatively strong performance on text-based questions, models demonstrate significant limitations in visual understanding, particularly in tasks requiring multi-image reasoning. The study highlights the gap between current model capabilities and the complexity of cultural understanding, emphasizing the need for improved multimodal reasoning in AI systems.
+
+## Part 2: My Critical Assessment
+
+**What is the Data?**
+
+The FoodieQA dataset is made up of around 389 images and 350 different Chinese food dishes, along with question-answer pairs about them. The questions focus on things like ingredients, regional origin, and cuisine type. The images were collected from volunteers instead of being scraped online, which helps with consistency but also limits where the data comes from.
+
+Even though the dataset is meant to capture food culture, it only represents a very specific version of it. It focuses only on Chinese cuisine and reduces cultural knowledge into fixed questions and answers. Things like personal experience with food, context, or how food is actually eaten in real life are not included. So while it looks like it’s capturing “culture,” it’s really just capturing structured facts about food.
+
+**How is Computation Used and Why?**
+
+Computation is used to test how well different AI models can answer questions about food using both images and text. Nodels  are given tasks like identifying the region a dish comes from or understanding ingredients based on images. This helps researchers compare how well models perform with different kinds of inputs.
+
+The main purpose of computation here is to analyze model performance. It makes sense to use computation because the dataset is too large to evaluate manually. But also the method assumes that answering these types of questions means the model understands food culture. In reality, models might just be recognizing patterns without actually understanding the cultural meaning behind the food. So the results might show performance but probably not real understanding.
+
+The dataset is designed specifically to test model performance, so it structures food culture into tasks rather than doing any reflecting on how food is experienced in real life. 
+
+## Part 3: What AI Missed
+
+The AI summary explains the dataset and methods pretty well, but it doesn’t really question anything. It treats the dataset like it fully represents food culture, when it’s actually pretty limited. It only looks at Chinese cuisine and turns culture into simple Q n A pairs, which leaves out a lot of context.
+
+It also assumes that if a model answers correctly, it understands the culture. But realistically, the model could just be picking up patterns without actually understanding what the food means. The AI summary doesn’t really address this gap.
 
 </details>
 
@@ -155,35 +389,43 @@ The GitHub repository contains the annotated dataset in JSON and CoNLL format, a
 | Member | Article | Primary Role | Justification | Agrees / Disagrees |
 |---|---|---|---|---|
 | Flynn | TASTEset (Wróblewska et al., 2022) | **Augmentation** | Computation structures raw recipe text into labeled entity data for downstream use — no cultural argument is being made; the output is infrastructure | *To be filled after group discussion* |
-| Cynthia | *TBD* | *TBD* | *TBD* | *TBD* |
-| Michelle | *TBD* | *TBD* | *TBD* | *TBD* |
-| Rana | *TBD* | *TBD* | *TBD* | *TBD* |
-| Soham | *TBD* | *TBD* | *TBD* | *TBD* |
-| Diara | *TBD* | *TBD* | *TBD* | *TBD* |
-
+| Cynthia | *Camera Eats First (Gambetti & Han, 2022)* | *Analysis* | *Computation converts large-scale social media food images into aesthetic scores, enabling comparison across restaurant types and posting sources — the method is used to identify patterns in visual representation rather than to build data infrastructure* | *To be filled after group discussion* |
+| Michelle | *Food-101 – Mining Discriminative Components with Random Forests* | *Analysis* | *Computation is used to identify visual patterns in food images and classify them into categories* | *To be filled after group discussion* |
+| Rana | *SAPPHIRE: A stacking-based ensemble learning framework for accurate prediction of thermophilic proteins* | *Analysis* | *Computation analyzes strings of DNA data to determine whether or not proteins are thermophilic. The article is mainly a justification for the use of this machine learning model called "SAPPHIRE" the AI summary was a complete hallucination and did not discuss the main ideas of the article.* | *To be filled after group discussion* |
+| Soham | *Detecting Medical Misinformation on Social Media Using Multimodal Deep Learning* | *Analysis* | Computation is used to classify anti-vaccine Instagram posts by identifying patterns across images, text, and hashtags. The goal is to reveal how misnformation spreads multimodally, not to build further data infrastructure. | *To be filled after group discussion.* |
+| Diara | *FoodieQA (Li et al., 2024)* | *Analysis* | Computation is used to test how well models understand food culture using image and text questions. It shows that models struggle with cultural understanding, especially in images. | *To be filled after group discussion* |
 ---
 
 ### Step 2: Trends, Divergences, and Silences
 
 #### Trends
-- *TBD*
+- The most shared assumption is that scale equals validity. Almost every paper — TASTEset's 13,000 entities, Food-101's 101,000 images, the medical misinformation dataset's 31,282 posts, FoodieQA's 389 images — treats dataset size as a primary signal of rigor. Larger datasets are presented as more trustworthy, more generalizable, more publishable. None of the papers really look at whether a bigger dataset with the same structural blind spots is actually better, or just more confidently wrong.
+- Almost all papers treat supervised classification as the default mode of inquiry. Whether the task is NER, image aesthetics scoring, food recognition, protein identification, or misinformation detection, the computational move is the same: define categories, label data, train a model, report accuracy. This is so uniform across the articles that it barely gets justified. That's just what doing computational research looks like.
+- A third trend is benchmark-building as contribution. TASTEset, Food-101, and FoodieQA all frame releasing a labeled dataset as the core scholarly output, sometimes more than any finding the dataset enables. There's an implied assumption that infrastructure is neutral.
 
 #### Divergences
-- *TBD*
+- The most meaningful divergence is what the data is supposed to represent culturally. Flynn and Michelle's articles (TASTEset, Food-101) treat food as essentially a technical parsing problem — recipes are token sequences, dishes are visual patterns. 
+- Diara's article (FoodieQA) explicitly tries to capture cultural knowledge, but then reduces it to Q&A pairs about regional origin and ingredients. 
+- Cynthia's article (Camera Eats First) sits somewhere in between: it acknowledges food images as cultural representations but then collapses all visual meaning into a single aesthetic score. The gap between claiming to study food culture and actually encoding food culture in the data is widest in the papers that are most explicit about cultural ambition.
+- There's also a meaningful divergence in what counts as the thing to be explained. Soham's misinformation paper treats misinformation as the phenomenon and builds a system to detect it — but in doing so, it must define what misinformation looks like, which means encoding a normative stance (institutional medical authority as the baseline for "correct" vaccine discourse) into what looks like a neutral classifier. 
+- SAPPHIRE has no cultural phenomenon at stake at all — Rana's article is essentially about whether a particular tool works better than a prior tool.
 
 #### Silences
-- *TBD*
+- Who defines the categories is almost never discussed. Every paper has a classification scheme: food entities, aesthetic quality, anti-vaccine vs. not, thermophilic vs. not, but almost none of them look at who made those distinctions, what was ambiguous, or what the classification scheme rules out. 
+- Flynn noted the annotation guidelines reveal real ambiguity (PHYSICAL_QUALITY vs. PROCESS) that the paper itself doesn't address. 
+- Soham's paper uses three annotators with majority voting, but doesn't discuss how annotators resolved genuinely contested cases. When disagreement disappears into "majority vote," the labor becomes invisible.
+- What the data excludes and why is consistently underexplored. Cynthia and Michelle both noted their datasets are skewed toward specific cuisines, platforms, or contexts (Las Vegas restaurants, globally visible dishes on foodspotting.com) but the papers treat these as minor caveats rather than structural constraints on what claims can be made. 
+- FoodieQA is exclusively Chinese cuisine, which arguably makes the cultural limitation a feature rather than a bug, but the framework it proposes (VLM benchmarking for cultural understanding) generalizes.
 
 ---
 
 ## Contributors
-> Further details regarding our contributions in the group part
 
 | Member | Group Mapping Contributions |
 |---|---|
 | Flynn Huynh | Spectrum placement for TASTEset + GitHub/Markdown template set up |
-| Cynthia Shen | ⬜ Pending |
-| Michelle Yi | ⬜ Pending |
-| Rana Bouchama | ⬜ Pending | 
-| Soham Solanki | ⬜ Pending | 
-| Diara Shah | ⬜ Pending |
+| Cynthia Shen | Spectrum placement and individual parts finished |
+| Michelle Yi | Individual article section and spectrum placement |
+| Rana Bouchama | Individual part completed & Spectrum placement | 
+| Soham Solanki | Individual part completed, spectrum placement + started on trends/divergences/silences | 
+| Diara Shah | Completed individual article section and contributed to group discussion and spectrum placement|
