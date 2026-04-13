@@ -215,7 +215,7 @@ I developed **9 cultural theme categories** based on how protein functions withi
 
 **Observation:** Desserts/sweets require protein to be "guilt-free"
 
-**Cultural Meaning:** Pleasure must be *ustified through nutrition. Protein serves as moral absolution.
+**Cultural Meaning:** Pleasure must be justified through nutrition. Protein serves as moral absolution.
 
 **Quote from Notes:**
 > "Advertises as... low calorie, and 4g of protein per protein bite"
@@ -327,7 +327,7 @@ Duet/stitch culture is how TikTok creates dialogue.  My dataset captures individ
 
 **Primary Approach: Option 1 - Automated Scaling**
 
-I will scale My dataset computationally while attempting to preserve the interpretive depth of My initial collection.
+I will scale my dataset computationally while attempting to preserve the interpretive depth of my initial collection.
 
 
 ## Scaling Strategy
