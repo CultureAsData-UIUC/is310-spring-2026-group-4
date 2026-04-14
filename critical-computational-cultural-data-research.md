@@ -376,10 +376,6 @@ It also assumes that if a model answers correctly, it understands the culture. B
 ---
 
 ## Group Landscape Mapping
-
-> **⚠️ TBD after everyone has added their individual summaries.**
-> For each section, note who contributed and whether anyone disagrees.
-
 ---
 
 ### Step 1: Augmentation–Analysis–Communication Spectrum
