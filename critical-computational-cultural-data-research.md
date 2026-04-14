@@ -248,6 +248,18 @@ The AI completely missed a lot of this very central information. Perhaps this is
 <details>
 <summary><strong><b>Soham Solanki</b></strong> — Detecting Medical Misinformation on Social Media Using Multimodal Deep Learning</summary>
 
+**Authors:** Zuhui Wang, Zhaozheng Yin, Young Anna Argyris
+
+**Title:** Detecting Medical Misinformation on Social Media Using Multimodal Deep Learning
+
+**Publication venue:** PubMed
+
+**Year:** 2021
+
+**DOI/URL:** https://ieeexplore.ieee.org/document/9253994
+
+**Code repository:** https://github.com/wzhings/antivaccine_detection
+
 ## Part 1: The AI Summary
 From Claude:
 - This 2020 paper addresses the critical public health challenge of detecting anti-vaccine content on Instagram by proposing a multimodal deep learning system that analyzes both visual and textual components of social media posts. The researchers developed a three-branch neural network architecture that processes images (using fine-tuned VGG-19 CNN), text captions and OCR-extracted text from images (using BiLSTM), and hashtags (using fastText embeddings). A key innovation is their semantic- and task-level attention (SeTa) mechanism, which helps the model focus on content most relevant to anti-vaccine messaging—for instance, identifying important hashtags like #vaccineinjury or visual elements like syringes while understanding their semantic context.
