@@ -159,7 +159,7 @@ This article is closely related to my topic, Representation of Single-serving Me
 **Title:** “Food-101 – Mining Discriminative Components with Random Forests”
 **Authors:** Lukas Bossard, Matthieu Guillaumin, Luc Van Gool
 **Publication Year:** 2014
-**DOI:** 10.1007/978-3-319-10599-4_29
+**DOI:** [10.1007/978-3-319-10599-4_29](https://link.springer.com/chapter/10.1007/978-3-319-10599-4_29)
 **Code Repository:** https://github.com/alpapado/food-101 
 
 **Prompt: “Summarize the following article in 1-2 paragraphs please.”**
