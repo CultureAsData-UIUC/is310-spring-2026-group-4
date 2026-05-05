@@ -1,4 +1,4 @@
-#imports
+# imports
 import os
 import json
 import time
@@ -9,7 +9,7 @@ MIN_DELAY_BETWEEN_REQUESTS_SEC = 60
 MAX_RETRIES_ON_RATE_LIMIT = 2
 RETRY_WAIT_SEC = 60
 
-#system prompt
+# system prompt
 SYSTEM_PROMPT = """You are a cultural food studies research assistant helping to annotate 
 sources about immigrant-origin dishes that have been transformed in American contexts.
 
@@ -19,9 +19,10 @@ allowed values:
 {
   "origin_story_mentioned": "Yes" | "No" | "Partial",
   "origin_story_framing": "omitted" | "simplified" | "mythologized" | "detailed_historical" | "corrective" | "contested",
-  "authenticity_framing": "claimed" | "distanced" | "dismissed" | "contested" | "reclaimed" | "not_mentioned",
+  "cultural_ownership_framing": "claimed" | "distanced" | "dismissed" | "contested" | "reclaimed" | "not_mentioned",
   "community_credit_given": "Yes" | "No" | "Partial" | "N/A",
-  "annotation_notes": "<1-2 sentence explanation of your coding choices>"
+  "annotation_notes": "<1-2 sentence explanation of your coding choices>",
+  "rationale": "<1 sentence explaining the single most important piece of textual evidence that drove your coding decisions>"
 }
 
 Definitions for coding:
@@ -39,24 +40,29 @@ origin_story_framing (only if mentioned):
 - corrective: Actively corrects a common misconception about origin
 - contested: Acknowledges that multiple or disputed origin claims exist
 
-authenticity_framing:
-- claimed: Source asserts the dish is authentic (to a culture or tradition)
-- distanced: Source acknowledges it is not authentic but presents it positively
-- dismissed: Source actively argues authenticity does not matter
-- contested: Source acknowledges ongoing debate about authenticity
-- reclaimed: A community member claims the dish as their own valid tradition
-- not_mentioned: Authenticity is not referenced
+cultural_ownership_framing:
+How does the source position the dish in relation to the immigrant community that created it?
+- claimed: Source presents the dish as belonging to a cultural tradition, as if it were native to that cuisine
+- distanced: Source acknowledges the dish is an American adaptation but presents it positively
+- dismissed: Source actively argues that cultural origins are irrelevant or beside the point
+- contested: Source acknowledges ongoing debate about who the dish belongs to culturally
+- reclaimed: A community member asserts the dish as a legitimate part of their own cultural tradition
+- not_mentioned: The question of cultural ownership is never raised
 
 community_credit_given:
-- Yes: The immigrant community that created/adapted the dish is named and credited
-- No: No credit given; dish treated as cultureless or mainstream
-- Partial: Community mentioned but without substantive acknowledgment
-- N/A: Not applicable (e.g., pure reference entry)
+- Yes: The immigrant community that created/adapted the dish is named and substantively credited
+- No: No credit given; dish treated as cultureless or simply mainstream American
+- Partial: Community mentioned by name but without substantive acknowledgment of their role
+- N/A: Not applicable (e.g., pure reference entry with no narrative framing)
+
+rationale:
+Identify the single most important phrase, sentence, or structural feature of the source text
+that most strongly determined your coding. Quote it briefly or describe it concisely.
 
 Return ONLY valid JSON. No preamble, no markdown formatting."""
 
-#functions
-#get api key
+
+# functions
 def get_api_key():
     key = os.environ.get("GOOGLE_API_KEY") or os.environ.get("GEMINI_API_KEY")
     if not key:
@@ -64,8 +70,7 @@ def get_api_key():
     return key
 
 
-#annotate source
-def annotate_source(model: genai.GenerativeModel, source_text: str, dish_info: str):
+def annotate_source(model: genai.GenerativeModel, source_text: str, dish_info: str) -> dict:
     user_message = f"""Dish context: {dish_info}
 
 Source text to annotate:
@@ -77,21 +82,24 @@ Return the JSON annotation for this source."""
 
     response = model.generate_content(
         user_message,
-        generation_config={"max_output_tokens": 500},
+        generation_config={"max_output_tokens": 600},
     )
 
     raw = response.text.strip()
-    # Strip markdown code fences if present
     if raw.startswith("```"):
         raw = raw.split("```")[1]
         if raw.startswith("json"):
             raw = raw[4:]
         raw = raw.strip()
 
-    return json.loads(raw)
+    parsed = json.loads(raw)
+    # Back-compat: earlier schema used authenticity_framing
+    if "cultural_ownership_framing" not in parsed and "authenticity_framing" in parsed:
+        parsed["cultural_ownership_framing"] = parsed.pop("authenticity_framing")
+    return parsed
 
-# wait for rate limit
-def wait_for_rate_limit(last_request_time: float):
+
+def wait_for_rate_limit(last_request_time: float) -> None:
     elapsed = time.monotonic() - last_request_time
     if elapsed < MIN_DELAY_BETWEEN_REQUESTS_SEC:
         wait = MIN_DELAY_BETWEEN_REQUESTS_SEC - elapsed
@@ -99,7 +107,6 @@ def wait_for_rate_limit(last_request_time: float):
         time.sleep(wait)
 
 
-#main function
 def main():
     print("=" * 60)
     print("Immigrant Dish Dataset — Annotation Helper")
@@ -110,7 +117,6 @@ def main():
 
     api_key = get_api_key()
     genai.configure(api_key=api_key)
-    # Free-tier models: gemini-2.0-flash, gemini-2.5-flash, or gemini-pro
     model = genai.GenerativeModel(
         "gemini-2.5-flash",
         system_instruction=SYSTEM_PROMPT,
@@ -172,6 +178,7 @@ def main():
                     break
         if last_error and "429" in str(last_error):
             print("Skipping this source. You can run the script again later.")
+
         again = input("\nAnnotate another source? (y/n): ").strip().lower()
         if again != "y":
             print("Done. Exiting annotation helper.")
