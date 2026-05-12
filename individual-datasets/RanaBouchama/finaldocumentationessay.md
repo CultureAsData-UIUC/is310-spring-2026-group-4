@@ -4,7 +4,7 @@ What makes or breaks a popular TikTok video? Are you more likely to get more vie
 
 ### Dataset information ###
 * For the manually selected videos:
-  *that landed in my FYP in a completely fresh, never-before-used account. 
+  * Videos in the FYP of a completely fresh, never-before-used account. 
   * This is to simulate what a new user would be seeing after demonstrating interest in food-related content, what is naturally pushed by the algorithm, and, in turn, what is deemed "popular."
   * Data included: post metadata
     * Username, video URL, views, likes, shares, comments, favorites, the hook (text within the video), as well as the caption and hashtags, music, whether a user's face was in the video or not, video language and format type.
