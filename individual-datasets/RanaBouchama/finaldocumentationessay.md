@@ -11,6 +11,9 @@ What makes or breaks a popular TikTok video? Are you more likely to get more vie
   * My only criteria for what videos could be added were:
   * A) That it was about food in some way
   * B) That it surpassed 100K likes, this is a rather low bar, but this was my "minimum" for a video to be considered "viral."
+* For the pre-existing dataset:
+  * Data included: post metadata
+    * Username, video URL, views, likes, shares, comments, favorites, the hook (text within the video), as well as the caption and hashtags, music, whether a user's face was in the video or not, video language and format type.
  
 ### Computational Tools ###
 * Originally, I intended to use PyTok to scrape for a dataset of my own; unfortunately, this was not possible, as I kept getting errors and thus had to stop or risk getting IP banned.
