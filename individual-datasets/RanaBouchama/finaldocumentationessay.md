@@ -1,6 +1,6 @@
 ## Project Overview ##
 
-What makes or breaks a popular TikTok video? Are you more likely to get more views with a certain type of hook or caption? What about the music you use? Does an original sound or using a trendy audio mean you are more likely to be seen? That is the central thesis question for this project, analyzing [a pre-existing FoodTok dataset](https://www.adworkly.co/resources) while adding in my own manually collected dataset.
+What makes or breaks a popular FoodTok (TikTok community/genre dedicated to making videos about food) video? Are you more likely to get more views with a certain type of hook or caption? What about the music you use? Does an original sound or using a trendy audio mean you are more likely to be seen? That is the central thesis question for this project, analyzing [a pre-existing FoodTok dataset](https://www.adworkly.co/resources) while adding in my own manually collected dataset.
 
 ### Dataset information ###
 * For the manually selected videos:
@@ -11,13 +11,25 @@ What makes or breaks a popular TikTok video? Are you more likely to get more vie
   * My only criteria for what videos could be added were:
   * A) That it was about food in some way
   * B) That it surpassed 100K likes, this is a rather low bar, but this was my "minimum" for a video to be considered "viral."
+  * 50 Videos in total
 * For the pre-existing dataset:
   * Data included: post metadata
-    * Username, video URL, views, likes, shares, comments, favorites, the hook (text within the video), as well as the caption and hashtags, music, whether a user's face was in the video or not, video language and format type.
- 
+    * Username, video URL, views, likes, shares, comments, favorites, the hook (text within the video), as well as the caption and hashtags, music, whether a user's face was in the video or not, video language, and format type.
+  * The dataset originally had 5,000 entries
+    * A bigger dataset does make for a more in-depth analysis; however, that much data is equally as difficult to make sense of, and with more and more entries, the entries almost collapse in on themselves, and it's harder to consider individuals
+  * I've cut that data down to 450 entries
+  * I've also removed categories I deemed unrelated to my central question and thus superfluous information that served only to make the dataset less understandable 
+    * Date the video was posted, this does have some important cultural context lost; the time a video is posted has a factor in who sees it/when, and thus can contribute to popularity. However, they were all posted around the same 2020-2024 range, and I am more concerned with what the author and viewers have control over that helps boost a video in the algorithm
+    * Total videos posted, once again, there is a cultural context lost. Posting consistently also helps boost you in the algorithm; however, I am more concerned with popularity on a video-by-video basis
+    * Outlier rate, I am uncertain how they collected this data and what it is based on; it would only serve to make it more confusing for the average viewer. I'd like my dataset to be as accessible and understandable as possible.
+  * I also added a separate column for hashtags, as I believe it should be separated from the caption text to see 
+
+
 ### Computational Tools ###
-* Originally, I intended to use PyTok to scrape for a dataset of my own; unfortunately, this was not possible, as I kept getting errors and thus had to stop or risk getting IP banned.
-* Although not properly documented, the AdWorkly dataset used was likely made using the official marketing API or PyTok itself. 
+* Originally, I intended to use PyTok to scrape for a dataset of my own; unfortunately, this was not possible, as I kept getting errors and decided to stop so as not to risk getting IP banned.
+* Although not properly documented, the AdWorkly dataset used was likely made using the official marketing API or PyTok itself.
+* Google Sheets also has built-in computational tools, namely, there are count formulas to count the occurrences of words, which is what I used to count the frequency of the hashtags.
+  * This majorly streamlined the process, especially as everything else was done manually.
 ### Challenges ###
 * 
 
