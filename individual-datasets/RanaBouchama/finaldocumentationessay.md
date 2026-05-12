@@ -22,7 +22,8 @@ What makes or breaks a popular FoodTok (TikTok community/genre dedicated to maki
     * Date the video was posted, this does have some important cultural context lost; the time a video is posted has a factor in who sees it/when, and thus can contribute to popularity. However, they were all posted around the same 2020-2024 range, and I am more concerned with what the author and viewers have control over that helps boost a video in the algorithm
     * Total videos posted, once again, there is a cultural context lost. Posting consistently also helps boost you in the algorithm; however, I am more concerned with popularity on a video-by-video basis
     * Outlier rate, I am uncertain how they collected this data and what it is based on; it would only serve to make it more confusing for the average viewer. I'd like my dataset to be as accessible and understandable as possible.
-  * I also added a separate column for hashtags, as I believe it should be separated from the caption text to see 
+  * I also added a separate column for hashtags, as I believe it should be separated from the caption text to make it easier for computation purposes, as well as to make the hashtags more visible to others.
+  * Finally, I changed the names of certain categories to make them more understandable (bookmarks became favorites because that is how they are referred to in the app, title became caption because the average person would not recognize "title" as referring to the videos caption, etc.)
 
 
 ### Computational Tools ###
