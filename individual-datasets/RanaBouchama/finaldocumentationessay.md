@@ -1,6 +1,6 @@
 ## Project Overview ##
 
-What makes or breaks a popular FoodTok (TikTok community/genre dedicated to making videos about food) video? Are you more likely to get more views with a certain type of hook or caption? What about the music you use? Does an original sound or using a trendy audio mean you are more likely to be seen? That is the central thesis question for this project, analyzing [a pre-existing FoodTok dataset](https://www.adworkly.co/resources) while adding in my own manually collected dataset.
+What makes or breaks a popular FoodTok (TikTok community/genre dedicated to making videos about food) video? Are you more likely to get more views with a certain type of hook or caption or hashtags?? What about the music you use? Does an original sound or using a trendy audio mean you are more likely to be seen? That is the central thesis question for this project, analyzing [a pre-existing FoodTok dataset](https://www.adworkly.co/resources) while adding in my own manually collected dataset.
 
 ### Dataset information ###
 * For the manually selected videos:
