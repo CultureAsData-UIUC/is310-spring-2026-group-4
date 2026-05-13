@@ -11,7 +11,7 @@ What makes or breaks a popular FoodTok (TikTok community/genre dedicated to maki
   * My only criteria for what videos could be added were:
   * A) That it was about food in some way
   * B) That it surpassed 100K likes, this is a rather low bar, but this was my "minimum" for a video to be considered "viral."
-  * 50 Videos in total
+  * 36 Videos in total
 * For the pre-existing dataset:
   * Data included: post metadata
     * Username, video URL, views, likes, shares, comments, favorites, the hook (text within the video), as well as the caption and hashtags, music, whether a user's face was in the video or not, video language, and format type.
@@ -39,3 +39,14 @@ What makes or breaks a popular FoodTok (TikTok community/genre dedicated to maki
   * Ultimately, I decided to leave these special cases in. I think there is a difference between tags used for visibility and those that are naturally integrated into the caption, or if there was no caption its important to note that it was just hashtags. Ultimately, this makes it so that people unfamiliar with the dataset are still able to navigate it. Even if it makes the final count of words a bit messier than I'd have hoped.
 
 ### Trends, Take-Aways, Essay(ish) ###
+* Surface Level Trends:
+  * At 34 mentions, "chicken" is the most used word in hooks, does this mean you are more likely to go viral if you incorporate the word "chicken" in your caption? Possibly, it at least seems people are more likely to hear you out and get "hooked" if you incorporate tbe word chickensomewhere
+  * "Chicken" is also in the top 20 words used in captions, sitting at a nice and pretty 163 mentions
+    * Words also used frequently in captions include those associated with measurements (tsp, tbsp, cup etc) all in the top 20
+  * In the theme of recipes, #easyrecipe was the most used hashtag at 62 uses after #fyp, with #recip at third with 57. 
+  * The most popular language was english with 438 videos in english
+    * All other languages pale in comparison, Russian in second only has 15
+  * And finally, videos were more commonly faceless (386) as opposed to recorded with face (98)
+* What does this say about FoodTok, popularity on FoodTok and the average FoodTok viewer?
+  * Reveals that English speakers are incredibly over-represented, I don't doubt that there is a sizable communities of FoodTok users that don't speak English but they don't seem to be equal under tbe eyes of the algorithm. Very few actually made it into the dataset
+    * There is, however, an alternative explanation for this: namely that TikTok factors in location data in its algorithm. It's entirely possible that because I am in America, it assumes I would only be interested in English content 
