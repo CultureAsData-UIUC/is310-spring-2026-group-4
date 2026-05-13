@@ -25,13 +25,14 @@ What makes or breaks a popular FoodTok (TikTok community/genre dedicated to maki
   * I also added a separate column for hashtags, as I believe it should be separated from the caption text to make it easier for computation purposes, as well as to make the hashtags more visible to others.
   * Finally, I changed the names of certain categories to make them more understandable (bookmarks became favorites because that is how they are referred to in the app, title became caption because the average person would not recognize "title" as referring to the videos caption, etc.)
 
-
 ### Computational Tools ###
 * Originally, I intended to use PyTok to scrape for a dataset of my own; unfortunately, this was not possible, as I kept getting errors and decided to stop so as not to risk getting IP banned.
 * Although not properly documented, the AdWorkly dataset used was likely made using the official marketing API or PyTok itself.
 * Google Sheets also has built-in computational tools, namely, there are count formulas to count the occurrences of words, which is what I used to count the frequency of the hashtags.
   * This majorly streamlined the process, especially as everything else was done manually.
-### Challenges ###
-* 
 
-### Trends ###
+### Challenges ###
+* As I previously went over, this being done almost entirely manually proved to be a bit of a challenge; unfortunately, I am completely inept at coding, especially when left to my own devices without an assignment's framework to guide me.
+* Furthermore, PyTok deciding to just not work for me put quite the monkey wrench in my plans. Thankfully, I found the AdWorkly dataset to audit.
+
+### Trends, Take-Aways, Essay(ish) ###
