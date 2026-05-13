@@ -1,6 +1,6 @@
 ## Project Overview ##
 
-What makes or breaks a popular FoodTok (TikTok community/genre dedicated to making videos about food) video? Are you more likely to get more views with a certain type of hook or caption or hashtags?? What about the music you use? Does an original sound or using a trendy audio mean you are more likely to be seen? That is the central thesis question for this project, analyzing [a pre-existing FoodTok dataset](https://www.adworkly.co/resources) while adding in my own manually collected dataset.
+What makes or breaks a popular FoodTok (TikTok community/genre dedicated to making videos about food) video? Are you more likely to get more views with a certain type of hook, caption, or hashtags?? What about the music you use? Does an original sound or using a trendy audio mean you are more likely to be seen? That is the central thesis question for this project, analyzing [a pre-existing FoodTok dataset](https://www.adworkly.co/resources) while adding in my own manually collected dataset.
 
 ### Dataset information ###
 * For the manually selected videos:
@@ -23,7 +23,7 @@ What makes or breaks a popular FoodTok (TikTok community/genre dedicated to maki
     * Total videos posted, once again, there is a cultural context lost. Posting consistently also helps boost you in the algorithm; however, I am more concerned with popularity on a video-by-video basis
     * Outlier rate, I am uncertain how they collected this data and what it is based on; it would only serve to make it more confusing for the average viewer. I'd like my dataset to be as accessible and understandable as possible.
   * I also added a separate column for hashtags, as I believe it should be separated from the caption text to make it easier for computation purposes, as well as to make the hashtags more visible to others.
-  * Finally, I changed the names of certain categories to make them more understandable (bookmarks became favorites because that is how they are referred to in the app, title became caption because the average person would not recognize "title" as referring to the videos caption, etc.)
+  * Finally, I changed the names of certain categories to make them more understandable (bookmarks became favorites because that is how they are referred to in the app, title became caption because the average person would not recognize "title" as referring to the video's caption, etc.)
 
 ### Computational Tools ###
 * Originally, I intended to use PyTok to scrape for a dataset of my own; unfortunately, this was not possible, as I kept getting errors and decided to stop so as not to risk getting IP banned.
@@ -34,5 +34,8 @@ What makes or breaks a popular FoodTok (TikTok community/genre dedicated to maki
 ### Challenges ###
 * As I previously went over, this being done almost entirely manually proved to be a bit of a challenge; unfortunately, I am completely inept at coding, especially when left to my own devices without an assignment's framework to guide me.
 * Furthermore, PyTok deciding to just not work for me put quite the monkey wrench in my plans. Thankfully, I found the AdWorkly dataset to audit.
+* The counting on Google Sheets isn't perfect, for instance, "brownnies" and "brownies)" are counted separately because it counts the parentheses as part of the phrase
+* Removing the hashtags from the caption proved to be a little confusing when the caption didn't make sense without it (for instance, say the caption was "#fun day out" or when the caption was just hashtags or when the hashtag was placed as important context for the caption: "#ad", for example)
+  * Ultimately, I decided to leave these special cases in. I think there is a difference between tags used for visibility and those that are naturally integrated into the caption, or if there was no caption its important to note that it was just hashtags. Ultimately, this makes it so that people unfamiliar with the dataset are still able to navigate it. Even if it makes the final count of words a bit messier than I'd have hoped.
 
 ### Trends, Take-Aways, Essay(ish) ###
