@@ -56,7 +56,7 @@ The following principles emerged from our diverse approaches to food media, soci
 
 **Cynthia Shen** - *[To be added]*
 
-**Michelle Yi** - *[To be added]*
+**Michelle Yi** - I learned that scaling a dataset changes the type of patterns you can see, but it also removes a lot of nuance. The larger scaled dataset made engagement trends and creator differences easier to analyze, while the manual dataset made it easier to notice contextual details that could not be captured automatically. I would tell future researchers that computational methods are useful for identifying broad patterns, but cultural performance and spectacle are often difficult to fully measure through metadata alone.
 
 **Rana Bouchama** - *[To be added]*
 
