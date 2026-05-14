@@ -36,6 +36,7 @@ The following principles emerged from our diverse approaches to food media, soci
 ### Principle 1: Document your coding scheme as if someone else will use it
 
 - Qualitative coding of cultural materials. Write down what you decided and why. Include examples of hard cases. If you change a category definition mid-project, note when and why. The coding scheme is part of the dataset.
+- Even if AI is doing majority of the heavy lifting, make sure you note down each prompt so it's more easily reproducible.
 
 
 ### Principle 2: Treat LLM annotation as a first draft rather than a final product
@@ -60,7 +61,7 @@ The following principles emerged from our diverse approaches to food media, soci
 
 **Rana Bouchama** - *[To be added]*
 
-**Soham Solanki** - *[To be added]*
+**Soham Solanki** - The most important lesson from this project is that running multiple independent classification methods on the same content is worth the time and effort, especially the disagreements between them. Where my manual coding, LLM classification, and regex pass converged, I had validated findings; where they diverged, I had the most interesting videos to dive deeper, like the ones doing several kinds of cultural work at once and refusing single-category placement. A future researcher should build that triangulation in from the start rather than treating it as a validation step at the end, and should pay particular attention to which patterns get undercounted by caption-only analysis when the piece of media being analyzed performs them visually.
 
 **Diara Shah** - I learned that computational "blindness" is a very important factor to account for when moving between text-based and visual-based platforms. My project showed that while a computer can easily read explicit struggle on Reddit, it misses the implicit cultural "performance" on TikTok, proving that manual documentation of visual cues is essential to prevent huge data loss in digital food studies or other topics too.
 
@@ -74,5 +75,5 @@ The following principles emerged from our diverse approaches to food media, soci
 | Cynthia Shen | *Pending* |
 | Michelle Yi | What I learned |
 | Rana Bouchama | *Pending* |
-| Soham Solanki | *Pending* |
+| Soham Solanki | Principle and Learnings |
 | Diara Shah | Learnings  |
