@@ -1,6 +1,6 @@
 # Single-Serving TikTok Dataset: Documentation
 
-**IS310 - Culture As Data | Spring 2026**
+**IS310 Spring 2026**
 **Cynthia Shen**
 
 ---
