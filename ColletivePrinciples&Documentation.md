@@ -62,7 +62,7 @@ The following principles emerged from our diverse approaches to food media, soci
 
 **Soham Solanki** - *[To be added]*
 
-**Diara Shah** - *[To be added]*
+**Diara Shah** - I learned that computational "blindness" is a very important factor to account for when moving between text-based and visual-based platforms. My project showed that while a computer can easily read explicit struggle on Reddit, it misses the implicit cultural "performance" on TikTok, proving that manual documentation of visual cues is essential to prevent huge data loss in digital food studies or other topics too.
 
 ---
 
@@ -75,4 +75,4 @@ The following principles emerged from our diverse approaches to food media, soci
 | Michelle Yi | *Pending* |
 | Rana Bouchama | *Pending* |
 | Soham Solanki | *Pending* |
-| Diara Shah | *Pending* |
+| Diara Shah | Learnings |
