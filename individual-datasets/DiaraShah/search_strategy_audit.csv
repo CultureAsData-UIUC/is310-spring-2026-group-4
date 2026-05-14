@@ -1,0 +1,47 @@
+search_query,label_match
+#5minutechallenge,100.0
+#affordablemeals,100.0
+#brokegirldinner,100.0
+#brokestudent,100.0
+#brokeuni,100.0
+#budgetdinner,100.0
+#cheapandeasy,0.0
+#collegecooking,0.0
+#collegelife,0.0
+#collegemeals,100.0
+#dormhacks,100.0
+#dormlife,100.0
+#efficientcooking,100.0
+#fastfoodathome,100.0
+#fridgerestock,100.0
+#groceryhaul,100.0
+#healthyprep,100.0
+#kitchenless,0.0
+#lunchbox,100.0
+#mealprepping,0.0
+#onepotmeal,0.0
+#quickrecipes,100.0
+#realisticcollege,100.0
+#realisticstudent,100.0
+#studentcooking,0.0
+#studenthacks,0.0
+#unimealprep,100.0
+#wieiad college,100.0
+"r/AskReddit ""college food""",0.0
+"r/AskWomen ""tired""",100.0
+"r/Cheap_Meals ""microwave""",100.0
+"r/Cooking ""low effort""",0.0
+"r/Cooking ""too tired""",100.0
+"r/EatCheapAndHealthy ""broke""",100.0
+"r/EatCheapAndHealthy ""budget""",100.0
+"r/EatCheapAndHealthy ""cheap""",100.0
+"r/EatCheapAndHealthy ""dorm""",100.0
+"r/EatCheapAndHealthy ""fire alarm""",100.0
+"r/EatCheapAndHealthy ""frugal""",100.0
+"r/EatCheapAndHealthy ""quick""",50.0
+"r/EatCheapAndHealthy ""students""",100.0
+"r/Frugal ""cheap""",100.0
+"r/MealPrepSunday ""college""",100.0
+"r/college ""save money""",100.0
+"r/college ""what do you eat""",0.0
+"r/lowspooncooking ""depressed""",100.0
