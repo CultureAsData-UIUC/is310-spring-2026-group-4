@@ -1,6 +1,5 @@
 # Cooking for One, Watched by Many: A Data Essay on Single-Serving Meal Content on TikTok
 
-**IS310 - Culture As Data | Spring 2026**
 **Cynthia Shen**
 **Dataset:** `single_serving_tiktok_dataset_v2.json`
 
