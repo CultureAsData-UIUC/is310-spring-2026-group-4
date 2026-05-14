@@ -72,7 +72,7 @@ The following principles emerged from our diverse approaches to food media, soci
 |---|---|
 | Flynn Huynh | Drafted full structure|
 | Cynthia Shen | *Pending* |
-| Michelle Yi | *Pending* |
+| Michelle Yi | What I learned |
 | Rana Bouchama | *Pending* |
 | Soham Solanki | *Pending* |
 | Diara Shah | Learnings  |
