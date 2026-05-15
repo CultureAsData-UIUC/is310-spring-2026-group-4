@@ -1,9 +1,7 @@
 # Extreme Eating as Digital Performance: A Data Essay
 
-IS 310
---
-Michelle Yi
---
+IS 310\
+Michelle Yi\
 14 May 2026
 
 ## 1. Introduction: Why Extreme Eating?
