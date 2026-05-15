@@ -113,12 +113,6 @@ The dataset includes a wide range of food categories:
 * breakfast foods
 * mixed fast food meals
 
-The dataset also captures significant variation in performance styles between creators.
-
-Matt Stonie’s earlier content frequently focuses on straightforward competitive eating formats such as speed challenges or quantity-based challenges. Nikocado Avocado’s content increasingly emphasizes emotional escalation, interpersonal conflict, and theatrical spectacle. ErikTheElectric’s videos often frame excess through discipline, endurance, or athletic recovery.
-
-The scaled dataset also reveals the dramatic growth of attention metrics within the genre. Many recent videos receive millions or even tens of millions of views, suggesting that platform algorithms increasingly reward spectacle-oriented formats.
-
 ---
 
 ## 4. What the Data Reveals
