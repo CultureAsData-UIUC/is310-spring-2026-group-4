@@ -101,18 +101,6 @@ The final dataset consists of two interconnected datasets:
 * Automated food classification and calorie detection
 * Large-scale engagement analysis
 
-The dataset includes a wide range of food categories:
-
-* burgers
-* fried chicken
-* ramen/noodles
-* desserts
-* seafood
-* pizza
-* tacos/burritos
-* breakfast foods
-* mixed fast food meals
-
 ---
 
 ## 4. What the Data Reveals
