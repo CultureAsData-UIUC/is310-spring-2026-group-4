@@ -46,6 +46,7 @@ Each video was manually coded with fields including:
 
 * creator
 * video title
+* video url
 * upload date
 * period
 * food type
@@ -66,12 +67,16 @@ After creating the manual dataset, I expanded the project computationally using 
 
 I built a script called scale_youtube_dataset.py that automatically collected metadata from videos uploaded by ErikTheElectric, Matt Stonie, and Nikocado Avocado. The script used the Google API Python client library to access channel uploads and retrieve metadata including:
 
+* creator
 * video titles
+* video url
 * upload dates
+* period
 * views
 * likes
 * comments
-* descriptions
+* food quantity
+* calorie estimates
 
 The script also used keyword-based pattern matching to automate several forms of classification. Food categories were inferred from terms such as “burger,” “pizza,” “ramen,” or “chicken” appearing in video titles. Calorie claims were automatically detected using regular expressions that searched for phrases like “10,000 calories” or “15k calories.” Portion size categories were also estimated automatically based on title keywords and calorie references.
 
@@ -85,7 +90,7 @@ This resulted in many fields having entries like, "mixed/unknown" or being left 
 
 ## 3. What the Data Contains
 
-The final dataset consists of two interconnected datasets:
+The final dataset consists of two datasets:
 
 ### Manual Dataset
 
