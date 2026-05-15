@@ -55,7 +55,7 @@ The following principles emerged from our diverse approaches to food media, soci
 
 **Flynn Huynh** - I learned that manual data creation before computational scaling is somewhat mandotory, because it is where you learn what your categories actually mean and where the edge cases live. The categories that seemed clear in the abstract (e.g., "community credit given") turned out to require constant judgment calls in practice, and those judgment calls need to be made by a human before you can ask a machine to make them at scale. I did have a hard time with that sections.
 
-**Cynthia Shen** - *[To be added]*
+**Cynthia Shen** - I learned that descriptive field recording, even when it creates inconsistency, often preserves more analytical value than premature standardization. When I recorded dish names exactly as creators wrote them in their captions, the same food category ended up with wildly different labels across entries; but that variation itself turned out to reflect how creators brand and position their content for algorithmic visibility. A future researcher should resist the urge to clean and standardize too early, because the messiness in raw cultural data is often where the meaning lives.
 
 **Michelle Yi** - I learned that scaling a dataset changes the type of patterns you can see, but it also removes a lot of nuance. The larger scaled dataset made engagement trends and creator differences easier to analyze, while the manual dataset made it easier to notice contextual details that could not be captured automatically. I would tell future researchers that computational methods are useful for identifying broad patterns, but cultural performance and spectacle are often difficult to fully measure through metadata alone.
 
@@ -72,7 +72,7 @@ The following principles emerged from our diverse approaches to food media, soci
 | Member | Contribution to this document |
 |---|---|
 | Flynn Huynh | Drafted full structure|
-| Cynthia Shen | *Pending* |
+| Cynthia Shen | What I learned |
 | Michelle Yi | What I learned |
 | Rana Bouchama | What I learned |
 | Soham Solanki | Principle and Learnings |
