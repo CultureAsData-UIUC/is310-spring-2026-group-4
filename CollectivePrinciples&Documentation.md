@@ -59,7 +59,7 @@ The following principles emerged from our diverse approaches to food media, soci
 
 **Michelle Yi** - I learned that scaling a dataset changes the type of patterns you can see, but it also removes a lot of nuance. The larger scaled dataset made engagement trends and creator differences easier to analyze, while the manual dataset made it easier to notice contextual details that could not be captured automatically. I would tell future researchers that computational methods are useful for identifying broad patterns, but cultural performance and spectacle are often difficult to fully measure through metadata alone.
 
-**Rana Bouchama** - *[To be added]*
+**Rana Bouchama** - I learned that even with good intentions, one can still make mistakes in representing data. For instance, in an earlier version of my dataset I added a race/ethnicity category, the intent was to show the disparity in the for you page overwhelmingly pushing white creators, however this was a flawed way of going about it as my own assumptions of peoples racial/ethnic backgrounds may not match up to how the individual identifies. In trying to do good, ultimately I was perpetuating the same problems I was aiming to solve.
 
 **Soham Solanki** - The most important lesson from this project is that running multiple independent classification methods on the same content is worth the time and effort, especially the disagreements between them. Where my manual coding, LLM classification, and regex pass converged, I had validated findings; where they diverged, I had the most interesting videos to dive deeper, like the ones doing several kinds of cultural work at once and refusing single-category placement. A future researcher should build that triangulation in from the start rather than treating it as a validation step at the end, and should pay particular attention to which patterns get undercounted by caption-only analysis when the piece of media being analyzed performs them visually.
 
@@ -74,6 +74,6 @@ The following principles emerged from our diverse approaches to food media, soci
 | Flynn Huynh | Drafted full structure|
 | Cynthia Shen | *Pending* |
 | Michelle Yi | What I learned |
-| Rana Bouchama | *Pending* |
+| Rana Bouchama | What I learned |
 | Soham Solanki | Principle and Learnings |
 | Diara Shah | Learnings  |
