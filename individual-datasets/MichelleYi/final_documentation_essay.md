@@ -142,7 +142,7 @@ This suggests that “extreme eating” is not one singular genre, but a broader
 
 ### Finding 3: Engagement Patterns Differ Across Creators
 
-I created graphs using the data, to see how average views changed over time, with each creator. These graphs revealed that view trends differed significantly across the three creators.
+I created [graphs](https://github.com/CultureAsData-UIUC/is310-spring-2026-group-4/blob/main/individual-datasets/MichelleYi/dataset_analysis.ipynb) using the data, to see how average views changed over time, with each creator. These graphs revealed that view trends differed significantly across the three creators.
 
 ErikTheElectric experienced dramatic growth after 2022, particularly during videos centered around narrative spectacle such as AI-controlled diets, multi-day challenges, and “entire menu” concepts.
 
