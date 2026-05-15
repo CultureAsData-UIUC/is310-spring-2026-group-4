@@ -187,16 +187,6 @@ A major limitation of the dataset is that many food quantity and calorie fields 
 
 Leaving these fields blank was an intentional choice when estimation became too speculative.
 
-### Automated Classification Flattens Nuance
-
-The scaled dataset relies heavily on keyword classification.
-
-For example, a video containing the word “spicy” may be automatically classified as transgressive excess even if the central spectacle is actually quantity or caloric density.
-
-Similarly, “burger” videos can range from relatively small meals to extremely excessive challenge formats.
-
-Automation simplifies these distinctions.
-
 ### Audience Interpretation Is Missing
 
 I initially considered coding audience comments as “concerned” versus “encouraging,” but this quickly became difficult and ethically complicated. Tone, irony, sarcasm, and performance are difficult to classify reliably.
